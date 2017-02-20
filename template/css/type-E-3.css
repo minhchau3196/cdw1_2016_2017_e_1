@@ -1,0 +1,44 @@
+.type-E-3 .clear {
+  clear: both;
+}
+.type-E-3 .pannel-info {
+  border-radius: 3px;
+  border: 1px solid #d9edf7;
+}
+.type-E-3 .pannel-info h3 {
+  margin: 0 0 15px 0;
+  padding: 10px;
+  background-color: #d9edf7;
+  color: #31708f;
+}
+.type-E-3 .form-edit {
+  margin-bottom: 10px;
+}
+.type-E-3 .form-edit .form-left {
+  float: right;
+  font-weight: bold;
+}
+.type-E-3 .form-edit .btn-primary {
+  background-color: #428bca;
+  color: #ffffff !important;
+  border-color: #428bca;
+}
+.type-E-3 .table-user-information > tbody > tr {
+  border-top: 1px solid #dddddd;
+}
+.type-E-3 .table-user-information > tbody > tr:first-child {
+  border-top: 0;
+}
+.type-E-3 .table-user-information > tbody > tr > td {
+  border-top: 0;
+}
+.type-E-3 .toppad {
+  margin-top: 20px;
+}
+.type-E-3 .pannel-info .profile {
+  padding: 0 15px;
+}
+.type-E-3 .btn-profile {
+  margin-bottom: 15px;
+  text-align: center;
+}

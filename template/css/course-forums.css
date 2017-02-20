@@ -1,0 +1,138 @@
+.course-forums {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.course-forums #bbpress-forums {
+  background: transparent;
+  clear: both;
+  margin-bottom: 20px;
+  overflow: hidden;
+  font-size: 12px;
+}
+.course-forums ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.course-forums ul.bbp-forums {
+  font-size: 12px;
+  overflow: hidden;
+  border: 1px solid #eee;
+  margin: 20px 0;
+  clear: both;
+}
+.course-forums ul.bbp-forums ul {
+  overflow: hidden;
+}
+.course-forums li {
+  margin: 0;
+  list-style: none;
+}
+.course-forums li.bbp-header {
+  font-weight: bold;
+  background-color: #edecf0 !important;
+  color: #212121 !important;
+  padding: 12px !important;
+}
+.course-forums li.bbp-forum-info,
+.course-forums li.bbp-topic-title {
+  float: left;
+  text-align: left;
+  width: 55%;
+}
+.course-forums li.bbp-forum-topic-count,
+.course-forums li.bbp-forum-reply-count {
+  float: left;
+  text-align: center;
+  width: 10%;
+}
+.course-forums li.bbp-forum-freshness,
+.course-forums li.bbp-topic-freshness {
+  text-align: left;
+  padding-left: 10px;
+  float: left;
+  width: 25%;
+}
+.course-forums #bbpress-forums ul li ul.forum-titles li {
+  text-transform: uppercase;
+}
+.course-forums li.bbp-body ul.topic {
+  border-top: 1px solid #eee;
+  overflow: hidden;
+  padding: 8px;
+}
+.course-forums ul.forum {
+  border-top: 1px solid #eee;
+  overflow: hidden;
+  padding: 20px !important;
+}
+.course-forums .bbp-forum-info {
+  margin-top: 5px;
+  float: left;
+  text-align: left;
+  width: 55%;
+}
+.course-forums .bbp-forum-info img {
+  max-width: 65px;
+  margin: 0 20px 0 0;
+}
+.course-forums .bbp-topic-freshness-author img {
+  max-width: 24px;
+}
+.course-forums ul.forum li.bbp-forum-info a {
+  font-size: 16px;
+  color: #363a47;
+  text-decoration: none;
+  font-weight: 600;
+}
+.course-forums li.bbp-body ul.forum li.bbp-forum-topic-count {
+  background-color: #edecf0;
+  color: #212121;
+  font-size: 18px;
+  height: 50px;
+  padding: 5px;
+  line-height: 40px;
+  margin-left: 24px;
+  width: 70px;
+}
+.course-forums li.bbp-body ul.forum li.bbp-forum-reply-count {
+  background-color: #edecf0;
+  color: #212121;
+  font-size: 18px;
+  height: 50px;
+  padding: 5px;
+  line-height: 40px;
+  margin-left: 35px;
+  width: 70px;
+}
+.course-forums li.bbp-body ul.forum li.bbp-forum-freshness a:first-child {
+  margin-left: 22px;
+  color: #173347 !important;
+}
+.course-forums p.bbp-topic-meta {
+  margin: 5px 0 5px;
+  font-size: 11px;
+  padding: 0 0 20px 0;
+}
+.course-forums li.bbp-body ul.forum li.bbp-forum-freshness p span.bbp-topic-freshness-author a {
+  color: #173347 !important;
+}
+.course-forums a {
+  outline: 0 !important;
+  text-decoration: none !important;
+}
+.course-forums .alignleft,
+.course-forums img.alignleft {
+  float: left;
+  margin: 6px 20px 6px 0;
+  display: inline;
+  border: 0px;
+  background: none;
+  padding: 0;
+  display: block;
+}
+.course-forums li.bbp-body ul.forum li.bbp-forum-info a {
+  font-size: 16px;
+  color: #363a47;
+  text-decoration: none;
+  font-weight: 600;
+}

@@ -1,0 +1,65 @@
+.section .section-title {
+  margin-bottom: 40px;
+  display: block;
+  position: relative;
+  padding: 90px 0;
+}
+.section .section-title h4 {
+  font-size: 28px;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.section .section-title p {
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 300;
+  color: #a1a1a1;
+  font-family: "Droid Serif", Georgia, "Times New Roman", serif;
+  padding: 0 0 20px 0;
+}
+.section .text-center {
+  text-align: center;
+}
+.section .question-answer i {
+  color: #e34b11;
+  margin-top: 4px;
+  font-size: 24px;
+  display: inline-block;
+  position: relative;
+}
+.section .question-answer .alignleft,
+.section .question-answer img.alignleft {
+  float: left;
+  margin: 6px 20px 6px 0;
+  display: inline;
+  border: 0px;
+  background: none;
+  padding: 0;
+  display: block;
+}
+.section .question-answer h4 {
+  letter-spacing: 0px;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+  padding: 0 0 10px 0;
+  font-weight: normal;
+  line-height: 1.6 !important;
+  color: #363a47;
+  padding-left: 40px;
+  font-weight: 600;
+}
+.section .question-answer p {
+  padding: 0 0 20px 40px;
+}
+.section .button-wrapper {
+  margin-top: 40px;
+}
+.section .button-wrapper p {
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 300;
+  color: #a1a1a1;
+  font-family: "Droid Serif", Georgia, "Times New Roman", serif;
+  padding: 0 0 20px 0;
+}
