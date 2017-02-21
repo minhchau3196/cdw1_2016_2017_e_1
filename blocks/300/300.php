@@ -2,97 +2,63 @@
     <meta charset="UTF-8">
     <title></title>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>  
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 
     <?php
     if (!class_exists('lessc')) {
         include ('./libs/lessc.inc.php');
     }
     $less = new lessc;
-    $less->compileFile('less/type-E-19.less', 'css/type-E-19.css');
+    $less->compileFile('less/300.less', 'css/300.css');
     ?>
-    <link href="css/type-E-19.css" rel="stylesheet" type="text/css"/>
-    <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>       
+
+    <link href="css/300.css" rel="stylesheet" type="text/css"/>
+    
 </head>
 
 <body>
-    <div class="type-E-19">
-        <div class="container">
 
-            <!-- Course-table Right -->
-            
-                <div class="course-table">
-                    <h4>Course Lessons</h4>
-                    <!-- course-table -->
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Type</th>
-                                <th>Lesson Title</th>
-                                <th>Time</th>
-                                <th>Status</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><i class="fa fa-play-circle"></i></td>
-                                <td><a href="#">Introduction</a></td>
-                                <td>12 Min</td>
-                                <td><i class="fa fa-check"></i></td>
-                            </tr>
-                            <tr>
-                                <td><i class="fa fa-play-circle"></i></td>
-                                <td><a href="#">Lesson One - What is Photoshop</a></td>
-                                <td>20 Min</td>
-                                <td><i class="fa fa-close"></i></td>
-                            </tr>
-                            <tr>
-                                <td><i class="fa fa-play-circle"></i></td>
-                                <td><a href="#">Lesson Two - How to Use Tools</a></td>
-                                <td>41 Min</td>
-                                <td><i class="fa fa-close"></i></td>
-                            </tr>
-                            <tr>
-                                <td><i class="fa fa-play-circle"></i></td>
-                                <td><a href="#">Lesson Three - Creating First Homepage</a></td>
-                                <td>15 Min</td>
-                                <td><i class="fa fa-close"></i></td>
-                            </tr>
-                            <tr>
-                                <td><i class="fa fa-play-circle"></i></td>
-                                <td><a href="#">Lesson Four - Understanding Colors</a></td>
-                                <td>29 Min</td>
-                                <td><i class="fa fa-close"></i></td>
-                            </tr>
-                            <tr>
-                                <td><i class="fa fa-play-circle"></i></td>
-                                <td><a href="#">Lesson Five - International Sizes</a></td>
-                                <td>31 Min</td>
-                                <td><i class="fa fa-close"></i></td>
-                            </tr>
-                            <tr>
-                                <td><i class="fa fa-question-circle"></i></td>
-                                <td><a href="#">Quiz Time - Your First Quiz</a></td>
-                                <td>31 Min</td>
-                                <td><i class="fa fa-close"></i></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div><!-- End Course-Table -->
+    <div class="type-300">
 
-                <hr class="invis">
+        <!--FOOTER-->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <!--FOOTER INTRODUCTION-->
+                    <div class="col-md-4">
+                        <div class="footer-info">
+                            <h4>KHOA CÔNG NGHỆ THÔNG TIN<br>
+                                Trường Cao Đẳng Công Nghệ Thủ Đức</h4>
+                            <p>53 Võ Văn Ngân, P.Linh Chiểu, Q.Thủ Đức, Tp.HCM</p>
+                            <p>Điện thoại: (08) 22 158 642</p>
+                            <p>Fax: 08.38962474</p>
+                            <p>Email: cntt@mail.tdc.edu.vn</p>
+                        </div>
+                    </div>
+                    <!--/END FOOTER INTRODUCTION-->
 
-            <!-- Button-Course Right -->
-                <div class="feedbacks">
-                    <p>
-                        <a class="btn btn-default btn-block">
-                            What our customers said? (3 Feedbacks)
-                        </a>
-                    </p>
-                </div><!-- End Button-Course Right -->
-            
-        </div>
+                    <!--FOOTER LINK-->
+                    <div class="col-md-4">
+                        <ul class="bottom-link">
+                            <li><a href="#">Giới thiệu</a></li>
+                            <li><a href="#">Trường Cao Đẳng Công Nghệ Thủ Đức</a></li>
+                        </ul>
+                    </div>
+                    <!--/END FOOTER LINK-->
+
+                    <!--FOOTER COPYRIGHT-->
+                    <div class="col-md-4 ">
+                        <ul class="bottom-link">
+                            <li><a href="#">Liên hệ</a></li>
+                            <li>2017 <a href="#">Khoa Công nghệ thông tin | Cao đẳng Công nghệ Thủ Đức</a> All Rights Reserved.</li>
+                        </ul>
+                    </div>
+                    <!--/END FOOTER COPYRIGHT-->
+                </div>
+            </div>
+        </footer>
+        <!--/END FOOTER-->
+
     </div>
+
 </body>
-<script src="js/bootstrap.js" type="text/javascript"></script>
-<script src="js/jquery.js" type="text/javascript"></script>
