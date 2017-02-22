@@ -1,0 +1,54 @@
+.type-309 {
+  background: url(../images/bg_pattern.png) repeat;
+  font-family: 'Open Sans', sans-serif;
+}
+.type-309 a:hover,
+.type-309 a:focus {
+  color: #2a6496;
+  text-decoration: underline;
+}
+.type-309 .panel {
+  background: none;
+  box-shadow: none;
+}
+.type-309 .panel-default {
+  border: none;
+}
+.type-309 .panel-heading {
+  border: none !important;
+  background: none !important;
+  padding: 20px 0 0;
+}
+.type-309 .panel-heading h2 {
+  font-weight: 800;
+  font-size: 1.8em;
+}
+.type-309 .panel-heading h2>span {
+  font-weight: normal;
+  font-size: 1em;
+}
+.type-309 .crossedbg {
+  background: url(../images/bg_cr_grey.png);
+  height: 15px;
+}
+.type-309 .partnerlogo {
+  position: relative;
+  margin-bottom: 25px;
+}
+.type-309 .partnerlogo img {
+  width: 100%;
+  max-width: 100%;
+  border: 1px #e0e0e0 solid;
+}
+.type-309 .partnerlogo:before,
+.type-309 .partnerlogo:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  top: 50%;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+  border-radius: 100px/10px;
+}

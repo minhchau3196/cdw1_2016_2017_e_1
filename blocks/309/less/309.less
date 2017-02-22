@@ -1,0 +1,63 @@
+.type-309 {
+
+    @color_hover: #2a6496;
+    @color_border_gray: #d9d9d9;
+
+    background: url(../images/bg_pattern.png) repeat;
+    font-family: 'Open Sans', sans-serif;
+
+    a:hover, a:focus {
+        color: @color_hover;
+        text-decoration: underline;
+    }
+
+    /*------------------GENERAL--------------------*/
+    .panel {
+        background: none;
+        box-shadow: none;
+    }
+    .panel-default {
+        border: none;
+    }   
+    .panel-heading {
+        border: none !important;
+        background: none !important;
+        padding: 20px 0 0;
+        h2 {
+            font-weight: 800;
+            font-size: 1.8em;
+        }
+        h2>span {
+            font-weight: normal;
+            font-size: 1em;
+        }
+    }
+    .crossedbg {
+        background: url(../images/bg_cr_grey.png);
+        height: 15px;
+    }
+    /*------------------/END GENERAL--------------------*/
+
+    /*------------------LEFT PARTNERS--------------------*/
+    .partnerlogo {
+        position: relative;
+        margin-bottom: 25px;
+        img {
+            width: 100%;
+            max-width: 100%;
+            border: 1px #e0e0e0 solid;
+        }
+    }
+    .partnerlogo:before, .partnerlogo:after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        box-shadow: 0 0 20px rgba(0,0,0,0.3);
+        top: 50%;
+        bottom: 0;
+        left: 10px;
+        right: 10px;
+        border-radius: 100px / 10px;
+    }
+    /*------------------/END LEFT PARTNERS--------------------*/
+}
