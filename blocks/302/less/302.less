@@ -1,0 +1,69 @@
+.type-302 {
+    .clear{clear: both;}
+    background-image: url('../images/bg_pattern.png');
+    .slideshow{
+        width: 960px;
+        .slider-control {
+            position: absolute;
+            font-size: 20px;
+            color: #000;
+            top: 40%;
+            background-color: #fff;
+            padding: 10px;
+        }
+        .slider-control.left {
+            left: 0;
+            padding-left: 0;
+            -webkit-border-radius: 0px 6px 6px 0px;
+            border-radius: 0px 6px 6px 0px;
+        }
+        .slider-control.left:hover {
+            text-decoration: none;
+            padding-left: 10px;
+        }
+        .slider-control.right {
+            right: 0;
+            padding-right: 0;
+            -webkit-border-radius: 6px 0px 0px 6px;
+            border-radius: 6px 0px 0px 6px;
+        }
+        .slider-control.right:hover {
+            text-decoration: none;
+            padding-right: 10px;
+        }
+    }      
+    .carousel-caption{
+       
+        background: #f5ce31;
+        height: 100px;
+        color: black;
+        position: absolute;
+        left: 0;
+        bottom: -100px;
+        padding-top: 0px;
+        width: 100%;
+        font-size: 0.8em;
+        width: 350px;
+        height: 100px;
+        bottom: 0px;
+        h2 {
+            font-family: inherit;
+            font-weight: 800;
+            font-size: 1.8em;
+            line-height: 1.2em;
+            span {
+                font-weight: normal;
+                font-size: 1em;
+            }
+        }   
+    }
+    .carousel-caption:before {
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        content: " ";
+        width: 15px;
+        background: url(../images/bg_cr_grey.png) repeat;
+        left: 0;
+    }
+}
