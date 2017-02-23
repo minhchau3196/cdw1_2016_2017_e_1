@@ -52,7 +52,7 @@
 
                         </div>                                          
                       </div>
-                       <a class="slider-control left" href="#myCarousel1" data-slide="prev">&lt;</a>      
+                        <a class="slider-control left" href="#myCarousel1" data-slide="prev">&lt;</a>      
                         <a class="slider-control right" href="#myCarousel1" data-slide="next">&gt;</a>
                      </div>
 
