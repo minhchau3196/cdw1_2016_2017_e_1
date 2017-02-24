@@ -1,78 +1,74 @@
-.type-27{
-    hr{margin: 7px 0;}
-    #course-left-sidebar {
-        margin-bottom: 30px;
+.type-312{
+    background-image: url(../images/bg_pattern.png);
+    .news{
+        /*LIST VIEWS*/
+        .list_news {
+            margin-top: 45px;
+            .list_new_view {
+                margin-bottom: 15px;
+                background: #fff;
+                .top_news_block_thumb img {
+                    max-width: 100%;
+                    width: 100%;
+                    
+                }
+                .top_news_block_desc {
+                    font-size: 0.9em;
+                    padding: 15px;
+                    .topnewstime {
+                        margin-top: 12px;
+                        text-align: center;
+                        padding-left: 0;                      
+                        .topnewsdate {
+                            
+                            font-size: 3.1em;
+                            line-height: 1em;
+                            margin-left: 15px;
+                        }
+                        .topnewsmonth {
+                            text-transform: uppercase;
+                            font-size: 0.9em;
+                            margin-left: 15px;
+                        }
+                    }
+                    .shortdesc {
+                        border-left: 1px solid #666;
+                        padding-right: 30px;
+                        h4 {
+                            text-transform: uppercase;
+                            font-size: 18px;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+        /*END LIST VIEWS*/
+        
+        /*PAGINATION*/
+        .pagination-centered {
+            text-align: center;
+        }
+        /*END PAGINATION*/
     }
-    .course-image-widget img {
-        width: 100%;
+    
+    /*-----REPONSIVE-----*/
+    @media (min-width: 768px){
+        .news{
+            width: 960px;
+        }
     }
-    .course-meta {
-        padding: 15px 20px 10px;
-        background-color: #3f4451;
-        margin-top: 0;
+    @media (max-width: 480px){
+        .news{
+            padding-left: 0;
+            padding-right: 0;
+        }
     }
-    .course-meta p {
-        display: inline-block;
-        padding-right: 4px;
-        padding-bottom: 0;
-        font-size: 13px;
-        line-height: 1;
-        color: #ffffff;
-        width: 100%;
-        position: relative;
+    @media (min-width: 992px){
+        .row {
+            margin-left: -15px !important;
+            margin-right: -15px !important;
+        }
     }
-    p {
-        padding: 0 0 20px 0;
-        margin: 0 0 10px;
-    }
-    .course-meta a {
-        line-height: 1;
-        color: #ffffff;
-        text-decoration: none;
-    }
-    .course-meta a:hover {
-        color: red;
-    }
-    .course-meta .rating {
-        margin-top: 0;
-        padding-top: 0;
-    }
-    .course-meta .rating i {
-        padding: 0;
-    }
-    .rating i {
-        color: #eabe12;
-    }
-    .course-category a{
-        text-decoration: none;
-    }
-    .course-category a:hover{
-        color: red;
-    }
-    .course-meta i {
-        padding-right: 3px;
-    }
-    .course-prize i {
-        font-size: 16px;
-        padding: 3px 2px 0;
-    } 
-    .img-circle {
-        border-radius: 50%;
-        width: 25px;
-        margin: 0 5px;
-    }
-    .btn-primary{
-        background-color: #5ba5af;
-        border-color: #5ba5af;
-    }
-    .btn-primary:hover {
-        background-color: #428992;
-        border-color: #428992;
-    }
-    .course-button a{
-        text-align: center;
-        text-decoration: none;
-        padding: 5px 0;
-    }
-
+    /*-----END REPONSIVE-----*/
 }

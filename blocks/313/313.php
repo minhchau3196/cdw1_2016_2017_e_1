@@ -9,90 +9,72 @@
         include ('./libs/lessc.inc.php');
     }
     $less = new lessc;
-    $less->compileFile('less/type-E-19.less', 'css/type-E-19.css');
+    $less->compileFile('less/313.less', 'css/313.css');
     ?>
-    <link href="css/type-E-19.css" rel="stylesheet" type="text/css"/>
+    <link href="css/313.css" rel="stylesheet" type="text/css"/>
     <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>       
 </head>
 
 <body>
-    <div class="type-E-19">
+    <div class="type-313">
         <div class="container">
+            <div class="row">
+                <!--LEFT SIDE BAR-->
+                <div class="col-md-8"> </div>
+                <!--/END LEFT SIDE BAR-->
 
-            <!-- Course-table Right -->
-            
-                <div class="course-table">
-                    <h4>Course Lessons</h4>
-                    <!-- course-table -->
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Type</th>
-                                <th>Lesson Title</th>
-                                <th>Time</th>
-                                <th>Status</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><i class="fa fa-play-circle"></i></td>
-                                <td><a href="#">Introduction</a></td>
-                                <td>12 Min</td>
-                                <td><i class="fa fa-check"></i></td>
-                            </tr>
-                            <tr>
-                                <td><i class="fa fa-play-circle"></i></td>
-                                <td><a href="#">Lesson One - What is Photoshop</a></td>
-                                <td>20 Min</td>
-                                <td><i class="fa fa-close"></i></td>
-                            </tr>
-                            <tr>
-                                <td><i class="fa fa-play-circle"></i></td>
-                                <td><a href="#">Lesson Two - How to Use Tools</a></td>
-                                <td>41 Min</td>
-                                <td><i class="fa fa-close"></i></td>
-                            </tr>
-                            <tr>
-                                <td><i class="fa fa-play-circle"></i></td>
-                                <td><a href="#">Lesson Three - Creating First Homepage</a></td>
-                                <td>15 Min</td>
-                                <td><i class="fa fa-close"></i></td>
-                            </tr>
-                            <tr>
-                                <td><i class="fa fa-play-circle"></i></td>
-                                <td><a href="#">Lesson Four - Understanding Colors</a></td>
-                                <td>29 Min</td>
-                                <td><i class="fa fa-close"></i></td>
-                            </tr>
-                            <tr>
-                                <td><i class="fa fa-play-circle"></i></td>
-                                <td><a href="#">Lesson Five - International Sizes</a></td>
-                                <td>31 Min</td>
-                                <td><i class="fa fa-close"></i></td>
-                            </tr>
-                            <tr>
-                                <td><i class="fa fa-question-circle"></i></td>
-                                <td><a href="#">Quiz Time - Your First Quiz</a></td>
-                                <td>31 Min</td>
-                                <td><i class="fa fa-close"></i></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div><!-- End Course-Table -->
+                <!--RIGHT SIDE BAR-->
+                <div class="col-md-4">
 
-                <hr class="invis">
+                    <!--WIDGET TOP EVENTS-->
+                    <div class="widget topevents">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h2>Sự kiện <br><span>Hoạt động</span></h2>
+                            </div>
+                            <div class="crossedbg"></div>
+                            <div class="bodytimeline">
+                                <ul class="timeline">
+                                    <!--TOP EVENTS LEFT-->
+                                    <li>
+                                        <div class="timeline-badge "></div>
+                                        <div class="timeline-panel">
+                                            <div class="eventtime">
+                                                <div class="eventtimecover">
+                                                    <div class="eventdm">
+                                                        <div class="eventday">14</div>
+                                                        <div class="eventmonth">01</div>
+                                                    </div>
+                                                    <div class="eventyear">'17</div>
+                                                </div>
+                                            </div>
+                                            <div class="eventdetails">
+                                                <div class="eventlocation">
+                                                    Hội trường H
+                                                </div>
+                                                <div class="eventdesc">
+                                                    <a href="#">Hội nghị học tập, quán triệt nghị quyết TW4 và chỉ thị 05</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!--/END TOP EVENTS LEFT-->
 
-            <!-- Button-Course Right -->
-                <div class="feedbacks">
-                    <p>
-                        <a class="btn btn-default btn-block">
-                            What our customers said? (3 Feedbacks)
-                        </a>
-                    </p>
-                </div><!-- End Button-Course Right -->
-            
+                                    <!--TOP EVENTS RIGHT-->
+
+                                    <!--/END TOP EVENTS RIGHT-->
+                                </ul>
+                            </div>
+                            <div class="crossedbg"></div>
+                        </div>
+
+                        <div class="divider"></div>
+                    </div>
+                    <!--/END WIDGET TOP EVENTS-->
+
+                </div>
+                <!--/END RIGHT SIDE BAR-->
+            </div>
         </div>
     </div>
 </body>
-<script src="js/bootstrap.js" type="text/javascript"></script>
-<script src="js/jquery.js" type="text/javascript"></script>
