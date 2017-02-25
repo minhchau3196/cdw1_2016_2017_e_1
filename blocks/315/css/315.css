@@ -55,6 +55,11 @@
 .type-315 .teacher .prof_list .profview:nth-child(4n+1) {
   clear: both;
 }
+@media (min-width: 992px) {
+  .type-315 .teacher {
+    padding: 0;
+  }
+}
 @media (min-width: 768px) {
   .type-315 .teacher {
     width: 960px;

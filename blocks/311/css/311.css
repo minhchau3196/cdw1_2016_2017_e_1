@@ -1,6 +1,10 @@
 .type-311 {
   background-image: url('../images/bg_pattern.png');
 }
+.type-311 .news {
+  width: 960px;
+  padding: 0;
+}
 .type-311 .top_news_block {
   margin-top: 55px;
   background: #fff;
@@ -56,11 +60,6 @@
   .type-311 .row {
     margin-left: -15px !important;
     margin-right: -15px !important;
-  }
-}
-@media (min-width: 768) {
-  .type-311 .news {
-    width: 960px;
   }
 }
 @media (max-width: 768px) {

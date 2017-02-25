@@ -1,0 +1,25 @@
+.type-303 {
+  background-image: url('../images/bg_pattern.png');
+}
+.type-303 .prof_profile .prof_ava img {
+  width: 100%;
+  max-width: 100%;
+}
+@media (min-width: 992px) {
+  .type-303 .profile {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .type-303 .profile {
+    width: 960px;
+  }
+  .type-303 .prof_profile {
+    margin: 55px 0 0;
+  }
+}
+@media (max-width: 480px) {
+  .type-303 .profile {
+    padding: 0;
+  }
+}

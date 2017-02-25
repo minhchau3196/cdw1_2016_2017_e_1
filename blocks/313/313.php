@@ -17,7 +17,7 @@
 
 <body>
     <div class="type-313">
-        <div class="container">
+        <div class="container event">
             <div class="row">
                 <!--LEFT SIDE BAR-->
                 <div class="col-md-8"> </div>

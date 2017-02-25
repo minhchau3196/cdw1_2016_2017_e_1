@@ -7,6 +7,10 @@
   color: #2a6496;
   text-decoration: underline;
 }
+.type-313 .event {
+  width: 960px;
+  padding: 0;
+}
 .type-313 .panel {
   background: none;
   box-shadow: none;
@@ -128,6 +132,9 @@
   width: 100%;
 }
 @media (min-width: 768px) {
+  .type-313 .event {
+    width: 960px;
+  }
   .type-313 .timeline-badge {
     left: 50%;
   }
