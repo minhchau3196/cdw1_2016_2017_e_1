@@ -10,6 +10,10 @@
   font-weight: 800;
   font-size: 1.8em;
 }
+.type-314 .teacher .panel-heading h2 span {
+  font-weight: normal;
+  font-size: 1em;
+}
 .type-314 .teacher .panel-heading p {
   margin: 0 0 10px;
 }
@@ -46,10 +50,18 @@
 }
 .type-314 .teacher .profview .prof_name,
 .type-314 .teacher .profview .prof_title {
-  float: left;
+  text-align: center;
+}
+.type-314 .teacher .prof_list .profview:nth-child(4n+1) {
+  clear: both;
 }
 @media (min-width: 768px) {
   .type-314 .teacher {
     width: 960px;
+  }
+}
+@media (max-width: 480px) {
+  .type-314 .teacher {
+    padding: 0;
   }
 }
