@@ -1,6 +1,9 @@
 .type-312 {
   background-image: url(../images/bg_pattern.png);
 }
+.type-312 .news {
+  padding: 0;
+}
 .type-312 .news .list_news {
   margin-top: 45px;
 }

@@ -54,6 +54,14 @@
 }
 .type-314 .teacher .prof_list .profview:nth-child(4n+1) {
   clear: both;
+<<<<<<< HEAD
+=======
+}
+@media (min-width: 992px) {
+  .type-314 .teacher {
+    padding: 0;
+  }
+>>>>>>> origin/master
 }
 @media (min-width: 768px) {
   .type-314 .teacher {
