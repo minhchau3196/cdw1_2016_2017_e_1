@@ -13,6 +13,9 @@
         width: 960px;
         padding: 0;
     }
+    .eventlocation {
+        font-size: 13px;
+    }
     /*------------------GENERAL--------------------*/
     .panel {
         background: none;
@@ -119,7 +122,7 @@
         height: 18px;
         position: absolute;
         top: 19px;
-      
+
         margin-left: -10px;
         background-color: #fff;
         border: 2px solid @color_border_gray;
@@ -127,14 +130,14 @@
         z-index: 5;
     }
     .timeline > li > .timeline-panel {
-/*        width: 46%;*/
+        /*        width: 46%;*/
         float: left;
         position: relative;
     }
     .timeline > li > .timeline-panel:before {
         position: absolute;
         top: 27px;
-        
+        right: -15px;
         display: inline-block;
         border-top: 1px solid @color_border_gray;
         content: " ";
@@ -167,12 +170,12 @@
             left: 20px;
         }
         .timeline > li {margin-bottom: 15px;}
-            ul.timeline:before {
-                left: 20px;
+        ul.timeline:before {
+            left: 20px;
         }
         ul.timeline > li > .timeline-panel {
-                
-               padding-left: 40px;
+
+            padding-left: 40px;
         }
         ul.timeline > li > .timeline-panel:before {
             border-left-width: 0;
