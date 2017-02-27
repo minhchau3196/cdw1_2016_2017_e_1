@@ -14,7 +14,7 @@
     <link href="css/309.css" rel="stylesheet" type="text/css"/>
     <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
     <script src="js/ekko-lightbox-min.js" type="text/javascript"></script>
-    
+
 </head>
 
 <body>
@@ -53,6 +53,13 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <script>
+                                $(document).delegate('*[data-toggle="lightbox"]', 'click', function (event) {
+                                    event.preventDefault();
+                                    $(this).ekkoLightbox();
+                                });
+                            </script>
 
                             <h4><b>Công ty thực tập</b></h4>
                             <div class="row">
@@ -156,10 +163,4 @@
         </div>
     </div>
 
-    <script>
-        $(document).delegate('*[data-toggle="lightbox"]', 'click', function (event) {
-            event.preventDefault();
-            $(this).ekkoLightbox();
-        });
-    </script>
 </body>
