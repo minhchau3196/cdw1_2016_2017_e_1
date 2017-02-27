@@ -74,7 +74,7 @@
 
     /*------------------STUDENT--------------------*/
     .feedback_owner {
-        margin: 15px 0;
+        margin: 0;
         .feedback_thumb img {
             border-radius: 50%;
         }
@@ -91,6 +91,25 @@
         .feedback_title {
             margin: 5px 0 0;
         }
+        .mobile{
+            margin-top: 15px;
+        }
     }
     /*------------------/END STUDENT--------------------*/
+    /*------------------REPONSIVE--------------*/
+    @media (min-width: 992px){
+        .sidebar{
+            padding: 0;
+        }
+    }
+    @media (min-width: 768px){
+        .sidebar{
+            width: 960px;
+        }
+    }
+    @media (max-width: 480px){
+        .sidebar{
+            padding: 0;
+        }
+    }
 }

@@ -65,3 +65,18 @@
 .type-323 .contest_list .contest_item {
   padding: 0 2px 4px 2px;
 }
+@media (min-width: 992px) {
+  .type-323 .sidebar {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .type-323 .sidebar {
+    width: 960px;
+  }
+}
+@media (max-width: 480px) {
+  .type-323 .sidebar {
+    padding: 0;
+  }
+}

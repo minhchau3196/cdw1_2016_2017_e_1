@@ -63,7 +63,7 @@
   border: none;
 }
 .type-322 .feedback_owner {
-  margin: 15px 0;
+  margin: 0;
 }
 .type-322 .feedback_owner .feedback_thumb img {
   border-radius: 50%;
@@ -80,4 +80,22 @@
 }
 .type-322 .feedback_owner .feedback_title {
   margin: 5px 0 0;
+}
+.type-322 .feedback_owner .mobile {
+  margin-top: 15px;
+}
+@media (min-width: 992px) {
+  .type-322 .sidebar {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .type-322 .sidebar {
+    width: 960px;
+  }
+}
+@media (max-width: 480px) {
+  .type-322 .sidebar {
+    padding: 0;
+  }
 }

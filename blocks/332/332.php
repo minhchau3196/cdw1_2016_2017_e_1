@@ -19,7 +19,7 @@
 <body>
 
     <div class="type-332">
-        <div class="container">
+        <div class="container address">
             <div class="row">
 
                 <!--LEFT ADDRESS-->

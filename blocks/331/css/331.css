@@ -50,3 +50,18 @@
 .type-331 #map-canvas {
   height: 450px;
 }
+@media (min-width: 992px) {
+  .type-331 .address {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .type-331 .address {
+    width: 960px;
+  }
+}
+@media (max-width: 480px) {
+  .type-331 .address {
+    padding: 0;
+  }
+}

@@ -18,7 +18,7 @@
 <body>
 
     <div class="type-321">
-        <div class="container">
+        <div class="container sidebar">
             <div class="row">
 
                 <!--RIGHT-->

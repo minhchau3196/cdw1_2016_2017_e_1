@@ -19,7 +19,7 @@
 <body>
 
     <div class="type-325">
-        <div class="container">
+        <div class="container sidebar">
             <div class="row">
                 <!--CONTENTS LEFT-->
                 <div class="col-md-8">

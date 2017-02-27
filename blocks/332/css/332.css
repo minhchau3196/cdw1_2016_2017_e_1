@@ -34,3 +34,18 @@
 .type-332 .panel-body {
   background: #fff;
 }
+@media (min-width: 992px) {
+  .type-332 .address {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .type-332 .address {
+    width: 960px;
+  }
+}
+@media (max-width: 480px) {
+  .type-332 .address {
+    padding: 0;
+  }
+}

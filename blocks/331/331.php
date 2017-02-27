@@ -19,7 +19,7 @@
 <body>
 
     <div class="type-331">
-        <div class="container">
+        <div class="container address">
             <div class="row">
                 <!--LEFT ADDRESS-->
                 <div class="col-sm-6 col-md-6">

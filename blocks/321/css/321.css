@@ -70,3 +70,18 @@
   font-size: 11px;
   color: #bfbfbf;
 }
+@media (min-width: 992px) {
+  .type-321 .sidebar {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .type-321 .sidebar {
+    width: 960px;
+  }
+}
+@media (max-width: 480px) {
+  .type-321 .sidebar {
+    padding: 0;
+  }
+}

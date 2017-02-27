@@ -45,3 +45,18 @@
 .type-325 .shortdesc {
   border-left: 1px solid #666;
 }
+@media (min-width: 992px) {
+  .type-325 .sidebar {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .type-325 .sidebar {
+    width: 960px;
+  }
+}
+@media (max-width: 480px) {
+  .type-325 .sidebar {
+    padding: 0;
+  }
+}

@@ -66,3 +66,18 @@
 .type-326 .pagination li {
   display: inline;
 }
+@media (min-width: 992px) {
+  .type-326 .sidebar {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .type-326 .sidebar {
+    width: 960px;
+  }
+}
+@media (max-width: 480px) {
+  .type-326 .sidebar {
+    padding: 0;
+  }
+}
