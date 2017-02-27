@@ -14,7 +14,7 @@
     <link href="css/309.css" rel="stylesheet" type="text/css"/>
     <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
     <script src="js/ekko-lightbox-min.js" type="text/javascript"></script>
-
+    
 </head>
 
 <body>
@@ -40,14 +40,14 @@
                             <div class="row">
                                 <div class="col-xs-6 col-sm-6 col-md-4">
                                     <div class="partnerlogo">
-                                        <a href="#" data-toggle="lightbox" data-title="Microsoft IT Academy">
+                                        <a href="images/ms_cert.gif" data-toggle="lightbox" data-title="Microsoft IT Academy">
                                             <img class="img-responsive" src="images/ms.gif">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="col-xs-6 col-sm-6 col-md-4">
                                     <div class="partnerlogo">
-                                        <a href="#" data-toggle="lightbox" data-title="Cisco Networking Academy">
+                                        <a href="images/cisco_cert.gif" data-toggle="lightbox" data-title="Cisco Networking Academy">
                                             <img class="img-responsive" src="images/cisco.gif">
                                         </a>
                                     </div>
@@ -144,7 +144,7 @@
         </div>
     </div>
 
-    <div id="ekkoLightbox-21" class="ekko-lightbox modal fade in" tabindex="-1" aria-hidden="false" style="display: none;">
+    <div class="ekko-lightbox modal fade in" tabindex="-1" aria-hidden="false" style="display: none;">
         <div class="modal-dialog" style="width: auto; max-width: 996.818px;">
             <div class="modal-content">
                 <div class="modal-header">
@@ -154,7 +154,7 @@
                 <div class="modal-body">
                     <div class="ekko-lightbox-container">
                         <div>
-                            <img src="images/ms_cert.gif" class="img-responsive">
+                            <img src="images/cisco_cert.gif" class="img-responsive">
                         </div>
                     </div>
                 </div>

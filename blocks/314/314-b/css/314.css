@@ -52,6 +52,9 @@
 .type-314 .teacher .profview .prof_title {
   text-align: center;
 }
+.type-314 .teacher .profview_thumb:hover img {
+  transform: scale(1.1);
+}
 .type-314 .teacher .prof_list .profview:nth-child(4n+1) {
   clear: both;
 }
