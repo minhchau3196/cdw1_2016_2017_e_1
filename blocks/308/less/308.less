@@ -14,6 +14,9 @@
     .panel {
         background: none;
         box-shadow: none;
+        img {
+            max-width: 100%;
+        }
     }
     .panel-default {
         border: none;
@@ -39,5 +42,21 @@
     
     .panel-body {
         background: #fff;
+    }
+    /*-------------REPONSIVE--------------*/
+    @media (min-width: 992px){
+        .content{
+            padding: 0;
+        }
+    }
+    @media (min-width: 768px){
+        .content{
+            width: 960px;
+        }
+    }
+    @media (max-width: 480px){
+        .content{
+            padding: 0;
+        }
     }
 }

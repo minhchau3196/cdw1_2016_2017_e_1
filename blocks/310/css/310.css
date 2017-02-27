@@ -73,3 +73,18 @@
 .type-310 .toparticle > h4 a {
   color: #333;
 }
+@media (min-width: 992px) {
+  .type-310 .sidebar {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .type-310 .sidebar {
+    width: 960px;
+  }
+}
+@media (max-width: 480px) {
+  .type-310 .sidebar {
+    padding: 0;
+  }
+}

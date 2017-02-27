@@ -62,3 +62,18 @@
 .type-306 .list-group-item:last-child {
   border: none;
 }
+@media (min-width: 992px) {
+  .type-306 .sidebar {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .type-306 .sidebar {
+    width: 960px;
+  }
+}
+@media (max-width: 480px) {
+  .type-306 .sidebar {
+    padding: 0;
+  }
+}

@@ -17,13 +17,13 @@
 
 <body>
     <div class="type-303">
-                
+        <div class="container">        
                 <!--PROFILE-->
-                <div class="container prof_profile shadow">
+                <div class="container prof_profile shadow profile">
                     <div class="row">
                         <!--------------Begin Profile---------------->
                         <div class="col-md-4 .col-sm-5 col-xs-5 prof_ava">
-                            <img alt="0db3d85c73a4fd746b3998a1da06b49a.jpg" src="http://fit.tdc.edu.vn/files/large/1650a9818731bb61c432e832557e067e.jpg">
+                            <img src="images/VoThanhTrung.jpg" alt=""/>
                         </div>
                         <div class="col-md-8 .col-sm-7 col-xs-7 prof_info">
                             <div class="prof_ide">
@@ -50,6 +50,7 @@
                                      </div>
                                 </ul>
                             </div>
+                            <div class="crossedbg"></div>
                         </div>
                         <!--------------End Profile---------------->
                     </div>

@@ -125,3 +125,18 @@
   text-transform: uppercase;
   font-weight: bold;
 }
+@media (min-width: 992px) {
+  .type-307 .sidebar {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .type-307 .sidebar {
+    width: 960px;
+  }
+}
+@media (max-width: 480px) {
+  .type-307 .sidebar {
+    padding: 0;
+  }
+}

@@ -18,7 +18,7 @@
 <body>
 
     <div class="type-304">
-        <div class="container">
+        <div class="container sidebar">
             <div class="row">
                 <!--LEFT SIDE BAR-->
                 <div class="col-md-4">

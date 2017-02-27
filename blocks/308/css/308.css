@@ -11,6 +11,9 @@
   background: none;
   box-shadow: none;
 }
+.type-308 .panel img {
+  max-width: 100%;
+}
 .type-308 .panel-default {
   border: none;
 }
@@ -33,4 +36,19 @@
 }
 .type-308 .panel-body {
   background: #fff;
+}
+@media (min-width: 992px) {
+  .type-308 .content {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .type-308 .content {
+    width: 960px;
+  }
+}
+@media (max-width: 480px) {
+  .type-308 .content {
+    padding: 0;
+  }
 }

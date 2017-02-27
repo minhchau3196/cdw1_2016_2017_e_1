@@ -22,7 +22,7 @@
 
         <!--FOOTER-->
         <footer>
-            <div class="container">
+            <div class="container intro">
                 <div class="row">
                     <!--FOOTER INTRODUCTION-->
                     <div class="col-md-4">

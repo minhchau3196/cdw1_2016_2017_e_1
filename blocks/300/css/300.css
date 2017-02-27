@@ -14,3 +14,23 @@
 .type-300 footer .bottom-link li a {
   color: #fff;
 }
+@media (min-width: 992px) {
+  .type-300 .intro {
+    padding: 0;
+  }
+}
+@media (max-width: 991px) {
+  .type-300 .footer-info {
+    padding-left: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .type-300 .intro {
+    width: 960px;
+  }
+}
+@media (max-width: 480px) {
+  .type-300 .intro {
+    padding: 0;
+  }
+}

@@ -52,3 +52,18 @@
   right: 10px;
   border-radius: 100px/10px;
 }
+@media (min-width: 992px) {
+  .type-309 .sidebar {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .type-309 .sidebar {
+    width: 960px;
+  }
+}
+@media (max-width: 480px) {
+  .type-309 .sidebar {
+    padding: 0;
+  }
+}
