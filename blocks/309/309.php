@@ -12,7 +12,9 @@
     $less->compileFile('less/309.less', 'css/309.css');
     ?>
     <link href="css/309.css" rel="stylesheet" type="text/css"/>
-
+    <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="js/ekko-lightbox-min.js" type="text/javascript"></script>
+    
 </head>
 
 <body>
@@ -33,7 +35,7 @@
                                 <h2>Đối tác</h2>
                             </div>
                             <div class="crossedbg"></div>
-                            
+
                             <h4><b>Chứng nhận</b></h4>
                             <div class="row">
                                 <div class="col-xs-6 col-sm-6 col-md-4">
@@ -41,7 +43,6 @@
                                         <a href="#" data-toggle="lightbox" data-title="Microsoft IT Academy">
                                             <img class="img-responsive" src="images/ms.gif">
                                         </a>
-
                                     </div>
                                 </div>
                                 <div class="col-xs-6 col-sm-6 col-md-4">
@@ -52,7 +53,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <h4><b>Công ty thực tập</b></h4>
                             <div class="row">
                                 <div class="col-xs-6 col-sm-6 col-md-4">
@@ -136,4 +137,29 @@
         </div>
     </div>
 
+    <div id="ekkoLightbox-21" class="ekko-lightbox modal fade in" tabindex="-1" aria-hidden="false" style="display: none;">
+        <div class="modal-dialog" style="width: auto; max-width: 996.818px;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">Microsoft IT Academy</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="ekko-lightbox-container">
+                        <div>
+                            <img src="images/ms_cert.gif" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer" style="display:none">null</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).delegate('*[data-toggle="lightbox"]', 'click', function (event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+    </script>
 </body>
