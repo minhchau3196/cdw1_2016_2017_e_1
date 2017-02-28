@@ -37,6 +37,19 @@
   max-width: 100%;
   height: auto;
 }
+.type-314 .teacher .profview .profview_thumb_wrap img:hover {
+  transform: scale(1.0);
+  -moz-transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  moz-transition: all 0.3s ease 0s;
+  border-radius: 50%;
+}
 .type-314 .teacher .profview h4 {
   margin-top: 10px;
   margin-bottom: 10px;

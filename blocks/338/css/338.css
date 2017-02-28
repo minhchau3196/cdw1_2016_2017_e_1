@@ -1,9 +1,6 @@
 .type-338 {
   background: url(../images/bg_pattern.png) repeat;
 }
-.type-338 .clear {
-  clear: both;
-}
 .type-338 #catenav {
   background: #f5ce31;
   margin: 55px 0 25px;
@@ -25,5 +22,13 @@
   }
   .type-338 .navbar-nav {
     padding: 0;
+  }
+  .type-338 .auto-width {
+    width: auto;
+  }
+}
+@media (max-width: 768px) {
+  .type-338 .navbar-nav {
+    padding: 0 15px;
   }
 }
