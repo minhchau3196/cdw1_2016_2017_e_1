@@ -4,36 +4,24 @@
     @color_font1: #258b77;
     @color_font2:#d69200;
     @color_font3:#992255;
-    @color_font4:#106982; 
-    .heading h1 {
-        font-weight: bold;
-        float: left;
-        margin: 0;
-        margin-left: 10px;
-        margin-bottom: -6px;
-        display: inline-block;
-    }
-    .heading h1 span {       
-        font-weight: normal;
-        font-size: 0.6em;
-    }
-    @media (min-width: 992px){
-        .col-md-12 {
-            width: 100%;
-            float:left;
-        }
-    }
-    @media (min-width: 480px){
-        .row {
-            margin: 0;
-            margin-left: -15px !important;
-            margin-right: -15px !important;
+    @color_font4:#106982;
+    /*---reponsive--*/
+    @media (min-width: 768px){
+        .container {
+            width: 960px;
+            padding: 0;
         }
     }
     @media (min-width: 992px){
         .col-md-5 {
             width: 41.66666667%;
             float: left;
+        }
+    }
+    @media (min-width: 992px){
+        .col-md-12 {
+            width: 100%;
+            padding: 0;
         }
     }
     @media (min-width: 992px){
@@ -49,14 +37,36 @@
     }
     @media (min-width: 768px){
         .program .desc {
-            padding-right: 20%;
-            margin-left: 12%;
+            padding-right: 15%;
         }
     }
     @media (min-width: 768px){
         .flag {
             font-size: 4vw;
+            padding:0;
         }
+    }
+    @media(min-width:768){
+        .flagtri{
+            width:50%;
+            float:left;
+        }
+    }
+    /*---header---*/
+    .heading h1 {
+        font-weight: bold;
+        float: left;
+        margin: 0;
+        margin-left: 10px;
+        margin-bottom: -6px;
+        display: inline-block;
+    }
+    .heading h1 span {       
+        font-weight: normal;
+        font-size: 0.6em;
+    }
+    .heading {
+        clear: both;
     }
     .programmer{
         position: relative;
@@ -81,7 +91,6 @@
         text-transform: uppercase;
         font-weight: 700;
         margin-top: 25px;
-        padding-right: 10%;
     }
     .desc{
         text-align: justify;

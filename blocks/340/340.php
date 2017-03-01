@@ -20,7 +20,7 @@
 </head>
 <body>
     <div class="type-340">
-        <!--LIST OF HEADER-->
+        <!--LIST OF HEADER BAC CAO DANG-->
         <div class="container">
             <header class="section-heading">
                 <div>
@@ -29,7 +29,7 @@
                     <span class="spacer"></span>
                 </div>
             </header>
-            <!--LIST OF TAB-->
+            <!--LIST OF TAB 1-->
             <div class="ready">
                 <ul class="tabs tab3">
                     <li>
@@ -55,10 +55,44 @@
                     </li>
                     <div style="clear:both;"></div>
                 </ul>
+                <!--BAC TRUNG CAP-->
+                <header class="section-heading">
+                    <div>
+                        <span class="spacer"></span>
+                        <h2>BẬC TRUNG CẤP CHUYÊN NGHIỆP</h2>
+                        <span class="spacer"></span>
+                    </div>
+                </header>
             </div>
-        </div>
+            <!--LIST OF TAB2-->
+            <div class="ready">
+                <ul class="tabs tab3">
+                    <li>
+                        <div class="fold">
+                            <h3>Ngành Tin học Ứng dụng</h3>
+                            <p>Trang bị cho học sinh kiến thức và kỹ năng để làm việc trong lĩnh vực phát triển và kiểm thử phần mềm và web.</p>
+                        </div>
+                        <a href="#" class="more">Xem thêm</a>
+                    </li>
+                    <li>
+                        <div class="fold">
+                            <h3>Ngành Truyền thông và Mạng máy tính</h3>
+                            <p>Học sinh có khả năng triển khai các ứng dụng về các công nghệ Mạng máy tính như cài đặt, quản trị mạng.</p>
+                        </div>
+                        <a href="#" class="more">Xem thêm</a>
+                    </li>
+                    <li>
+                        <div class="fold">
+                            <h3>Ngành Truyền thông đa phương tiện</h3>
+                            <p>Cung cấp các kiến thức về thiết kế đồ họa và công nghệ thông tin đa phương tiện.</p>
+                        </div>
+                        <a href="#" class="more">Xem thêm</a>
+                    </li>
+                    <div style="clear:both;"></div>
+                </ul>
 
-        <!--END OF HEADER-->
-    </div>
+            </div>
+            <!--END OF HEADER-->
+        </div>
 
 </body>

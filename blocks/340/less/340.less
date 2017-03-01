@@ -4,22 +4,23 @@
     @media (min-width: 1200px){
         .container {
             max-width: 960px;
-            padding:0;
+            padding: 0;
+        }
+    }
+    @media(min-width:992px){
+        container{
+            min-width: 760px;
+            padding: 0;
         }
     }
     .ready {padding-top: 10px;}
     .tabs {
 
         list-style: none;
-        margin: 0 auto;
+        margin: 0 auto; 
         padding: 0;
 
     }
-
-    .tabs * {
-        transition: all 350ms cubic-bezier(.7, .5, .3, 1);
-    }
-
     .tabs li {
         margin-right: 1px;
         counter-increment: tab;
@@ -61,7 +62,7 @@
         backface-visibility: hidden;
         background: #e0593e;
         color: #FFF;
-        font-size: 13px;
+        font-size: 12px;
         line-height: 50px;
         margin: 0;
         height: 50px;

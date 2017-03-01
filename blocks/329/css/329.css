@@ -1,35 +1,22 @@
 .type-329 {
   background: url(../images/bg_pattern.png);
 }
-.type-329 .heading h1 {
-  font-weight: bold;
-  float: left;
-  margin: 0;
-  margin-left: 10px;
-  margin-bottom: -6px;
-  display: inline-block;
-}
-.type-329 .heading h1 span {
-  font-weight: normal;
-  font-size: 0.6em;
-}
-@media (min-width: 992px) {
-  .type-329 .col-md-12 {
-    width: 100%;
-    float: left;
-  }
-}
-@media (min-width: 480px) {
-  .type-329 .row {
-    margin: 0;
-    margin-left: -15px !important;
-    margin-right: -15px !important;
+@media (min-width: 768px) {
+  .type-329 .container {
+    width: 960px;
+    padding: 0;
   }
 }
 @media (min-width: 992px) {
   .type-329 .col-md-5 {
     width: 41.66666667%;
     float: left;
+  }
+}
+@media (min-width: 992px) {
+  .type-329 .col-md-12 {
+    width: 100%;
+    padding: 0;
   }
 }
 @media (min-width: 992px) {
@@ -45,14 +32,35 @@
 }
 @media (min-width: 768px) {
   .type-329 .program .desc {
-    padding-right: 20%;
-    margin-left: 12%;
+    padding-right: 15%;
   }
 }
 @media (min-width: 768px) {
   .type-329 .flag {
     font-size: 4vw;
+    padding: 0;
   }
+}
+@media (min-width: 768) {
+  .type-329 .flagtri {
+    width: 50%;
+    float: left;
+  }
+}
+.type-329 .heading h1 {
+  font-weight: bold;
+  float: left;
+  margin: 0;
+  margin-left: 10px;
+  margin-bottom: -6px;
+  display: inline-block;
+}
+.type-329 .heading h1 span {
+  font-weight: normal;
+  font-size: 0.6em;
+}
+.type-329 .heading {
+  clear: both;
 }
 .type-329 .programmer {
   position: relative;
@@ -77,7 +85,6 @@
   text-transform: uppercase;
   font-weight: 700;
   margin-top: 25px;
-  padding-right: 10%;
 }
 .type-329 .desc {
   text-align: justify;
