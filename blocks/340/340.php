@@ -14,14 +14,13 @@
 
     <link href="css/340.css" rel="stylesheet" type="text/css"/>
     <script src="js/jquery.event.move.js" type="text/javascript"></script>
-
     <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
 
 </head>
 <body>
     <div class="type-340">
         <!--LIST OF HEADER-->
-        <div class="container">
+        <div class="container tuyen-sinh">
             <header class="section-heading">
                 <div>
                     <span class="spacer"></span>
