@@ -50,7 +50,7 @@
                                      </div>
                                 </ul>
                             </div>
-                            <div class="crossedbg"></div>
+                           
                         </div>
                         <!--------------End Profile---------------->
                     </div>
