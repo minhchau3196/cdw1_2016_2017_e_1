@@ -14,7 +14,7 @@
     <link href="css/309.css" rel="stylesheet" type="text/css"/>
     <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
     <script src="js/ekko-lightbox-min.js" type="text/javascript"></script>
-    
+    <script src="js/309.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -35,32 +35,31 @@
                                 <h2>Đối tác</h2>
                             </div>
                             <div class="crossedbg"></div>
-
                             <h4><b>Chứng nhận</b></h4>
                             <div class="row">
                                 <div class="col-xs-6 col-sm-6 col-md-4">
                                     <div class="partnerlogo">
-                                        <a href="images/ms_cert.gif" data-toggle="lightbox" data-title="Microsoft IT Academy">
-                                            <img class="img-responsive" src="images/ms.gif">
-                                        </a>
+                                        <img onclick="zoomFunction(0)" class="myImg" src="images/ms.gif" alt="Microsoft IT Academy">
+                                        <img class="myImg2" src="images/ms_cert.gif">
                                     </div>
+                                    <div class="modal myModal">
+                                        <span onclick="exitFunction(0)" class="close">×</span>
+                                        <div class="caption"></div>
+                                        <img class="modal-content img01">  
+                                    </div>                                                                     
                                 </div>
                                 <div class="col-xs-6 col-sm-6 col-md-4">
                                     <div class="partnerlogo">
-                                        <a href="images/cisco_cert.gif" data-toggle="lightbox" data-title="Cisco Networking Academy">
-                                            <img class="img-responsive" src="images/cisco.gif">
-                                        </a>
+                                        <img onclick="zoomFunction(1)" class="myImg" src="images/cisco.gif" alt="Cisco Networking Academy">
+                                        <img class="myImg2" src="images/cisco_cert.gif">
+                                    </div>
+                                    <div class="modal myModal">
+                                        <span onclick="exitFunction(1)" class="close">×</span>
+                                        <div class="caption"></div>
+                                        <img class="modal-content img01">  
                                     </div>
                                 </div>
                             </div>
-
-                            <script>
-                                $(document).delegate('*[data-toggle="lightbox"]', 'click', function (event) {
-                                    event.preventDefault();
-                                    $(this).ekkoLightbox();
-                                });
-                            </script>
-
                             <h4><b>Công ty thực tập</b></h4>
                             <div class="row">
                                 <div class="col-xs-6 col-sm-6 col-md-4">
@@ -143,7 +142,6 @@
             </div>
         </div>
     </div>
-
     <div class="ekko-lightbox modal fade in" tabindex="-1" aria-hidden="false" style="display: none;">
         <div class="modal-dialog" style="width: auto; max-width: 996.818px;">
             <div class="modal-content">
@@ -162,5 +160,6 @@
             </div>
         </div>
     </div>
+    
 
 </body>
