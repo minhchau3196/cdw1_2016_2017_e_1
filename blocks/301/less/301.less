@@ -19,10 +19,13 @@
         padding: 15px;
         display: inline-block;
     }
-    nav.topnav .active a{
-        color: #fff;
+    nav.topnav .active>a {
         background: #56bdbf;
-        background-color:#e7e7e7;       
+        color: #fff;
+    }
+    nav.topnav .active>a:hover {    
+        color: #555;
+        background-color: #e7e7e7;
     }
     nav.topnav a:hover {       
         color:#333;        
@@ -141,6 +144,10 @@
         font-weight: bold;
         font-size: 1.1em;
         padding: 25px 20px;
+    }
+    /*----------REPONSIVE-----------*/
+    @media (max-width: 768px){
+        
     }
 }
 
