@@ -14,14 +14,18 @@
 
     <link href="css/340.css" rel="stylesheet" type="text/css"/>
     <script src="js/jquery.event.move.js" type="text/javascript"></script>
-
     <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
 
 </head>
 <body>
     <div class="type-340">
+<<<<<<< HEAD
         <!--LIST OF HEADER BAC CAO DANG-->
         <div class="container">
+=======
+        <!--LIST OF HEADER-->
+        <div class="container tuyen-sinh">
+>>>>>>> origin/master
             <header class="section-heading">
                 <div>
                     <span class="spacer"></span>

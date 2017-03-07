@@ -202,3 +202,12 @@
   padding: .3em .5em;
   text-decoration: none;
 }
+@media (max-width: 480px) {
+  .type-340 .tuyen-sinh {
+    padding: 0;
+  }
+  .type-340 .tabs li {
+    width: 100%;
+    margin: 15px 0;
+  }
+}

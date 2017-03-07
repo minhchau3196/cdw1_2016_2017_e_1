@@ -37,20 +37,20 @@
                             <div class="prof_contact">
                                 <span class="prof_dep">Văn phòng khoa</span>
                                 <ul>
-                                	<div class="row">
-				                        <div class="col-md-6 col-sm-6">
-		                                    <li><i class="fa fa-graduation-cap fa-lg fa-fw"></i>&nbsp; Thạc sĩ</li>
-		                                    <li title="Phone number"><i class="fa fa-phone fa-lg fa-fw"></i>&nbsp; (+84)822158642</li>
-		                                    <li title="Email"><i class="fa fa-envelope fa-lg fa-fw"></i>&nbsp;trunga2@tdc.edu.vn </li>
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6">
+                                            <li><i class="fa fa-graduation-cap fa-lg fa-fw"></i>&nbsp; Thạc sĩ</li>
+                                            <li title="Phone number"><i class="fa fa-phone fa-lg fa-fw"></i>&nbsp; (+84)822158642</li>
+                                            <li title="Email"><i class="fa fa-envelope fa-lg fa-fw"></i>&nbsp;trunga2@tdc.edu.vn </li>
                                          </div>
-				                        <div class="col-md-6 col-sm-6">
-		                                    <li title="Skype"><i class="fa fa-skype fa-lg fa-fw"></i>&nbsp;trungtdc2013</li>
-		                                    <li title="Website"><i class="fa fa-external-link fa-lg fa-fw"></i>&nbsp; http://fit.tdc.edu.vn/nhan-su/vo-thanh-trung</li>
+                                        <div class="col-md-6 col-sm-6">
+                                            <li title="Skype"><i class="fa fa-skype fa-lg fa-fw"></i>&nbsp;trungtdc2013</li>
+                                            <li title="Website"><i class="fa fa-external-link fa-lg fa-fw"></i>&nbsp; http://fit.tdc.edu.vn/nhan-su/vo-thanh-trung</li>
                                         </div>
-                                     </div>
+                                    </div>
                                 </ul>
                             </div>
-                            <div class="crossedbg"></div>
+                           
                         </div>
                         <!--------------End Profile---------------->
                     </div>

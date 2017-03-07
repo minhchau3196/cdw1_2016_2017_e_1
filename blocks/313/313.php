@@ -53,7 +53,7 @@
                                                     Hội trường H
                                                 </div>
                                                 <div class="eventdesc">
-                                                    <a href="#">Hội nghị học tập, quán triệt nghị quyết TW4 và chỉ thị 05</a>
+                                                    <a href="#">Báo cáo chuyên đề về Quyền của phụ nữ trong hệ thống pháp luật Việt Nam và các nội dung trong Luật Lao động có liên quan đến phụ nữ.</a>
                                                 </div>
                                             </div>
                                         </div>

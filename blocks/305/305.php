@@ -20,7 +20,7 @@
 
     <div class="type-305">
 
-        <div class="container slidebar">
+        <div class="container event">
             <div class="row">
                 <!--LEFT SIDE BAR-->
                 <div class="col-md-4">

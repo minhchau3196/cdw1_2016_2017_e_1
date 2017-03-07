@@ -8,7 +8,6 @@
   text-decoration: underline;
 }
 .type-313 .event {
-  width: 960px;
   padding: 0;
 }
 .type-313 .eventlocation {
@@ -180,5 +179,13 @@
   .type-313 .timeline .eventdetails {
     text-align: left;
     float: left;
+  }
+  .type-313 .panel-default {
+    padding: 0 15px;
+  }
+}
+@media (max-width: 480px) {
+  .type-313 .panel-default {
+    padding: 0;
   }
 }

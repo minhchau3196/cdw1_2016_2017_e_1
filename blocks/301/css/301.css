@@ -18,9 +18,12 @@
   padding: 15px;
   display: inline-block;
 }
-.type-301 nav.topnav .active a {
-  color: #fff;
+.type-301 nav.topnav .active>a {
   background: #56bdbf;
+  color: #fff;
+}
+.type-301 nav.topnav .active>a:hover {
+  color: #555;
   background-color: #e7e7e7;
 }
 .type-301 nav.topnav a:hover {

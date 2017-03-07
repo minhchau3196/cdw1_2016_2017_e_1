@@ -1,5 +1,4 @@
-.type-305 {
-
+.type-305{
     @color_hover: #2a6496;
     @color_border_gray: #d9d9d9;
 
@@ -10,7 +9,10 @@
         color: @color_hover;
         text-decoration: underline;
     }
-    .eventlocation{
+    .event{
+        padding: 0;
+    }
+    .eventlocation {
         font-size: 13px;
     }
     /*------------------GENERAL--------------------*/
@@ -49,7 +51,7 @@
         list-style: none;
         padding: 20px 0 20px;
         position: relative;
-        margin: 0;
+
         .eventtime {
             width: 56px;
             height: 56px;
@@ -119,7 +121,7 @@
         height: 18px;
         position: absolute;
         top: 19px;
-        left: 50%;
+
         margin-left: -10px;
         background-color: #fff;
         border: 2px solid @color_border_gray;
@@ -127,7 +129,7 @@
         z-index: 5;
     }
     .timeline > li > .timeline-panel {
-        width: 46%;
+        /*        width: 46%;*/
         float: left;
         position: relative;
     }
@@ -141,16 +143,59 @@
         width: 100%;
     }
     /*------------------/END TOP EVENTS TIMELINE--------------------*/
-    
-    /*-----------REPONSIVE-------------*/
-    @media (min-width: 992px){
-        .slidebar{
-            padding: 0;
+    /*--------Reponsive--------*/
+    @media (min-width: 768px){
+        .event{
+            width: 960px;
+        }
+        .timeline-badge{
+            left: 50%;
+        }
+        .timeline-panel {
+            width: 46%;
+        }
+        .timeline{
+            margin: 0;
         }
     }
-    @media (min-width: 768px){
-        .slidebar{
-            width: 960px;
+    @media (max-width: 767px) {
+        .timeline{
+            margin-right: 50px;
+        }
+        .timeline-panel {
+            width: 100%;
+        }
+        .timeline-badge{
+            left: 20px;
+        }
+        .timeline > li {margin-bottom: 15px;}
+        ul.timeline:before {
+            left: 20px;
+        }
+        ul.timeline > li > .timeline-panel {
+
+            padding-left: 40px;
+        }
+        ul.timeline > li > .timeline-panel:before {
+            border-left-width: 0;
+            border-right-width: 15px;
+            left: 10px;
+            right: auto;
+        }
+        .timeline .eventtime {
+            float: right;
+        }
+        .timeline .eventdetails {
+            text-align: left;
+            float: left;
+        }
+        .panel-default{
+            padding: 0 15px;
+        }
+    }
+    @media (max-width: 480px){
+        .panel-default{
+            padding: 0;
         }
     }
 }
