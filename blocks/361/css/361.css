@@ -1,0 +1,77 @@
+.type-361 hr {
+  margin: 7px 0;
+}
+.type-361 #course-left-sidebar {
+  margin-bottom: 30px;
+}
+.type-361 .course-image-widget img {
+  width: 100%;
+}
+.type-361 .course-meta {
+  padding: 15px 20px 10px;
+  background-color: #3f4451;
+  margin-top: 0;
+}
+.type-361 .course-meta p {
+  display: inline-block;
+  padding-right: 4px;
+  padding-bottom: 0;
+  font-size: 13px;
+  line-height: 1;
+  color: #ffffff;
+  width: 100%;
+  position: relative;
+}
+.type-361 p {
+  padding: 0 0 20px 0;
+  margin: 0 0 10px;
+}
+.type-361 .course-meta a {
+  line-height: 1;
+  color: #ffffff;
+  text-decoration: none;
+}
+.type-361 .course-meta a:hover {
+  color: red;
+}
+.type-361 .course-meta .rating {
+  margin-top: 0;
+  padding-top: 0;
+}
+.type-361 .course-meta .rating i {
+  padding: 0;
+}
+.type-361 .rating i {
+  color: #eabe12;
+}
+.type-361 .course-category a {
+  text-decoration: none;
+}
+.type-361 .course-category a:hover {
+  color: red;
+}
+.type-361 .course-meta i {
+  padding-right: 3px;
+}
+.type-361 .course-prize i {
+  font-size: 16px;
+  padding: 3px 2px 0;
+}
+.type-361 .img-circle {
+  border-radius: 50%;
+  width: 25px;
+  margin: 0 5px;
+}
+.type-361 .btn-primary {
+  background-color: #5ba5af;
+  border-color: #5ba5af;
+}
+.type-361 .btn-primary:hover {
+  background-color: #428992;
+  border-color: #428992;
+}
+.type-361 .course-button a {
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 0;
+}
