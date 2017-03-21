@@ -24,7 +24,8 @@
 
     <body>
         <div class="type-27">
-            <div class="container">               
+            <div class="container"> 
+                <div class="col-md-4 col-sm-4 col-xs-12">
                     <div id="course-left-sidebar">
                         <div class="course-image-widget">
                             <img src="images/course_01.png" alt="" class="img-responsive">
@@ -58,7 +59,8 @@
                         <div class="course-button">
                             <a href="#" class="btn-primary btn-block">TAKE THIS COURSE</a>
                         </div>              
-                    </div>          
+                    </div>    
+                </div>
             </div>
         </div>
     </body>
