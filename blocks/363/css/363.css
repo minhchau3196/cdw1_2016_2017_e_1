@@ -1,0 +1,42 @@
+@media (min-width: 992px) {
+  .type-363 .col-md-3 {
+    width: 25%;
+    float: left;
+  }
+}
+@media (max-width: 991px) {
+  .type-363 .row > div {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 991px) {
+  .type-363 .center-block-sm {
+    text-align: center;
+  }
+}
+.type-363 .counter-img {
+  float: left;
+  padding-right: 12px;
+}
+.type-363 img {
+  border: 0;
+  vertical-align: middle;
+  max-width: 100%;
+}
+.type-363 .stats-info {
+  float: left;
+}
+.type-363 .stats-info h4.counter {
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  color: #093eb6;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1;
+}
+.type-363 p {
+  font-size: 16px;
+  color: #677078;
+  line-height: 1.688;
+  margin-bottom: 20px;
+}
