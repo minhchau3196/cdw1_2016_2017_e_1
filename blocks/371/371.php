@@ -24,18 +24,19 @@
     <body>
         <div class="type-11-1">
             <div class="tp-fullwidth-forcer"><!-- END REVOLUTION SLIDER -->            <!-- Main Container -->
-                <div class="full-width">    <div class="row">
-
-
+                <div class="full-width">    
+                    <div class="row">
                         <div class="col-md-12">
-
-
-                            <section class="" style=""><div class="container"><div class="row center-block-sm" style=""><div class="col-md-5">
-                                            <span class="label label-default" style="&quot;no&quot;">THE COMPANY</span>
+                            <section class="" style="">
+                                <div class="container">
+                                    <div class="row center-block-sm" style="">
+                                        <div class="col-md-5 col-sm-12 col-lg-5">
+                                            <span class="label-default" style="&quot;no&quot;">THE COMPANY</span>
                                             <h4 style="font-size: 18px; font-weight: bold; line-height: 28px; color: #093eb9; margin-top: 20px; margin-bottom: 20px;">Interactively empower diverse imperatives after prospective convergence.</h4>
                                             <p>Assertively productize efficient partnerships through customer directed supply chains. Continually maintain process-centric catalysts for change via backward compatible value.</p>
                                             <a href="#" id="btn-1168-737" class="btn btn-primary">READ OUR MISSION</a>
-                                        </div><div class="col-md-7">
+                                        </div>
+                                        <div class="col-md-7 col-sm-12 col-lg-7">
                                             <div class="company-image">
                                                 <div class="img-left hover-effect">
                                                     <img src="images/company-image2.jpg" width="50" height="30" alt="Company Image">
@@ -44,7 +45,10 @@
                                                     <img src="images/company-image1.jpg" alt="Company Image">
                                                 </div>
                                             </div>
-                                        </div></div></div></section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
                         </div>
                     </div>
                 </div>
