@@ -1,0 +1,96 @@
+@media (min-width: 768px) {
+  .type-365 .col-col-3 {
+    width: 25%;
+    float: left;
+  }
+}
+.type-365 footer {
+  margin: 30px 0 0 0;
+  background: #f5f5f5;
+  padding: 41px 0px 0;
+}
+.type-365 footer .footer_block {
+  padding-bottom: 56px;
+}
+.type-365 footer .footer_block .footer_contacts {
+  margin-bottom: -3px;
+  text-decoration: none;
+}
+.type-365 footer .footer_block .footer_contacts li {
+  font-size: 14px;
+  line-height: 30px;
+}
+.type-365 footer .footer_block .footer_contacts .contacts_phone div {
+  display: inline-block;
+  line-height: 30px;
+}
+.type-365 footer .footer_block .footer_contacts .contacts_company {
+  display: inline-block;
+}
+.type-365 footer .footer_block .footer_contacts .contacts_email a {
+  color: #4a9fd5;
+}
+.type-365 footer .footer_block .footer_contacts .contacts_email a:hover {
+  color: #60ca64;
+}
+.type-365 footer .footer_block .footer_contacts .contacts_phone a:hover {
+  color: #60ca64;
+}
+.type-365 footer .footer_block .footer_social {
+  margin-top: 24px;
+}
+.type-365 footer .footer_block .footer_social li {
+  display: inline-block;
+}
+.type-365 footer .footer_block .footer_social li a {
+  font-size: 24px;
+}
+.type-365 footer .footer_block .footer_social li a:hover {
+  color: #60ca64;
+}
+.type-365 footer .h3 {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: none;
+}
+.type-365 footer .footer_links li a {
+  color: #4a9fd5;
+  font-size: 14px;
+  line-height: 30px;
+  text-decoration: none;
+}
+.type-365 footer .footer_links li a:hover {
+  color: #60ca64;
+}
+.type-365 footer .copyright {
+  background: #60ca64;
+}
+.type-365 footer .copyright p {
+  color: #fff;
+  font-size: 14px;
+}
+.type-365 footer .copyright a {
+  color: #fff;
+}
+.type-365 ul {
+  list-style: none;
+  padding: 0;
+}
+.type-365 a {
+  color: #454545;
+  text-decoration: none;
+}
+.type-365 .fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  padding-right: 25px;
+  margin-top: 5px;
+}
+.type-365 p {
+  margin: 15px 0;
+  padding: 0;
+}
