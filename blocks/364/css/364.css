@@ -4,6 +4,12 @@
     padding-bottom: 15px;
   }
 }
+@media (max-width: 992px) {
+  .type-364 .img {
+    border: 0;
+    padding: 0;
+  }
+}
 .type-364 .homepage_brands {
   padding: 0px 0 60px;
   position: relative;
@@ -14,6 +20,6 @@
   font-weight: 500;
   letter-spacing: 1px;
 }
-.type-364 a:hover {
+.type-364 .img:hover {
   color: #888888;
 }

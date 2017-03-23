@@ -27,22 +27,22 @@
                 <div class="container">
                     <h3 class="page_heading">BRANDS</h3>
                     <div class="row" style=" padding-left: 15px; line-height: 8;">  
-                        <div class="col-md-2">
+                        <div class="col-md-2 col-sm-4 col-xs-6">
                             <a href="#"><img src="images/custom_brand1_img.jpg" alt=""></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 col-sm-4 col-xs-6">
                             <a href="#"><img src="images/custom_brand2_img.jpg" alt=""></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 col-sm-4 col-xs-6">
                             <a href="#"><img src="images/custom_brand3_img.jpg" alt=""></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 col-sm-4 col-xs-6">
                             <a href="#"><img src="images/custom_brand4_img.jpg" alt=""></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 col-sm-4 col-xs-6">
                             <a href="#"><img src="images/custom_brand5_img.jpg" alt=""></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 col-sm-4 col-xs-6">
                             <a href="#"><img src="images/custom_brand6_img.jpg" alt=""></a>
                         </div>
                     </div>
