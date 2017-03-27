@@ -28,31 +28,31 @@
                                 <ul class="list_products">
                                     <li class="product">
                                         <div class="product_img">  
-                                            <a href="#"><img src="image/acrylic_paint_set_sets_of_18_colors_01_compact.png" alt="Acrylic paint set sets of 18 colors"></a>                                           
+                                            <a href="#"><img src="image/img-10.png" alt="Acrylic paint set sets of 18 colors"></a>                                           
                                         </div>
                                         <div class="product_info">
                                             <div class="product_name">
-                                                <a href="/collections/art-advisory/products/acrylic-paint-set-sets-of-18-colors">Acrylic paint set sets of 18 colors</a>
+                                                <a href="#">Acrylic paint set sets of 18 colors</a>
                                             </div>
                                             <div class="product_price">
                                                 <span class="money" data-currency-usd="From $26.00">From $26.00</span>
                                                 <span class="money compare-at-price" data-currency-usd="$36.00">$36.00</span>
                                             </div>
                                             <div class="product_links">
-                                                <a class="btn" href="/collections/art-advisory/products/acrylic-paint-set-sets-of-18-colors">View</a>
+                                                <a class="btn" href="#">View</a>
                                             </div>
                                         </div>
                                     </li>
                                     <li class="product">
                                         <div class="product_img">  
-                                            <a href="/collections/art-advisory/products/art-supplies-value-pack-includes-12-acrylic-paints-25-paint-brushes-and-4-window-markers">
-                                                <img src="//cdn.shopify.com/s/files/1/1386/7281/products/art_supplies_value_pack_includes_12_acrylic_paints_25_paint_brushes_and_4_window_markers_01_compact.png?v=1468591220" alt="Art supplies value pack includes 12 acrylic paints 25 paint brushes and 4 window markers">
+                                            <a href="#">
+                                                <img src="image/img-2.png" alt="Art supplies value pack includes 12 acrylic paints 25 paint brushes and 4 window markers">
                                             </a>
                                         </div>
 
                                         <div class="product_info">
                                             <div class="product_name">
-                                                <a href="/collections/art-advisory/products/art-supplies-value-pack-includes-12-acrylic-paints-25-paint-brushes-and-4-window-markers">Art supplies value pack includes 12 acrylic paints 25 paint brushes and 4 window markers</a>
+                                                <a href="#">Art supplies value pack includes 12 acrylic paints 25 paint brushes and 4 window markers</a>
                                             </div>
 
                                             <div class="product_price">
@@ -61,21 +61,21 @@
                                             </div>
 
                                             <div class="product_links">
-                                                <a class="btn" href="/collections/art-advisory/products/art-supplies-value-pack-includes-12-acrylic-paints-25-paint-brushes-and-4-window-markers">View</a>
+                                                <a class="btn" href="#">View</a>
                                             </div>
                                         </div>
                                     </li>
 
                                     <li class="product">
                                         <div class="product_img">  
-                                            <a href="/collections/art-advisory/products/castle-art-supplies-drawing-and-sketching-pencil-art-set">
-                                                <img src="//cdn.shopify.com/s/files/1/1386/7281/products/castle_art_supplies_drawing_and_sketching_pencil_art_set_01_compact.png?v=1468591262" alt="Castle art supplies drawing and sketching pencil art set">
+                                            <a href="#">
+                                                <img src="image/castle_art_supplies_drawing_and_sketching_pencil_art_set_01_compact.png?v=1468591262" alt="Castle art supplies drawing and sketching pencil art set">
                                             </a>
                                         </div>
 
                                         <div class="product_info">
                                             <div class="product_name">
-                                                <a href="/collections/art-advisory/products/castle-art-supplies-drawing-and-sketching-pencil-art-set">Castle art supplies drawing and sketching pencil art set</a>
+                                                <a href="#">Castle art supplies drawing and sketching pencil art set</a>
                                             </div>
 
                                             <div class="product_price">
@@ -86,7 +86,7 @@
                                             </div>
 
                                             <div class="product_links">
-                                                <a class="btn" href="/collections/art-advisory/products/castle-art-supplies-drawing-and-sketching-pencil-art-set">View</a>
+                                                <a class="btn" href="#">View</a>
                                             </div>
                                         </div>
                                     </li>
