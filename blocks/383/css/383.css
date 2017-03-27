@@ -1,0 +1,21 @@
+.type-383 ul,
+.type-383 li {
+  list-style: none;
+}
+.type-383 a {
+  color: #454545;
+  text-decoration: none;
+  transform: translate3d(0,0,0);
+}
+.type-383 a:hover {
+  color: #454647 !important;
+}
+.type-383 .main_content .breadcrumb {
+  margin: 0;
+  padding: 7px 15px;
+  background: rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+.type-383 .breadcrumb > li {
+  display: inline-block;
+}
