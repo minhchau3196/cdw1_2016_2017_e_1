@@ -1,0 +1,33 @@
+.type-381 h3 {
+  color: #454545;
+  text-transform: uppercase;
+}
+.type-381 .wd_header {
+  margin: 0;
+  font-size: 24px;
+}
+.type-381 .blog_tags {
+  font-size: 0;
+}
+.type-381 a {
+  color: #454545;
+  text-decoration: none;
+}
+.type-381 .blog_tags a:before {
+  content: '\f02b';
+  margin: 0 5px 0 0;
+  font: 13px 'FontAwesome';
+  color: #fff;
+}
+.type-381 .blog_tags a {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  padding: 5px 10px;
+  background: #4a9fd5;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+}
+.type-381 .blog_tags a:hover {
+  background: #60ca64;
+}
