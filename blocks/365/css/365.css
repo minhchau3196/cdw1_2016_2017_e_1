@@ -73,6 +73,9 @@
 .type-365 footer .copyright a {
   color: #fff;
 }
+.type-365 footer .footer_links c a:hover {
+  color: #60ca64;
+}
 .type-365 ul {
   list-style: none;
   padding: 0;

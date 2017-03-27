@@ -1,0 +1,35 @@
+.type-380 img {
+  max-width: 100%;
+}
+.type-380 a {
+  color: #454545;
+  text-decoration: none;
+  transform: translate3d(0,0,0);
+}
+.type-380 a:hover {
+  color: #454647 !important;
+}
+.type-380 .list_articles {
+  line-height: 1.5em;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.type-380 .article_date:before {
+  content: '\f073';
+  margin: 0 5px 0 0;
+  font: 14px 'FontAwesome';
+}
+.type-380 .article_comments:before {
+  content: '\f0e6';
+  margin: 0 5px 0 0;
+  font: 14px 'FontAwesome';
+}
+.type-380 .article_title {
+  font-weight: normal;
+  font-size: 16px;
+  color: #282f40;
+  text-transform: none;
+}
+.type-380 .article_title a {
+  color: #282f40;
+}
