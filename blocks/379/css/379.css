@@ -1,0 +1,38 @@
+.type-379 img {
+  max-width: 100%;
+}
+.type-379 a {
+  color: #454545;
+  text-decoration: none;
+  transform: translate3d(0,0,0);
+  text-transform: uppercase;
+}
+.type-379 a:hover {
+  color: #454647 !important;
+}
+.type-379 h4 {
+  font-size: 16px;
+}
+.type-379 .collection_products {
+  margin: 5px 0 0 0;
+}
+.type-379 .collection_desc {
+  margin: 5px 0 0 0;
+}
+.type-379 .collection_info .btn {
+  margin: 15px 0 0 0;
+  padding: 7px 10px;
+  background: #4a9fd5 !important;
+  border-color: #4a9fd5 !important;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #fff !important;
+  text-transform: uppercase;
+  border-radius: 30px;
+  box-shadow: none !important;
+  transform: translate3d(0,0,0);
+}
+.type-379 .collection_info .btn:hover {
+  background: #60ca64 !important;
+  border-color: #60ca64 !important;
+}

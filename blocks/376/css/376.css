@@ -1,0 +1,45 @@
+.type {
+  background-image: url("../image/homepage_info_img.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.type .content_ {
+  text-align: center;
+  position: relative;
+  z-index: 8;
+  padding-top: 3.6%;
+  padding-bottom: 4.5%;
+}
+.type h2 {
+  font-size: 48px;
+  line-height: 60px;
+  color: #fff;
+  text-transform: none;
+  font-weight: 300;
+  padding: 0 24%;
+  text-align: center;
+  margin: 15px 0;
+}
+.type .btn {
+  top: 19%;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  padding: 9px 20px;
+  border: none !important;
+  background: #60ca64 !important;
+  letter-spacing: 1.5px;
+  padding: 14px 34px;
+  margin-top: 10px;
+  border-radius: 30px;
+  color: #fff;
+}
+.type .btn:hover {
+  background: #4a9fd5 !important;
+}
+@media (max-width: 480px) {
+  .type h2 {
+    font-size: 26px;
+    line-height: 60px;
+  }
+}
