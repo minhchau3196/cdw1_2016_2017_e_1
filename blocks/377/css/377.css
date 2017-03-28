@@ -36,17 +36,13 @@
   max-width: 100%;
 }
 .type-377 .product_img .img_2 {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: 10;
-  margin: 0 auto;
-  border-radius: 10px;
-  padding: 94px 40px;
+  display: none;
 }
-.type-377 .product_img:hover .img-2 {
-  opacity: 1;
+.type-377 .product_img .img_change:hover .img_1 {
+  display: none;
+}
+.type-377 .product_img .img_change:hover .img_2 {
+  display: block;
 }
 .type-377 span.new {
   background: #4a9fd5;
