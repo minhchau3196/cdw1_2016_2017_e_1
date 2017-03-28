@@ -78,6 +78,7 @@
                             </div>
                         </div>
                     </div>
+                    
                     <!---END OF TITLE-->
                 </div>
             </div>
