@@ -1,0 +1,65 @@
+.type-388 .page_heading {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 54px;
+}
+.type-388 h1 {
+  font: bold 24px Roboto;
+  color: #454545;
+  text-transform: uppercase;
+}
+.type-388 .rte {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: inherit;
+}
+.type-388 .rte h2 {
+  font-size: 18px;
+  margin: 30px 0 15px 0;
+  padding: 0 0 15px 0;
+  border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+.type-388 .rte blockquote {
+  padding: 5px 35px;
+  font-weight: normal;
+}
+.type-388 .rte blockquote * {
+  margin: 10px 0 !important;
+  font-size: 15px;
+}
+.type-388 .rte>* {
+  max-width: 100% !important;
+}
+.type-388 h2 {
+  font: bold 24px Roboto;
+  color: #454545;
+  text-transform: uppercase;
+}
+.type-388 p {
+  margin: 15px 0;
+  padding: 0;
+}
+.type-388 img {
+  width: auto;
+  max-width: 100% !important;
+}
+.type-388 h4 {
+  font-size: 15px;
+  margin: 15px 0;
+  padding: 0;
+  border: none;
+  font-weight: normal;
+  color: #777c87;
+  text-transform: uppercase;
+}
+.type-388 h5 {
+  font-size: 14px;
+  margin: 15px 0;
+  padding: 0;
+  border: none;
+  font-weight: normal;
+  color: #777c87;
+  text-transform: uppercase;
+}
