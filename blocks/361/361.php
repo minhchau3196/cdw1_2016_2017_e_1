@@ -1,4 +1,4 @@
-﻿
+
 <!DOCTYPE html>
 
 <html>
@@ -26,7 +26,7 @@
             <div class="container"> 
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div id="course-left-sidebar">
-                        <div class="course-image-widget">
+                        <div class="couDrse-image-widget">
                             <img src="images/course_01.png" alt="" class="img-responsive">
                         </div><!-- end image widget -->
                         <div class="course-meta">
@@ -63,5 +63,4 @@
             </div>
         </div>
     </body>
-
 </html>

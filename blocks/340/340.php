@@ -19,13 +19,13 @@
 </head>
 <body>
     <div class="type-340">
-<<<<<<< HEAD
+
         <!--LIST OF HEADER BAC CAO DANG-->
         <div class="container">
-=======
+
         <!--LIST OF HEADER-->
         <div class="container tuyen-sinh">
->>>>>>> origin/master
+
             <header class="section-heading">
                 <div>
                     <span class="spacer"></span>

@@ -3,29 +3,31 @@
 
 <html style="background-color: #f3f3f4;">
 
-<head>
-    <title></title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
-    <script src="js/jquery.carouFredSel-6.2.1-packed.js" type="text/javascript"></script>
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="css/type.css" rel="stylesheet" type="text/css" />
-    <script src="js/jquery/jquery.js" type="text/javascript"></script>
-    <script src="js/thumb.js" type="text/javascript"></script>
-    <?php
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+        <script src="js/jquery/jquery.js" type="text/javascript"></script>
+        <script src="js/thumb.js" type="text/javascript"></script>
+        <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
         $less->compileFile('less/type.less', 'css/type.css');
         ?>
+        <link href="css/type.css" rel="stylesheet" type="text/css" />
 
-</head>
+        <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+        <script src="js/jquery.carouFredSel-6.2.1-packed.js" type="text/javascript"></script>
+    </head>
 
-<body>
-    <div class="type-5">
+    <body>
+        <div class="type-5">
             <div class="boxed-area blocks-spacer">
                 <div class="container">
                     <div class="row">
@@ -41,9 +43,9 @@
                                 <div class="product-inner">
                                     <div class="product-img">
                                         <div class="picture">
-                                            <a href="product.html"><img src="images/dummy/products/product-6.jpg" alt="" width="540" height="374"></a>
+                                            <a href="#"><img src="images/dummy/products/product-6.jpg" alt="" width="540" height="374"></a>
                                             <div class="img-overlay">
-                                                <a href="product.html" class="btn more btn-primary">More</a>
+                                                <a href="#" class="btn more btn-primary">More</a>
                                                 <a href="#" class="btn buy btn-danger">Add to Cart</a>
                                             </div>
                                         </div>
@@ -75,9 +77,9 @@
                                 <div class="product-inner">
                                     <div class="product-img">
                                         <div class="picture">
-                                            <a href="product.html"><img src="images/dummy/products/product-7.jpg" alt="" width="540" height="374"></a>
+                                            <a href="#"><img src="images/dummy/products/product-7.jpg" alt="" width="540" height="374"></a>
                                             <div class="img-overlay">
-                                                <a href="product.html" class="btn more btn-primary">More</a>
+                                                <a href="#" class="btn more btn-primary">More</a>
                                                 <a href="#" class="btn buy btn-danger">Add to Cart</a>
                                             </div>
                                         </div>
@@ -109,9 +111,9 @@
                                 <div class="product-inner">
                                     <div class="product-img">
                                         <div class="picture">
-                                            <a href="product.html"><img src="images/dummy/products/product-8.jpg" alt="" width="540" height="374"></a>
+                                            <a href="#"><img src="images/dummy/products/product-8.jpg" alt="" width="540" height="374"></a>
                                             <div class="img-overlay">
-                                                <a href="product.html" class="btn more btn-primary">More</a>
+                                                <a href="#" class="btn more btn-primary">More</a>
                                                 <a href="#" class="btn buy btn-danger">Add to Cart</a>
                                             </div>
                                         </div>
@@ -143,7 +145,7 @@
                                 <div class="product-inner">
                                     <div class="product-img">
                                         <div class="picture">
-                                            <a href="product.html"><img src="images/dummy/products/product-9.jpg" alt="" width="540" height="374"></a>
+                                            <a href="#"><img src="images/dummy/products/product-9.jpg" alt="" width="540" height="374"></a>
                                             <div class="img-overlay">
                                                 <a href="product.html" class="btn more btn-primary">More</a>
                                                 <a href="#" class="btn buy btn-danger">Add to Cart</a>
@@ -178,9 +180,9 @@
                                 <div class="product-inner">
                                     <div class="product-img">
                                         <div class="picture">
-                                            <a href="product.html"><img src="images/dummy/products/product-10.jpg" alt="" width="540" height="374"></a>
+                                            <a href="#"><img src="images/dummy/products/product-10.jpg" alt="" width="540" height="374"></a>
                                             <div class="img-overlay">
-                                                <a href="product.html" class="btn more btn-primary">More</a>
+                                                <a href="#" class="btn more btn-primary">More</a>
                                                 <a href="#" class="btn buy btn-danger">Add to Cart</a>
                                             </div>
                                         </div>
@@ -212,9 +214,9 @@
                                 <div class="product-inner">
                                     <div class="product-img">
                                         <div class="picture">
-                                            <a href="product.html"><img src="images/dummy/products/product-11.jpg" alt="" width="540" height="374"></a>
+                                            <a href="#"><img src="images/dummy/products/product-11.jpg" alt="" width="540" height="374"></a>
                                             <div class="img-overlay">
-                                                <a href="product.html" class="btn more btn-primary">More</a>
+                                                <a href="#" class="btn more btn-primary">More</a>
                                                 <a href="#" class="btn buy btn-danger">Add to Cart</a>
                                             </div>
                                         </div>
@@ -246,9 +248,9 @@
                                 <div class="product-inner">
                                     <div class="product-img">
                                         <div class="picture">
-                                            <a href="product.html"><img src="images/dummy/products/product-12.jpg" alt="" width="540" height="374"></a>
+                                            <a href="#"><img src="images/dummy/products/product-12.jpg" alt="" width="540" height="374"></a>
                                             <div class="img-overlay">
-                                                <a href="product.html" class="btn more btn-primary">More</a>
+                                                <a href="#" class="btn more btn-primary">More</a>
                                                 <a href="#" class="btn buy btn-danger">Add to Cart</a>
                                             </div>
                                         </div>
@@ -280,9 +282,9 @@
                                 <div class="product-inner">
                                     <div class="product-img">
                                         <div class="picture">
-                                            <a href="product.html"><img src="images/dummy/products/product-13.jpg" alt="" width="540" height="374"></a>
+                                            <a href="#"><img src="images/dummy/products/product-13.jpg" alt="" width="540" height="374"></a>
                                             <div class="img-overlay">
-                                                <a href="product.html" class="btn more btn-primary">More</a>
+                                                <a href="#" class="btn more btn-primary">More</a>
                                                 <a href="#" class="btn buy btn-danger">Add to Cart</a>
                                             </div>
                                         </div>
@@ -312,6 +314,5 @@
                 </div>
             </div>
         </div>
-</body>
-
+    </body>
 </html>
