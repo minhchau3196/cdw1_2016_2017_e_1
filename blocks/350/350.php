@@ -11,7 +11,7 @@
     <script src="js/jquery.carouFredSel-6.2.1-packed.js" type="text/javascript"></script>
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="css/type.css" rel="stylesheet" type="text/css" />
+    <link href="css/350.css" rel="stylesheet" type="text/css" />
     <script src="js/jquery/jquery.js" type="text/javascript"></script>
     <script src="js/thumb.js" type="text/javascript"></script>
     <?php
@@ -19,7 +19,7 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type.less', 'css/type.css');
+        $less->compileFile('less/350.less', 'css/350.css');
         ?>
 
 </head>
@@ -27,7 +27,7 @@
 <body>
 
 
-        <div class="type-6">
+        <div class="type-350">
 
             <div class="most-popular blocks-spacer">
                 <div class="container">
