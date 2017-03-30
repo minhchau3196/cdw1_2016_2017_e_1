@@ -18,7 +18,7 @@
       <link href="css/376.css" rel="stylesheet" type="text/css"/>
    </head>
    <body>
-      <div class="type">
+      <div class="type-376">
          <div class="container">
              <div class="content_">
                 <h2>Oil Paint Set Artist Quality Art Paints</h2>

@@ -18,7 +18,7 @@
       <link href="css/375.css" rel="stylesheet" type="text/css"/>
    </head>
    <body>
-      <div class="type">
+      <div class="type-375">
          <div class="container">
             <div class="featured_items">
                <div class="row">

@@ -1,11 +1,5 @@
 .type-385{
-    @color: #60ca64;
-    ul,li {
-        list-style: none;        
-    }
-    li{
-        border-radius: 5px;       
-    }
+    @color: #60ca64;    
     a {
         color: #454545;
         text-decoration: none;        
@@ -13,7 +7,7 @@
     }
     a:hover{
         color:@color;
-    }
+    }    
     img{
         max-width: 100%;
     }
@@ -310,43 +304,43 @@
 
     }
 
-@media (max-width: 480px){      
-    .list-group-wrapper{
-        .item .product_wrapper{
-            display: -webkit-box;         
-            .product_img {
-                padding: 50px 0;
-                width: 30%;
-            }
-            .product_info{
-                margin: 0 0 0 5px;
-                width: 65%;
-            }
-            .product_desc_long{
-                display:  none;                
-            }
-        }        
-    }
-    .grid-group-wrapper{
-        .item .product_wrapper{
-            display: -webkit-box;         
-            .product_img {
-                padding: 50px 0;
-                width: 30%;
-            }
-            .product_info{
-                margin: 0 0 0 5px;
-                width: 65%;
-            }
-            .product_desc_long{
-                display:  none;                
-            }
-        }        
-    }
-    product_img img {
-        padding: 60px 10px;
-    }
+    @media (max-width: 480px){      
+        .list-group-wrapper{
+            .item .product_wrapper{
+                display: -webkit-box;         
+                .product_img {
+                    padding: 50px 0;
+                    width: 30%;
+                }
+                .product_info{
+                    margin: 0 0 0 5px;
+                    width: 65%;
+                }
+                .product_desc_long{
+                    display:  none;                
+                }
+            }        
+        }
+        .grid-group-wrapper{
+            .item .product_wrapper{
+                display: -webkit-box;         
+                .product_img {
+                    padding: 50px 0;
+                    width: 30%;
+                }
+                .product_info{
+                    margin: 0 0 0 5px;
+                    width: 65%;
+                }
+                .product_desc_long{
+                    display:  none;                
+                }
+            }        
+        }
+        product_img img {
+            padding: 60px 10px;
+        }
 
-}
+    }
 
 }

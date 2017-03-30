@@ -7,7 +7,12 @@
   transform: translate3d(0,0,0);
 }
 .type-380 a:hover {
-  color: #454647 !important;
+  color: #888888 !important;
+}
+.type-380 .wd_header {
+  text-transform: uppercase;
+  font: bold 24px Roboto;
+  color: #454545;
 }
 .type-380 .list_articles {
   line-height: 1.5em;

@@ -13,11 +13,10 @@
 .type-379 h4 {
   font-size: 16px;
 }
-.type-379 .collection_products {
-  margin: 5px 0 0 0;
-}
+.type-379 .collection_products,
 .type-379 .collection_desc {
   margin: 5px 0 0 0;
+  font-size: 11px;
 }
 .type-379 .collection_info .btn {
   margin: 15px 0 0 0;
@@ -35,4 +34,7 @@
 .type-379 .collection_info .btn:hover {
   background: #60ca64 !important;
   border-color: #60ca64 !important;
+}
+.type-379 .pad {
+  padding-bottom: 10px;
 }

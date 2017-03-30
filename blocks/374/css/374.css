@@ -1,21 +1,21 @@
-.type {
+.type-374 {
   background: #f5f5f5;
 }
-.type .show1 .cnt {
+.type-374 .show1 .cnt {
   padding-left: 20px;
   padding-right: 50%;
 }
-.type .show2 .cnt {
+.type-374 .show2 .cnt {
   padding-right: 20px;
   padding-left: 42%;
 }
-.type .show {
+.type-374 .show {
   position: relative;
   overflow: hidden;
   border-radius: 15px;
   margin-bottom: 10px;
 }
-.type .show img {
+.type-374 .show img {
   -moz-transition: all 4s;
   -webkit-transition: all 4s;
   transition: all 4s;
@@ -23,13 +23,13 @@
   margin-left: auto;
   margin-right: auto;
 }
-.type .show .cnt {
+.type-374 .show .cnt {
   position: absolute;
   top: 10%;
   left: 0px;
   right: 0px;
 }
-.type .show .cnt h3 {
+.type-374 .show .cnt h3 {
   font-size: 18px;
   font-weight: 300;
   text-transform: none;
@@ -37,7 +37,7 @@
   font: Roboto;
   color: #454545;
 }
-.type .show .cnt h4 {
+.type-374 .show .cnt h4 {
   font-weight: 300;
   font-size: 30px;
   color: #60ca64;
@@ -45,7 +45,7 @@
   margin-top: -7px;
   line-height: 36px;
 }
-.type .show .cnt .btn {
+.type-374 .show .cnt .btn {
   font-size: 16px;
   line-height: 22px;
   text-transform: uppercase;
@@ -58,50 +58,50 @@
   border-radius: 30px;
   color: #fff;
 }
-.type .show .cnt .btn:hover {
+.type-374 .show .cnt .btn:hover {
   background: #4a9fd5 !important;
 }
-.type .show:hover img {
+.type-374 .show:hover img {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   border-radius: 10px;
 }
 @media (min-width: 960px) {
-  .type .show img {
+  .type-374 .show img {
     max-width: 100%;
   }
 }
 @media (max-width: 960px) {
-  .type .show img {
+  .type-374 .show img {
     max-width: 100%;
   }
-  .type .show .cnt {
+  .type-374 .show .cnt {
     top: 2%;
   }
-  .type .show .cnt .btn {
+  .type-374 .show .cnt .btn {
     padding: 10px 26px;
   }
 }
 @media (max-width: 768px) {
-  .type .show1 .cnt {
+  .type-374 .show1 .cnt {
     padding-left: 15%;
     padding-right: 50%;
   }
 }
 @media (max-width: 480px) {
-  .type .show .cnt {
-    top: 5%;
+  .type-374 .show .cnt {
+    top: -5%;
   }
-  .type .show .cnt h3 {
+  .type-374 .show .cnt h3 {
     font-size: 0px;
   }
-  .type .show .cnt h4 {
+  .type-374 .show .cnt h4 {
     font-size: 20px;
     color: #60ca64;
     margin-top: -7px;
   }
-  .type .show .cnt .btn {
+  .type-374 .show .cnt .btn {
     font-size: 12px;
     line-height: 18px;
     text-transform: uppercase;

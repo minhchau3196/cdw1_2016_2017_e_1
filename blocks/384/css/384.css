@@ -26,6 +26,7 @@
 .type-384 ul.tags {
   margin: 10px 0 0 0;
   list-style-type: none;
+  margin-left: -39px;
 }
 .type-384 ul.tags li {
   float: left;
@@ -71,4 +72,5 @@
 }
 .type-384 .collection_desc {
   margin-top: 15px;
+  font-size: 12px;
 }

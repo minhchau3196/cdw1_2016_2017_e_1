@@ -18,7 +18,7 @@
       <link href="css/374.css" rel="stylesheet" type="text/css"/>
    </head>
    <body>
-       <div class="type">
+       <div class="type-374">
            <div class="container">
                <div class="row">
                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">

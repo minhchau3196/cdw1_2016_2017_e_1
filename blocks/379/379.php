@@ -24,7 +24,7 @@
                <h2 class="page_heading">COLLECTIONS</h2>
                <!--/END TITLE-->                   
                <!--PRODUCT-->
-               <div class="col-md-3 col-sm-6 col-xs-6">
+               <div class="col-md-3 col-sm-6 col-xs-6 pad">
                   <div class="collection_img">
                      <a href="#">
                      <img src="image/pro1.png" alt="Installation">
@@ -40,7 +40,7 @@
                
                <!--/END PRODUCT-->
                <!--PRODUCT-->
-               <div class="col-md-3 col-sm-6 col-xs-6">
+               <div class="col-md-3 col-sm-6 col-xs-6 pad">
                   <div class="collection_img">
                      <a href="#">
                      <img src="image/pro2.png" alt="Installation">
@@ -56,7 +56,7 @@
                
                <!--/END PRODUCT-->
                <!--PRODUCT-->
-               <div class="col-md-3 col-sm-6 col-xs-6">
+               <div class="col-md-3 col-sm-6 col-xs-6 pad">
                   <div class="collection_img">
                      <a href="#">
                      <img src="image/pro3.png" alt="Installation">
@@ -72,7 +72,7 @@
                
                <!--/END PRODUCT-->
                <!--PRODUCT-->
-               <div class="col-md-3 col-sm-6 col-xs-6">
+               <div class="col-md-3 col-sm-6 col-xs-6 pad">
                   <div class="collection_img">
                      <a href="#">
                      <img src="image/pro4.png" alt="Installation">
