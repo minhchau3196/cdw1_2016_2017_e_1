@@ -36,8 +36,8 @@
                                     <!--IMAGES PRODUCT-->
                                     <div class="product_img">
                                         <a class="img_change" href="#">
-                                            <img src="image/img-1.png" title="" alt="">
-                                            <img class="img_2" src="image/img-2.png" style="opacity:0;">
+                                            <img class="img_1" src="image/img-1.png" title="" alt="">
+                                            <img class="img_2" src="image/img-2.png">
                                             <span class="product_badge new">New</span>
                                             <span class="product_badge sale">–17%</span>
                                         </a>
@@ -85,8 +85,8 @@
                                 <div class="product_wrapper">
                                     <div class="product_img">
                                         <a class="img_change" href="#">
-                                            <img src="image/img-3.png" title="" alt="">
-                                            <img class="img_2" src="image/img-4.png" alt="" style="opacity: 0;">
+                                            <img class="img_1" src="image/img-3.png" title="" alt="">
+                                            <img class="img_2" src="image/img-4.png" alt="" >
                                             <span class="product_badge new">New</span>
                                             <span class="product_badge sale">–17%</span>
                                         </a>
@@ -118,8 +118,8 @@
                                 <div class="product_wrapper">
                                     <div class="product_img">
                                         <a class="img_change" href="#">
-                                            <img src="image/img-5.png" title="" alt="">
-                                            <img class="img_2" src="image/img-6.png" alt="" style="opacity: 0;">
+                                            <img class="img_1" src="image/img-5.png" title="" alt="">
+                                            <img class="img_2" src="image/img-6.png" alt="">
                                             <span class="product_badge new">New</span>
                                             <span class="product_badge sale">–17%</span>
                                         </a>
@@ -151,8 +151,8 @@
                                 <div class="product_wrapper">
                                     <div class="product_img">
                                         <a class="img_change" href="#">
-                                            <img src="image/img-7.png" title="" alt="">
-                                            <img class="img_2" src="image/img-8.png" alt="" style="opacity: 0;">
+                                            <img class="img_1" src="image/img-7.png" title="" alt="">
+                                            <img class="img_2" src="image/img-8.png" alt="" >
                                             <span class="product_badge new">New</span>
                                             <span class="product_badge sale">–17%</span>
                                         </a>
@@ -184,8 +184,8 @@
                                 <div class="product_wrapper">
                                     <div class="product_img">
                                         <a class="img_change" href="#">
-                                            <img src="image/img-9.png" title="" alt="">
-                                            <img class="img_2" src="image/img-10.png" alt="" style="opacity: 0;">
+                                            <img class="img_1" src="image/img-9.png" title="" alt="">
+                                            <img class="img_2" src="image/img-10.png" alt="">
                                             <span class="product_badge new">New</span>
                                             <span class="product_badge sale">–17%</span>
                                         </a>
@@ -220,59 +220,8 @@
                                     <!--IMAGES PRODUCT-->
                                     <div class="product_img">
                                         <a class="img_change" href="#">
-                                            <img src="image/img-1.png" title="" alt="">
-                                            <img class="img_2" src="image/img-2.png" style="opacity:0;">
-                                            <span class="product_badge new">New</span>
-                                            <span class="product_badge sale">–17%</span>
-                                        </a>
-                                    </div>
-                                    <!--/END IMAGES PRODUCT-->
-                                    
-                                    <!--INFORMATION-->
-                                    <div class="product_info">
-                                        <!--NAME-->
-                                        <div class="product_name">
-                                            <a href="">Castle art supplies drawing and sketching penci...</a>
-                                        </div>
-                                        <!--/END NAME-->
-                                        
-                                        <!--PRICE-->
-                                        <div class="product_price">
-                                            <span class="money" data-currency-usd="From ">From </span>
-                                            <span class="money" data-currency-usd="$19.00">$19.00</span>
-                                            <span class="money money_sale" data-currency-usd="$23.00">$23.00</span>
-                                        </div>
-                                        <!--/END PRICE-->
-                                        
-                                        <!--CART-->
-                                        <div class="product_links">
-                                            <form method="post" action="get">
-                                                <a class="btn btn_options" href="#"> Add to cart</a>
-                                            </form>
-                                            <a class="btn quick_view_btn btn_c" href="#" title="Quick view">
-                                                <i class="fa fa-search-plus" aria-hidden="true"></i>
-                                            </a>
-                                            <a class="btn btn_c wishlist_add_login" href="#" title="Add to the wishlist">
-                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
-                                            </a>
-                                        </div>
-                                        <!--/END CART-->
-                                        
-                                    </div>
-                                    <!--/END INFORMATION-->
-                                    
-                                </div>
-                            </div>
-                            <!--/END PRODUCT-->
-                            
-                             <!--PRODUCT-->
-                            <div class="col-md-3 col-sm-3 col-xs-12 swiper-slide">
-                                <div class="product_wrapper">
-                                    <!--IMAGES PRODUCT-->
-                                    <div class="product_img">
-                                        <a class="img_change" href="#">
-                                            <img src="image/img-1.png" title="" alt="">
-                                            <img class="img_2" src="image/img-2.png" style="opacity:0;">
+                                            <img class="img_1" src="image/img-1.png" title="" alt="">
+                                            <img class="img_2" src="image/img-2.png">
                                             <span class="product_badge new">New</span>
                                             <span class="product_badge sale">–17%</span>
                                         </a>
@@ -322,8 +271,59 @@
                                     <!--IMAGES PRODUCT-->
                                     <div class="product_img">
                                         <a class="img_change" href="#">
-                                            <img src="image/img-1.png" title="" alt="">
-                                            <img class="img_2" src="image/img-2.png" style="opacity:0;">
+                                            <img class="img_1" src="image/img-1.png" title="" alt="">
+                                            <img class="img_2" src="image/img-2.png">
+                                            <span class="product_badge new">New</span>
+                                            <span class="product_badge sale">–17%</span>
+                                        </a>
+                                    </div>
+                                    <!--/END IMAGES PRODUCT-->
+                                    
+                                    <!--INFORMATION-->
+                                    <div class="product_info">
+                                        <!--NAME-->
+                                        <div class="product_name">
+                                            <a href="">Castle art supplies drawing and sketching penci...</a>
+                                        </div>
+                                        <!--/END NAME-->
+                                        
+                                        <!--PRICE-->
+                                        <div class="product_price">
+                                            <span class="money" data-currency-usd="From ">From </span>
+                                            <span class="money" data-currency-usd="$19.00">$19.00</span>
+                                            <span class="money money_sale" data-currency-usd="$23.00">$23.00</span>
+                                        </div>
+                                        <!--/END PRICE-->
+                                        
+                                        <!--CART-->
+                                        <div class="product_links">
+                                            <form method="post" action="get">
+                                                <a class="btn btn_options" href="#"> Add to cart</a>
+                                            </form>
+                                            <a class="btn quick_view_btn btn_c" href="#" title="Quick view">
+                                                <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                            </a>
+                                            <a class="btn btn_c wishlist_add_login" href="#" title="Add to the wishlist">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                        <!--/END CART-->
+                                        
+                                    </div>
+                                    <!--/END INFORMATION-->
+                                    
+                                </div>
+                            </div>
+                            <!--/END PRODUCT-->
+                            
+                             <!--PRODUCT-->
+                            <div class="col-md-3 col-sm-3 col-xs-12 swiper-slide">
+                                <div class="product_wrapper">
+                                    <!--IMAGES PRODUCT-->
+                                    <div class="product_img">
+                                        <a class="img_change" href="#">
+                                            <img class="img_1" src="image/img-1.png" title="" alt="">
+                                            <img class="img_2" src="image/img-2.png">
                                             <span class="product_badge new">New</span>
                                             <span class="product_badge sale">–17%</span>
                                         </a>
