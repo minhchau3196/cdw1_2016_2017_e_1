@@ -24,10 +24,10 @@
                <div class="col-md-4 col-sm-4 col-xs-12">
                   <h3 class="wd_header">Recent articles</h3>
                   <div class="row list_articles">
-                     <div class="col-md-6">
+                     <div class="col-md-6 col-xs-5">
                         <img src="image/3801.jpg" alt="Installation">
                      </div>
-                     <div class="col-md-6">
+                     <div class="col-md-6 col-xs-7">
                         <div class="article_content">
                            <time class="article_date" datetime="2016-07-22">22 July 2016</time>
                            <h4 class="article_title">
@@ -39,10 +39,10 @@
                      </div>
                   </div>
                   <div class="row list_articles">
-                     <div class="col-md-6">
+                     <div class="col-md-6 col-xs-5">
                         <img src="image/3802.jpg" alt="Installation">
                      </div>
-                     <div class="col-md-6">
+                     <div class="col-md-6 col-xs-7">
                         <div class="article_content">
                            <time class="article_date" datetime="2016-07-22">22 July 2016</time>
                            <h4 class="article_title">
@@ -54,10 +54,10 @@
                      </div>
                   </div>
                   <div class="row list_articles">
-                     <div class="col-md-6">
+                     <div class="col-md-6 col-xs-5">
                         <img src="image/3803.jpg" alt="Installation">
                      </div>
-                     <div class="col-md-6">
+                     <div class="col-md-6 col-xs-7">
                         <div class="article_content">
                            <time class="article_date" datetime="2016-07-22">22 July 2016</time>
                            <h4 class="article_title">

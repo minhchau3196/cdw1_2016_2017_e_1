@@ -383,9 +383,10 @@
             var swiper = new Swiper('.swiper-container', {
                 nextButton: '.swiper-button-next',
                 prevButton: '.swiper-button-prev',
-                slidesPerView: 4,
+                slidesPerView: 4                
             });
 
-        </script>
+        </script>        
+    
     </body>
 </html>

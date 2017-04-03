@@ -8,7 +8,7 @@
   text-transform: uppercase;
 }
 .type-379 a:hover {
-  color: #454647 !important;
+  color: #888888 !important;
 }
 .type-379 h4 {
   font-size: 16px;
@@ -37,4 +37,13 @@
 }
 .type-379 .pad {
   padding-bottom: 10px;
+}
+@media (max-width: 480px) {
+  .type-379 h2 {
+    font-size: 20px;
+  }
+  .type-379 .collection_info .btn {
+    padding: 5px 7px;
+    font-size: 9px;
+  }
 }
