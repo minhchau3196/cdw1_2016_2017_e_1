@@ -144,3 +144,28 @@
 .type-367 .fa-angle-left:before {
   content: "\f104";
 }
+@media (max-width: 767px) {
+  .type-367 .container {
+    padding: 0 15px;
+  }
+}
+@media (max-width: 480px) {
+  .type-367 .homepage_blog .article_img {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .type-367 .homepage_blog .blog_wrapper {
+    width: 100%;
+  }
+}
+@media (max-width: 640px) {
+  .type-367 .homepage_blog .blog_wrapper {
+    padding: 15px 20px 30px 30px;
+  }
+}
+@media (max-width: 767px) {
+  .type-367 .homepage_blog .blog_controls {
+    right: 45px;
+  }
+}

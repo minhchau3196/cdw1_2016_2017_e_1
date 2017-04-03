@@ -1,6 +1,6 @@
 @media (max-width: 640px) {
   .type-366 .contact-form input {
-    width: 100%;
+    padding: 0;
   }
   .type-366 .contact-form button {
     margin-top: 20px;
@@ -16,7 +16,7 @@
   margin-top: 23px;
 }
 .type-366 .newsletter .homepage_newsletter .footer_newsletter .contact-form input {
-  width: 270px;
+  width: 335px;
   height: 50px;
   border-radius: 30px;
   padding: 5px 20px;
@@ -58,6 +58,6 @@
   user-select: none;
 }
 .type-366 .btn:hover {
-  background: #60ca64 !important;
-  border-color: #60ca64 !important;
+  background: #60ac64 !important;
+  border-color: #60ac64 !important;
 }
