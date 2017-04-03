@@ -1,6 +1,9 @@
 @font-size:16px;
-.type-38-1 {
+.type-372{
     padding-top:10px;
+    a{
+        text-decoration: none;
+    }
     p {
         color: #677078;
         font-size: @font-size;
@@ -54,20 +57,13 @@
         font-weight: bold;
         text-transform: uppercase;
     }
+    a.link:hover {
+    color: #E7C63D
+    }
     .hover-effect img{
-        width: 100%;
-        -webkit-object-fit: cover;
-        -moz-object-fit: cover;
-        -ms-object-fit: cover;
-        object-fit: cover;
-        -webkit-transition: 0.5s ease all;
-        -moz-transition: 0.5s ease all;
-        -ms-transition: 0.5s ease all;
-        -ms-transition: 0.5s ease all;
-        transition: 0.5s ease all;
-        -webkit-backface-visibility: hidden;
-        -moz-backface-visibility: hidden;
-        -ms-backface-visibility: hidden;
+        width: 100%;       
+        object-fit: cover;       
+        transition: 0.5s ease all;       
         backface-visibility: hidden;
     }
     .hover-effect,{
@@ -81,4 +77,39 @@
         opacity: 0.6;
         transform: scale(1.1);
     }
+}
+@media (min-width: 960px){    
+    .company-image {
+        position: relative;
+        min-height: 370px;
+        .img-left img,.img-right img {
+            height: 100%;
+            min-width: 100%;       
+            object-fit: cover;
+        }
+    } 
+    .company-image .img-left {
+        width: 62%;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 312px;
+    }
+
+    .company-image .img-right {
+        width: 82%;
+        right: 0;
+        height: 371px;
+    }    
+}
+@media (max-width: 960px){
+    .col{
+        text-align:center;
+    }
+}
+@media (max-width: 768px){
+    
+}
+@media (max-width: 480px){       
+
 }

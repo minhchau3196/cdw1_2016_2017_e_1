@@ -1,4 +1,4 @@
-.type-5 .title {
+.type-370 .title {
   display: inline-block;
   font-size: 16px;
   font-weight: bold;
@@ -11,32 +11,37 @@
   text-align: center;
   background: #ffda44;
 }
-.type-5 .section {
+.type-370 .blog-content h3 a:hover {
+  color: #093eb6;
+}
+.type-370 .section {
   padding: 80px 0;
+  background-color: #f4f5f8;
 }
-.type-5 .title-header {
+.type-370 .title-header {
   text-align: center;
 }
-.type-5 .title-header1 {
+.type-370 .title-header1 {
   text-align: center;
 }
-.type-5 .title-our {
+.type-370 .title-our {
   text-align: center;
   margin-top: 100px;
 }
-.type-5 .title1 {
+.type-370 .title1 {
   font-size: 45px;
   font-family: "Roboto", sans-serif;
   color: #093EB6;
   font-weight: bold;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
-.type-5 posts-img-box {
+.type-370 posts-img-box {
   position: relative;
   display: block;
   min-height: 272px;
 }
-.type-5 .blog-date {
+.type-370 .blog-date {
   position: absolute;
   display: block;
   padding: 10px;
@@ -47,13 +52,13 @@
   text-align: center;
   background-color: #093eb6;
 }
-.type-5 span.month {
+.type-370 span.month {
   display: block;
   font-size: 13px;
   color: rgba(255,255,255,0.78);
   margin-bottom: 8px;
 }
-.type-5 span.date {
+.type-370 span.date {
   font-size: 28px;
   font-family: "Roboto Condensed", sans-serif;
   color: #ffffff;
@@ -62,11 +67,12 @@
   text-align: center;
   display: block;
 }
-.type-5 a {
+.type-370 a {
   transition: 0.5s ease all;
   color: #093eb6;
+  text-decoration: none;
 }
-.type-5 .hover-effect {
+.type-370 .hover-effect {
   width: 100%;
   background: #000;
   overflow: hidden;
@@ -74,17 +80,17 @@
   display: inline-block;
   margin: 0 auto;
 }
-.type-5 .posts-img-box a.hover-effect > img {
+.type-370 .posts-img-box a.hover-effect > img {
   border: 0;
   box-shadow: none;
 }
-.type-5 .blog-content {
+.type-370 .blog-content {
   background: #fff;
   padding: 20px;
   box-shadow: 0px 3px 1px 0px rgba(0,0,0,0.1);
   min-height: 128px;
 }
-.type-5 .blog-content h3 {
+.type-370 .blog-content h3 {
   font-size: 20px;
   font-family: "Roboto", sans-serif;
   color: #41454f;
@@ -94,33 +100,33 @@
   text-align: left;
   text-transform: uppercase;
 }
-.type-5 .blog-content h3 a {
+.type-370 .blog-content h3 a {
   color: #41454f;
 }
-.type-5 p {
+.type-370 p {
   margin: 0 0 10px;
   font-size: 16px;
   line-height: 1.688;
 }
-.type-5 .blog-content p {
+.type-370 .blog-content p {
   color: #AEB3B7;
   margin-bottom: 0;
   text-align: left;
 }
-.type-5 a:hover {
+.type-370 a:hover {
   text-decoration: none;
 }
-.type-5 .hover-effect:hover img {
+.type-370 .hover-effect:hover img {
   opacity: 0.6;
   transform: scale(1.1);
   transition: 0.5s;
 }
-.type-5 .spacer {
+.type-370 .spacer {
   display: block;
   clear: both;
   overflow: hidden;
 }
-.type-5 .btn {
+.type-370 .btn {
   border-radius: 3px;
   font-size: 18px;
   font-family: "Roboto Condensed", sans-serif;
@@ -131,14 +137,19 @@
   text-transform: uppercase;
   transition: 0.5s ease all;
 }
-.type-5 img {
+.type-370 img {
   width: 100%;
 }
-.type-5 .btn-primary {
+.type-370 .btn-primary {
   background: #093EB6;
   color: #fff;
   background-color: #093eb6;
 }
-.type-5 .btnRead {
+.type-370 .btn-primary:hover {
+  background: #002D92;
+  background-color: #002D92;
+}
+.type-370 .btnRead {
   text-align: center;
+  padding-top: 40px;
 }

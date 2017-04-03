@@ -1,0 +1,125 @@
+.type-371 h4 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 28px;
+  color: #093eb9;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.type-371 img {
+  max-width: 100%;
+}
+.type-371 a {
+  text-decoration: none;
+}
+.type-371 .company-image > div {
+  position: absolute;
+}
+.type-371 .label-default {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+  padding: 0 15px;
+  line-height: 28px;
+  border-radius: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.type-371 .hover-effect {
+  width: 100%;
+}
+.type-371 .hover-effect img {
+  width: 100%;
+  object-fit: cover;
+  transition: 0.5s ease all;
+  backface-visibility: hidden;
+}
+.type-371 .hover-effect {
+  background: #000;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  margin: 0 -1.5px;
+}
+.type-371 .hover-effect:hover img {
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+.type-371 .label-default {
+  background-color: #ffda44;
+}
+.type-371 .btn-primary:hover {
+  background: #002D92;
+  background-color: #062F8C;
+}
+.type-371 .btn-primary {
+  background: #093EB6;
+  display: inline-block;
+  padding: 13px 15px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+@media (min-width: 960px) {
+  .company-image {
+    position: relative;
+    min-height: 370px;
+  }
+  .company-image .img-left img,
+  .company-image .img-right img {
+    height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+  }
+  .company-image .img-left {
+    width: 62%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 312px;
+  }
+  .company-image .img-right {
+    width: 82%;
+    right: 0;
+    height: 371px;
+  }
+}
+@media (max-width: 960px) {
+  .btn1 {
+    text-align: center;
+  }
+  .company-image {
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .company-image > div.hover-effect {
+    position: relative;
+    top: 0;
+    transform: inherit;
+    width: auto;
+  }
+  .company-image .img-left {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .company-image {
+    position: absolute;
+  }
+  .company-image .img-left img,
+  .company-image .img-right img {
+    height: auto;
+  }
+}
