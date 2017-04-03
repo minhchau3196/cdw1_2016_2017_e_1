@@ -3,8 +3,7 @@
    <head>
       <meta charset="UTF-8" />
       <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
-      <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-      <link href="css/ionicons.min.css" rel="stylesheet" type="text/css"/>
+      <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>     
       <?php
          if (!class_exists('lessc')) {
              include ('./libs/lessc.inc.php');
@@ -12,9 +11,8 @@
          $less = new lessc;
          $less->compileFile('less/379.less', 'css/379.css');
          ?>
-      <link href="css/379.css" rel="stylesheet" type="text/css"/>
-      <script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
-      <script src="js/bootstrap.min.js" type="text/javascript"></script>
+      <link href="css/379.css" rel="stylesheet" type="text/css"/>     
+      
    </head>
    <body>
       <div class="type-379">

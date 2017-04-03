@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html style="background-color: #f3f3f4;">
     <head>
-        <meta charset="UTF-8" />      
-        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
-        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/ionicons.min.css" rel="stylesheet" type="text/css"/>
+        <meta charset="UTF-8" /> 
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
@@ -12,22 +9,21 @@
         $less = new lessc;
         $less->compileFile('less/377.less', 'css/377.css');
         ?>
-        <link href="css/377.css" rel="stylesheet" type="text/css"/>  
-        
-        <script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/377.css" rel="stylesheet" type="text/css"/>
         <script src="js/swiper.min.js" type="text/javascript"></script>
-        
+
     </head>
     <body>
         <div class="type-377">
             <div class="container">
                 <div class="main_content">
-                    
+
                     <!--TITLE-->
                     <h2 class="page_heading">Featured products</h2>
                     <!--/END TITLE-->
-                    
+
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
                             <!--PRODUCT-->
@@ -43,7 +39,7 @@
                                         </a>
                                     </div>
                                     <!--/END IMAGES PRODUCT-->
-                                    
+
                                     <!--INFORMATION-->
                                     <div class="product_info">
                                         <!--NAME-->
@@ -51,7 +47,7 @@
                                             <a href="">Castle art supplies drawing and sketching penci...</a>
                                         </div>
                                         <!--/END NAME-->
-                                        
+
                                         <!--PRICE-->
                                         <div class="product_price">
                                             <span class="money" data-currency-usd="From ">From </span>
@@ -59,7 +55,7 @@
                                             <span class="money money_sale" data-currency-usd="$23.00">$23.00</span>
                                         </div>
                                         <!--/END PRICE-->
-                                        
+
                                         <!--CART-->
                                         <div class="product_links">
                                             <form method="post" action="get">
@@ -73,14 +69,14 @@
                                             </a>
                                         </div>
                                         <!--/END CART-->
-                                        
+
                                     </div>
                                     <!--/END INFORMATION-->
-                                    
+
                                 </div>
                             </div>
                             <!--/END PRODUCT-->
-                            
+
                             <div class="col-md-3 col-sm-3 col-xs-12 swiper-slide">
                                 <div class="product_wrapper">
                                     <div class="product_img">
@@ -213,8 +209,8 @@
                                     </div>
                                 </div>
                             </div>
-                            
-                             <!--PRODUCT-->
+
+                            <!--PRODUCT-->
                             <div class="col-md-3 col-sm-3 col-xs-12 swiper-slide">
                                 <div class="product_wrapper">
                                     <!--IMAGES PRODUCT-->
@@ -227,7 +223,7 @@
                                         </a>
                                     </div>
                                     <!--/END IMAGES PRODUCT-->
-                                    
+
                                     <!--INFORMATION-->
                                     <div class="product_info">
                                         <!--NAME-->
@@ -235,7 +231,7 @@
                                             <a href="">Castle art supplies drawing and sketching penci...</a>
                                         </div>
                                         <!--/END NAME-->
-                                        
+
                                         <!--PRICE-->
                                         <div class="product_price">
                                             <span class="money" data-currency-usd="From ">From </span>
@@ -243,7 +239,7 @@
                                             <span class="money money_sale" data-currency-usd="$23.00">$23.00</span>
                                         </div>
                                         <!--/END PRICE-->
-                                        
+
                                         <!--CART-->
                                         <div class="product_links">
                                             <form method="post" action="get">
@@ -257,15 +253,15 @@
                                             </a>
                                         </div>
                                         <!--/END CART-->
-                                        
+
                                     </div>
                                     <!--/END INFORMATION-->
-                                    
+
                                 </div>
                             </div>
                             <!--/END PRODUCT-->
-                            
-                             <!--PRODUCT-->
+
+                            <!--PRODUCT-->
                             <div class="col-md-3 col-sm-3 col-xs-12 swiper-slide">
                                 <div class="product_wrapper">
                                     <!--IMAGES PRODUCT-->
@@ -278,7 +274,7 @@
                                         </a>
                                     </div>
                                     <!--/END IMAGES PRODUCT-->
-                                    
+
                                     <!--INFORMATION-->
                                     <div class="product_info">
                                         <!--NAME-->
@@ -286,7 +282,7 @@
                                             <a href="">Castle art supplies drawing and sketching penci...</a>
                                         </div>
                                         <!--/END NAME-->
-                                        
+
                                         <!--PRICE-->
                                         <div class="product_price">
                                             <span class="money" data-currency-usd="From ">From </span>
@@ -294,7 +290,7 @@
                                             <span class="money money_sale" data-currency-usd="$23.00">$23.00</span>
                                         </div>
                                         <!--/END PRICE-->
-                                        
+
                                         <!--CART-->
                                         <div class="product_links">
                                             <form method="post" action="get">
@@ -308,15 +304,15 @@
                                             </a>
                                         </div>
                                         <!--/END CART-->
-                                        
+
                                     </div>
                                     <!--/END INFORMATION-->
-                                    
+
                                 </div>
                             </div>
                             <!--/END PRODUCT-->
-                            
-                             <!--PRODUCT-->
+
+                            <!--PRODUCT-->
                             <div class="col-md-3 col-sm-3 col-xs-12 swiper-slide">
                                 <div class="product_wrapper">
                                     <!--IMAGES PRODUCT-->
@@ -329,7 +325,7 @@
                                         </a>
                                     </div>
                                     <!--/END IMAGES PRODUCT-->
-                                    
+
                                     <!--INFORMATION-->
                                     <div class="product_info">
                                         <!--NAME-->
@@ -337,7 +333,7 @@
                                             <a href="">Castle art supplies drawing and sketching penci...</a>
                                         </div>
                                         <!--/END NAME-->
-                                        
+
                                         <!--PRICE-->
                                         <div class="product_price">
                                             <span class="money" data-currency-usd="From ">From </span>
@@ -345,7 +341,7 @@
                                             <span class="money money_sale" data-currency-usd="$23.00">$23.00</span>
                                         </div>
                                         <!--/END PRICE-->
-                                        
+
                                         <!--CART-->
                                         <div class="product_links">
                                             <form method="post" action="get">
@@ -359,21 +355,21 @@
                                             </a>
                                         </div>
                                         <!--/END CART-->
-                                        
+
                                     </div>
                                     <!--/END INFORMATION-->
-                                    
+
                                 </div>
                             </div>
                             <!--/END PRODUCT-->
                         </div>
                     </div>
-                    
+
                     <!--BUTTON CONTROL-->
                     <div class="swiper_btn swiper-button-prev">&#8249;</div>
                     <div class="swiper_btn swiper-button-next">&#8250;</div>
                     <!--/END BUTTON CONTROL-->
-                    
+
                 </div>
             </div>
         </div>
@@ -383,10 +379,9 @@
             var swiper = new Swiper('.swiper-container', {
                 nextButton: '.swiper-button-next',
                 prevButton: '.swiper-button-prev',
-                slidesPerView: 4                
+                slidesPerView: 4
             });
 
-        </script>        
-    
+        </script> 
     </body>
 </html>
