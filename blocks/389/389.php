@@ -5,11 +5,9 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-        <link href="css/389.css" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
@@ -17,9 +15,11 @@
         $less = new lessc;
         $less->compileFile('less/389.less', 'css/389.css');
         ?>
+        <link href="css/389.css" rel="stylesheet" type="text/css" />
+
         <script src="js/jquery/jquery.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
     </head>
 
     <body>
@@ -37,15 +37,15 @@
                 <div class="row">
                     <div class="bottommargin">
                         <p class="lead center divcenter bottommargin-lg" style="max-width: 900px; font-size: 24px;">
-                                Truly Multi-Purpose 
+                            Truly Multi-Purpose 
                             <span class="font-secondary">&amp;</span> 
-                                Powerful Bootstrap based Template with 
+                            Powerful Bootstrap based Template with 
                             <span class="color t500">700+</span> 
                             Niche, Multi-Page 
                             <span class="font-secondary">&amp;</span> 
-                                One-Page Layouts with 
+                            One-Page Layouts with 
                             <span class="color t500">1000+</span> 
-                                UI Features.
+                            UI Features.
                         </p>
                     </div>
                 </div>

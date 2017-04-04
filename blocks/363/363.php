@@ -31,7 +31,6 @@
                             <div class="stats-info">
                                 <h4 class="counter">26</h4>
                                 <p>Offices Worldwide</p>
-
                             </div>
                         </div>
                         <div class="col-md-3" style="border-left:1px solid #dee0e5;">
@@ -39,7 +38,6 @@
                             <div class="stats-info">
                                 <h4 class="counter">10000</h4>
                                 <p>Satisfied Employees</p>
-
                             </div>
                         </div>
                         <div class="col-md-3" style="border-left:1px solid #dee0e5;">
@@ -47,7 +45,6 @@
                             <div class="stats-info">
                                 <h4 class="counter">126</h4>
                                 <p>Refineries &amp; Operations</p>
-
                             </div>
                         </div>
                         <div class="col-md-3" style="border-left:1px solid #dee0e5;">
@@ -55,7 +52,6 @@
                             <div class="stats-info">
                                 <h4 class="counter">35</h4>
                                 <p>Awards &amp; Recognitions</p>
-
                             </div>
                         </div>
                     </div>

@@ -38,6 +38,9 @@
 .type-1 header .icons a {
   color: #999999;
 }
+.type-1 header .icons a:hover {
+  color: #555555;
+}
 .type-1 .darker-row {
   background-color: #f3f3f3;
   padding: 5px 0;
@@ -45,7 +48,6 @@
 }
 .type-1 .topmost-line {
   text-align: right;
-  margin-top: -25px;
 }
 .type-1 .topmost-line .dropdown {
   display: inline-block;
@@ -103,7 +105,6 @@
 .type-1 a {
   color: #00becc;
   transition: color 0.2s ease;
-  text-decoration: none;
 }
 .type-1 .gray-link {
   color: #727272;
@@ -152,9 +153,6 @@
 .type-1 [class^="zocial-"]:before {
   -webkit-font-smoothing: antialiased;
   font-family: 'zocial', sans-serif;
-}
-.type-1 .zocial-facebook:before {
-  content: "f";
 }
 @media (min-width: 1200px) {
   .type-1 .span7 {
