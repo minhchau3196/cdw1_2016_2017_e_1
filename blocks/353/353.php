@@ -6,21 +6,18 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" href="images/logo.ico" />
+
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-        <link href="css/type-3.css" rel="stylesheet" type="text/css" />
+        <link href="css/353.css" rel="stylesheet" type="text/css" />
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/style.less', 'css/type-3.css');
+        $less->compileFile('less/353.less', 'css/353.css');
         ?>
-        <script src="js/jquery/jquery.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
-        <!--menu-->
+        <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>      
         <script src="js/thumb.js" type="text/javascript"></script>
         <script>
             $(document).ready(function () {
@@ -40,36 +37,34 @@
     </head>
 
     <body>
-        <div class="type">
-            <div class="type-10">
+        <div class="type-353">
+            <div class="type-1">
                 <div class="darker-stripe">
                     <div class="container">
                         <div class="row">
-                            
-                                <ul class="breadcrumb">
-                                    <li>
-                                        <a href="index.html">Webmarket</a>
-                                    </li>
-                                    <li><span class="fa fa-chevron-right"></span></li>
-                                    <li>
-                                        <a href="shop.html">Shop</a>
-                                    </li>
-                                    <li><span class="fa fa-chevron-right"></span></li>
-                                    <li>
-                                        <a href="#">Horsefeathers</a>
-                                    </li>
-                                    <li><span class="fa fa-chevron-right"></span></li>
-                                    <li>
-                                        <a href="#">Horsefeathers Shot Surfers T-shirt</a>
-                                    </li>
-                                </ul>
-                          
+                            <ul class="breadcrumb">
+                                <li>
+                                    <a href="index.html">Webmarket</a>
+                                </li>
+                                <li><span class="fa fa-chevron-right"></span></li>
+                                <li>
+                                    <a href="shop.html">Shop</a>
+                                </li>
+                                <li><span class="fa fa-chevron-right"></span></li>
+                                <li>
+                                    <a href="#">Horsefeathers</a>
+                                </li>
+                                <li><span class="fa fa-chevron-right"></span></li>
+                                <li>
+                                    <a href="#">Horsefeathers Shot Surfers T-shirt</a>
+                                </li>
+                            </ul>
+
                         </div>
                     </div>
                 </div>
-
             </div>
-            <div class="type-4">
+            <div class="type-2">
                 <div class="container">
                     <div class="push-up top-equal blocks-spacer">
                         <div class="row blocks-spacer">
@@ -137,9 +132,8 @@
                                             <option>Extra Large</option>
                                             <option>Huge</option>
                                         </select>
-
-
-                                        <button class="btn btn-d pull-right"><i class="fa fa-shopping-cart" aria-hidden="true"></i> &nbsp; ADD TO CART</button>
+                                        <button class="btn btn-d pull-right">
+                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i> &nbsp; ADD TO CART</button>
                                     </form>
                                     <hr>
                                     <div class="share-item push-down-20">
@@ -176,8 +170,6 @@
                     </div>
                 </div>
             </div>
-            <div class="clearfix"></div>
-
         </div>
     </body>
 

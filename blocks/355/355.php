@@ -6,21 +6,19 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" href="images/logo.ico" />
+
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-        <link href="css/type-3.css" rel="stylesheet" type="text/css" />
+        <link href="css/355.css" rel="stylesheet" type="text/css" />
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/style.less', 'css/type-3.css');
+        $less->compileFile('less/355.less', 'css/355.css');
         ?>
-        <script src="js/jquery/jquery.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
-        <!--menu-->
+       
+        <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>       
         <script src="js/thumb.js" type="text/javascript"></script>
         <script>
             $(document).ready(function () {
@@ -40,8 +38,7 @@
     </head>
 
     <body>
-
-        <div class="type-12">
+        <div class="type-355">
             <div class="boxed">
                 <div class="container">
                     <div class="row">
@@ -80,7 +77,7 @@
                                 </div>
                             </div>
                         </div>  
-                         <div class="col-md-3">
+                        <div class="col-md-3">
                             <div class="product">
                                 <div class="product-inner">
                                     <div class="product-img">
@@ -108,7 +105,7 @@
                                 </div>
                             </div>
                         </div>  
-                         <div class="col-md-3">
+                        <div class="col-md-3">
                             <div class="product">
                                 <div class="product-inner">
                                     <div class="product-img">
@@ -136,7 +133,7 @@
                                 </div>
                             </div>
                         </div>  
-                         <div class="col-md-3">
+                        <div class="col-md-3">
                             <div class="product">
                                 <div class="product-inner">
                                     <div class="product-img">
@@ -164,8 +161,8 @@
                                 </div>
                             </div>
                         </div>  
-                          
-                        
+
+
                     </div>
                 </div>
             </div>

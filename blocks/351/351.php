@@ -7,7 +7,6 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="css/swiper.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/351.css" rel="stylesheet" type="text/css" />
@@ -18,9 +17,7 @@
         $less = new lessc;
         $less->compileFile('less/351.less', 'css/351.css');
         ?>
-
-        <script src="js/jquery.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        
         <script src="js/swiper.min.js" type="text/javascript"></script>
 
     </head>

@@ -3,18 +3,16 @@
 
 <html style="background-color: #f3f3f4;">
 
-<head>
-    <title></title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
-    <script src="js/jquery.carouFredSel-6.2.1-packed.js" type="text/javascript"></script>
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="css/350.css" rel="stylesheet" type="text/css" />
-    <script src="js/jquery/jquery.js" type="text/javascript"></script>
-    <script src="js/thumb.js" type="text/javascript"></script>
-    <?php
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/350.css" rel="stylesheet" type="text/css" />
+       
+        <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
         }
@@ -22,16 +20,12 @@
         $less->compileFile('less/350.less', 'css/350.css');
         ?>
 
-</head>
+    </head>
 
-<body>
-
-
+    <body>
         <div class="type-350">
-
             <div class="most-popular blocks-spacer">
                 <div class="container">
-
                     <div class="row">
                         <div class="span12">
                             <div class="main-titles lined">
@@ -40,7 +34,6 @@
                         </div>
                     </div>
                     <div class="row popup-products">
-
                         <div class="col-md-3">
                             <div class="product col-md-12">
                                 <div class="product-inner">
@@ -182,6 +175,6 @@
 
         </div>
 
-</body>
+    </body>
 
 </html>

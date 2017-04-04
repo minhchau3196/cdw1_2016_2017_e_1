@@ -7,22 +7,21 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type.less', 'css/type.css');
+        $less->compileFile('less/354.less', 'css/354.css');
         ?>
-        <link href="css/type.css" rel="stylesheet" type="text/css" />       
+        <link href="css/354.css" rel="stylesheet" type="text/css" />       
         <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </head>
 
     <body>
-        <div class="type">
+        <div class="type-354">
             <div class="container">
                 <div class="row">
                     <ul id="myTab" class="nav nav-tabs">

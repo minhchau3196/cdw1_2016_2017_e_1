@@ -9,55 +9,105 @@
 
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-
+        <link href="css/swiper.min.css" rel="stylesheet" type="text/css"/>
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type.less', 'css/type.css');
+        $less->compileFile('less/347.less', 'css/347.css');
         ?>
-        <link href="css/type.css" rel="stylesheet" type="text/css" />
-
-        <script src="js/jquery.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
-
-
+        <link href="css/347.css" rel="stylesheet" type="text/css" />
+        <script src="js/swiper.min.js" type="text/javascript"></script>
     </head>
 
     <body>
-        <div class="type-3"> 
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Carousel indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                    <li data-target="#myCarousel" data-slide-to="3"></li>
-                </ol>   
-                <!-- Wrapper for carousel items -->
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="images/slide.jpg" alt="First Slide">
+        <div class="type-347"> 
+            <div id="swiper" class="swiper-container swiper-container-horizontal swiper-container-fade">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide-duplicate">
+                        <a>
+                            <img src="images/slide.jpg" title="" alt="">
+                            <div class="slider_caption ">
+                                <div class="tp_caption big_theme"> 
+                                    With Webmarket, the Sky Is the Limit
+                                </div>
+                                <div class="tp_caption small_theme"> 
+                                    Take a tour on Webmarket HTML Template
+                                </div>
+                                <span class="btn_theme" data-text="Shop Now">Any More...</span>
+                            </div>
+                        </a>
                     </div>
-                    <div class="item">
-                        <img src="images/slide1.jpg" alt="Second Slide">
+                    <div class="swiper-slide swiper-slide-duplicate">
+                        <a>
+                            <img src="images/slide1.jpg" title="" alt="">
+                            <div class="slider_caption">
+                                <div class="tp_caption big_theme"> 
+                                    Over status Customer..
+                                </div>
+                                <div class="tp_caption small_theme"> 
+                                    Hepl customer in online
+                                </div>
+                                <span class="btn_theme" data-text="Shop Now">All reply..</span>
+                            </div>
+                        </a>
                     </div>
-                    <div class="item">
-                        <img src="images/slide2.jpg" alt="Third Slide">
+                    <div class="swiper-slide swiper-slide-duplicate">
+                        <a>
+                            <img src="images/slide2.jpg" title="" alt="">
+                            <div class="slider_caption ">
+                                <div class="tp_caption big_theme"> 
+                                    Free shipping, the Sky Is the Limit
+                                </div>
+                                <div class="tp_caption small_theme"> 
+                                    In the name of the...
+                                </div>
+                                <span class="btn_theme" data-text="Shop Now">Learning More...</span>
+                            </div>
+                        </a>
                     </div>
-                    <div class="item">
-                        <img src="images/slide3.jpg" alt="Third Slide">
+                    <div class="swiper-slide swiper-slide-duplicate">
+                        <a>
+                            <img src="images/slide3.jpg" title="" alt="">
+                            <div class="slider_caption ">
+                                <div class="tp_caption big_theme"> 
+                                    With Customer, you are number one
+                                </div>
+                                <div class="tp_caption small_theme"> 
+                                    Test template for customer
+                                </div>
+                                <span class="btn_theme" data-text="Shop Now">Shop now...</span>
+                            </div>
+                        </a>
+                    </div>                    
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper_controls">
+                    <div class="container">                        
+                        <div id="swiper_btn_prev" class="swiper_btn">
+                            <i class="fa fa-angle-left"></i>
+                        </div>
+                        <div id="swiper_btn_next" class="swiper_btn">
+                            <i class="fa fa-angle-right"></i>
+                        </div>
                     </div>
                 </div>
-                <!-- Carousel controls -->
-                <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="carousel-control right" href="#myCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
             </div>
         </div>
+
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                effect: 'fade',
+                pagination: '.swiper-pagination',
+                autoplay: 5000,
+                speed: 500,
+                nextButton: '#swiper_btn_next',
+                prevButton: '#swiper_btn_prev'
+
+            });
+
+        </script>
     </body>
 </html>

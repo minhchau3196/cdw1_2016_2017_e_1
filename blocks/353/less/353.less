@@ -1,11 +1,12 @@
 @font-size: 12px;
-.type {
-    .type-10{
+.type-353 {
+    a:hover{
+        text-decoration: none;
+    }
+    .type-1{
         .darker-stripe
         {
-
             background: -webkit-radial-gradient(40% 30%,circle farthest-side,#9aabb0,#7e9399),#7e9399;
-
             padding: 8px 0;
             overflow: hidden;
             min-height: 90px;
@@ -24,9 +25,12 @@
             a {
                 color: #fff;
             }
+            a:hover{
+                color:#337ab7;
+            }
         }
     }
-    .type-4 {
+    .type-2 {
         .push-up.top-equal {
             padding-top: 25px;
         }
@@ -34,10 +38,8 @@
             margin-bottom: 30px;
         }
         .push-up {
-            margin-top: -46px;
             background: white;
             border-radius: 5px;
-          
             padding: 17px 25px 0;
         }
         .product-preview {
@@ -85,8 +87,7 @@
             margin-bottom: 30px;
             .name{
                 font-size: 30px;
-                font-family: 'Open Sans',sans-serif;
-                -webkit-font-smoothing: antialiased;
+                font-family: 'Open Sans',sans-serif;               
                 .light{
                     font-weight: bold;
                 }
@@ -136,9 +137,7 @@
             }
         }
         .product-description {
-            .share-item {
-                -webkit-border-radius: 3px;
-                -moz-border-radius: 3px;
+            .share-item {               
                 border-radius: 3px;
                 background-color: #f3f3f3;
                 padding: 10px 12px 7px 12px;
@@ -169,6 +168,7 @@
             p{
                 color: #999999;
                 font-size: @font-size;
+                text-align: justify;
             }
             .form{
                 .btn-d{
@@ -187,10 +187,27 @@
                     }
                 }
                 #sel1{
-                    width: 150px;
+                    width: 130px;
                 }
 
             }
+        }
+    }
+}
+@media (min-width: 960px) {
+
+}
+@media (min-width: 480px) {
+.type-2{
+        .push-up {
+            margin-top: -46px;
+        }
+    }
+}
+@media (max-width: 480px) {
+    .type-2{
+        .push-up {
+            margin-top: 0px;
         }
     }
 }
