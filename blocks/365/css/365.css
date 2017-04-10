@@ -66,6 +66,9 @@
 .type-365 footer .copyright {
   background: #60ca64;
 }
+.type-365 footer .copyright a:hover {
+  color: #4a9fd5;
+}
 .type-365 footer .copyright p {
   color: #fff;
   font-size: 14px;

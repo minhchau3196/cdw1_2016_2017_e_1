@@ -1,22 +1,22 @@
-.type a {
+.type-378 a {
   text-decoration: none;
 }
-.type #swiper {
+.type-378 #swiper {
   max-height: 655px;
   height: auto;
   position: relative;
 }
-.type .swiper-slide>a {
+.type-378 .swiper-slide>a {
   display: block;
 }
-.type .swiper-slide img {
+.type-378 .swiper-slide img {
   width: 100%;
 }
-.type img {
+.type-378 img {
   max-width: 100%;
   width: auto;
 }
-.type .slider_caption {
+.type-378 .slider_caption {
   top: 30%;
   padding: 10px;
   text-align: center;
@@ -26,14 +26,14 @@
   bottom: 40px;
   display: inline-block;
 }
-.type .slider_caption h2 {
+.type-378 .slider_caption h2 {
   color: #fff;
   font-size: 68px;
   font-weight: 300;
   text-transform: none;
   margin: 0;
 }
-.type .slider_caption h3 {
+.type-378 .slider_caption h3 {
   color: #fff;
   font-size: 30px;
   font-weight: 300;
@@ -41,7 +41,7 @@
   margin: 0;
   margin-top: 6px;
 }
-.type .slider_caption .button {
+.type-378 .slider_caption .button {
   text-transform: uppercase;
   font-size: 16px;
   line-height: 22px;
@@ -53,11 +53,11 @@
   display: inline-block;
   margin-top: 23px;
 }
-.type .slider_caption .button:hover {
+.type-378 .slider_caption .button:hover {
   background: #60ca64;
   border: 2px solid #60ca64;
 }
-.type .swiper_btn {
+.type-378 .swiper_btn {
   width: 62px;
   height: 62px;
   margin: -22px 0 0 0;
@@ -71,16 +71,16 @@
   background-size: 62px 62px;
   background: rgba(255,255,255,0.5);
 }
-.type .swiper_btn:hover {
+.type-378 .swiper_btn:hover {
   background: #60ca64;
 }
-.type #swiper_btn_prev {
+.type-378 #swiper_btn_prev {
   left: 20%;
 }
-.type #swiper_btn_next {
+.type-378 #swiper_btn_next {
   right: 20%;
 }
-.type .swiper_btn i {
+.type-378 .swiper_btn i {
   font-size: 36px;
   line-height: 62px;
   text-align: center;
@@ -88,52 +88,52 @@
   color: #fff;
 }
 @media (max-width: 768px) {
-  .type .slider_caption h2 {
+  .type-378 .slider_caption h2 {
     font-size: 40px;
   }
-  .type .slider_caption h3 {
+  .type-378 .slider_caption h3 {
     font-size: 18px;
   }
-  .type .slider_caption .button {
+  .type-378 .slider_caption .button {
     font-size: 14px;
     padding: 7px 15px;
     margin-top: 13px;
   }
-  .type .swiper_btn {
+  .type-378 .swiper_btn {
     width: 50px;
     height: 50px;
   }
-  .type .swiper_btn i {
+  .type-378 .swiper_btn i {
     font-size: 30px;
     line-height: 50px;
   }
 }
 @media (max-width: 480px) {
-  .type .slider_caption {
+  .type-378 .slider_caption {
     top: 10%;
   }
-  .type .slider_caption h2 {
+  .type-378 .slider_caption h2 {
     font-size: 20px;
   }
-  .type .slider_caption h3 {
+  .type-378 .slider_caption h3 {
     font-size: 0px;
   }
-  .type .slider_caption .button {
+  .type-378 .slider_caption .button {
     font-size: 12px;
     padding: 4px 15px;
   }
-  .type .swiper_btn {
+  .type-378 .swiper_btn {
     width: 40px;
     height: 40px;
   }
-  .type .swiper_btn i {
+  .type-378 .swiper_btn i {
     font-size: 26px;
     line-height: 46px;
   }
-  .type #swiper_btn_prev {
+  .type-378 #swiper_btn_prev {
     left: 5%;
   }
-  .type #swiper_btn_next {
+  .type-378 #swiper_btn_next {
     right: 5%;
   }
 }

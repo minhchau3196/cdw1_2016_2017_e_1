@@ -2,9 +2,10 @@
 <html style="background-color: #f3f3f4;">
     <head>
         <meta charset="UTF-8" />
+        
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/ionicons.min.css" rel="stylesheet" type="text/css"/>
+
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
@@ -13,8 +14,10 @@
         $less->compileFile('less/388.less', 'css/388.css');
         ?>
         <link href="css/388.css" rel="stylesheet" type="text/css"/>
+        
         <script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        
     </head>
     <body>
         <div class="type-388">

@@ -81,7 +81,7 @@
 
                 <div class="copyright">
                     <div class="container">
-                        <p role="contentinfo">� 2017 Raphael. All rights reserved.<a href="#">Powered by Shopify</a></p>
+                        <p role="contentinfo">© 2017 Raphael. All rights reserved.<a href="#">Powered by Shopify</a></p>
                     </div>
                 </div>
             </footer>
