@@ -1,0 +1,105 @@
+.type-393 {
+    .panel-group {
+        border: 1px solid rgba(244, 244, 244, 0.8);
+        background: #ffffff;
+        box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+    }
+    .panel-group {
+        margin-bottom: 20px;
+    }
+    .panel {
+        box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    }
+    .panel-group .panel-default {
+        background: #fff;
+        border: none;
+        border-radius: 0;      
+    }
+    .panel-group .panel {
+        margin-bottom: 0;
+    }
+    .panel-group .panel-heading {
+        border-bottom: 0;
+    }
+    .panel-default>.panel-heading {
+        color: #333;
+        border-color: #ddd;
+    }
+    .panel-default>.panel-heading {
+        background: #ffffff;
+        box-shadow: 0.5px 0.866px 1px 0px rgba(0, 0, 0, 0.15);
+        padding: 0;
+        border-radius: 0;
+        transition: 0.5s ease all;
+    }
+    h4 {
+        font-style: normal;
+    }
+    h4.panel-title {
+        font-size: 20px;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        line-height: 1;
+        padding: 22px;
+    }
+    .panel-title {
+        margin-top: 0;
+        margin-bottom: 0;
+        color: inherit;
+    }
+    a {
+        text-decoration: none;
+        transition: 0.5s ease all;
+        background-color: transparent;
+    }
+    .panel-default>.panel-heading a {
+        color: #093EB6;
+        display: block;
+        position: relative;
+    }
+    .collapse.in {
+        display: block;
+    }
+    .panel-default>.panel-heading+.panel-collapse>.panel-body {
+        border: none;
+        padding: 20px 22px;
+    }
+
+    p {
+        display: block;
+        margin: 0 0 10px;
+        font-size: 16px;
+        line-height: 1.688;
+        color: #677078;
+    }
+    .panel-default .panel-body p {
+        margin-bottom: 0;
+    }
+    .panel-default > .panel-heading a.collapsed:after {
+        content: "+";
+    }
+    .panel-default > .panel-heading a:after {
+        content: "-";
+        position: absolute;
+        font-size: 29px;
+        font-family: "Roboto", sans-serif;
+        color: #dadcdd;
+        line-height: 20px;
+        right: 0px;
+        top: 0px;
+        font-weight: 400;
+    }
+    /*---------Reponsive---------------*/
+    @media (min-width: 992px){
+        .col-md-7 {
+            width: 58.33333333%;
+            float:left;
+        }
+    }
+    @media (max-width: 400px){
+        h4.panel-title {
+            font-size: 18px;
+            padding: 18px;
+        }
+    }
+}
