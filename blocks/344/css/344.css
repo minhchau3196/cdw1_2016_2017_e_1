@@ -121,7 +121,7 @@
     margin-bottom: 15px;
   }
   .type-344 img {
-    width: 45% !important;
+    width: 100% !important;
   }
   .type-344 .logo {
     margin-bottom: 15px;
@@ -129,6 +129,6 @@
 }
 @media (max-width: 480px) {
   .type-344 img {
-    width: 35% !important;
+    width: 100% !important;
   }
 }
