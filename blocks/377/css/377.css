@@ -127,6 +127,7 @@
 .type-377 .product_links .btn_c:hover {
   background: #60ca64 !important;
   border-color: #60ca64 !important;
+  color: #fff !important;
 }
 .type-377 .item {
   padding: 10px;
@@ -226,7 +227,7 @@
 .type-377 .owl-nav .owl-next,
 .type-377 .owl-nav .owl-prev {
   display: inline-block;
-  padding: 5px 5px;
+  padding: 1px 5px;
   margin: 0 2px;
   font-size: 14px;
   line-height: 20px;
@@ -243,7 +244,7 @@
 }
 .type-377 .owl-next:hover,
 .type-377 .owl-prev:hover {
-  background-image: linear-gradient(#fff,#000);
+  background-color: #60ca64;
 }
 @media (max-width: 480px) {
   .type-377 h2 {
