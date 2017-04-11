@@ -35,7 +35,6 @@
                                 <li><a href="#">Statistical Report</a><span>30.72 KB</span></li>
                                 <li><a href="#">Energy Outlook</a><span>29.56 KB</span></li>
                                 <li><a href="#">Chairman's Message</a><span>17.18 KB</span></li>
-
                             </ul>
                         </div>
                     </div>
