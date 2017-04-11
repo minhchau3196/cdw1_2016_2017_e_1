@@ -144,20 +144,16 @@
     padding-right: 0;
     margin-left: -15%;
     -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
   }
   .type-348 .product .picture .btn.more {
     margin-top: -80px;
-    transform: translateX(0px);
     color: white;
     background-color: #00becc;
     border-color: #00b0bd;
   }
   .type-348 .product .picture .btn.buy {
     margin-top: -30px;
-    transform: translateX(0px);
     color: white;
   }
   .type-348 .picture .img-overlay {
@@ -210,6 +206,9 @@
 }
 @media (max-width: 768px) {
   .type-348 .picture .img-overlay {
+    display: none;
+  }
+  .type-348 .owl-nav {
     display: none;
   }
 }
