@@ -1,22 +1,22 @@
-.type-344 .copyright {
+.type-344 {
   background: #fff;
   padding: 15px;
   font-size: 11px;
 }
-.type-344 .copyright p {
+.type-344 p {
   padding: 30px 0;
 }
-.type-344 .copyright .logo-cert {
+.type-344 .logo-cert {
   width: 100%;
   padding: 0;
 }
-.type-344 .copyright .logo-cert img {
+.type-344 .logo-cert img {
   padding: 0 8px;
 }
-.type-344 .copyright img:hover {
+.type-344 img:hover {
   opacity: 0.5;
 }
-.type-344 .copyright .dropbtn {
+.type-344 .dropbtn {
   background-color: #d5d0cc;
   color: black;
   padding: 16px;
@@ -24,19 +24,19 @@
   border: none;
   cursor: pointer;
 }
-.type-344 .copyright .carousel-control.left,
-.type-344 .copyright .carousel-control.right {
+.type-344 .carousel-control.left,
+.type-344 .carousel-control.right {
   background-image: none;
 }
-.type-344 .copyright .carousel-inner {
+.type-344 .carousel-inner {
   margin: auto;
   width: 90%;
 }
-.type-344 .copyright .carousel-control {
+.type-344 .carousel-control {
   width: 4%;
   top: 25px;
 }
-.type-344 .copyright .fa {
+.type-344 .fa {
   font-size: 30px;
 }
 .type-344 .owl-carousel .owl-wrapper-outer {
@@ -109,13 +109,6 @@
   }
   .type-344 .active .demo:first-child {
     display: block;
-  }
-  .type-344 .copyright {
-    padding: 0 !important;
-  }
-  .type-344 .copyright p {
-    text-align: center;
-    padding: 15px 0px !important;
   }
   .type-344 .carousel-inner {
     margin-bottom: 15px;
