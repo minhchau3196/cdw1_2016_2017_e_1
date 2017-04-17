@@ -1,4 +1,6 @@
 .type-398 {
+    @color-font:#093eb6;
+    @color-bg:#61656F;
     header {
         position: relative;
     }
@@ -7,7 +9,7 @@
         padding: 25px 0;
     }
     a{
-        color: #093eb6;
+        color: @color-font;
         text-decoration: none;
     }
     img {
@@ -73,7 +75,7 @@
         float: left;
         h3 {
             font-size: 15px;
-            color: #093EB6;
+            color:@color-font;
             font-weight: bold;
             line-height: 1.2;
             margin-top: 0;
@@ -108,7 +110,7 @@
                     transition: 0.5s ease all;
                 }
                 a:hover {
-                    background: #093eb6;
+                    background: @color-font;
                 }
             }
         }
@@ -158,7 +160,7 @@
     ul.main-menu li a {
         font-size: 15px;
         font-family: "Roboto Condensed", sans-serif;
-        color: #61656F;
+        color: @color-bg;
         font-weight: bold;
         line-height: 1.467;
         text-transform: uppercase;
@@ -173,12 +175,12 @@
 
     ul.main-menu li a:hover,
         ul.main-menu li.active > a {
-        color: #093eb6;
+        color: @color-font;
         background: none;
     }
     ul.main-menu li a:hover:first-child,
         ul.main-menu li.active > a {
-        color: #093eb6;
+        color: @color-font;
         background: none;
     }
 
@@ -256,6 +258,14 @@
             text-align: left;
             margin-bottom: 20px;
         }
+        .navbar-collapse {
+            max-height: 340px;
+            padding-right: 15px;
+            padding-left: 40px;
+            overflow-x: visible;
+            border-top: 1px solid transparent;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        }
         .navbar-toggle {
             display: block;
             right: 0;
@@ -267,7 +277,7 @@
             margin: 21px 15px;
         }
         .navbar-toggle span.icon-bar {
-            background: #61656f;
+            background: @color-bg;
             height: 3px;
         }
         .top-info-social {
@@ -277,9 +287,7 @@
             margin-right: 10px;
         }
         .navbar-collapse.collapse {
-            display: none !important;
             padding: 0;
-            overflow: inherit;
             position: absolute;
             right: 0px;
             top: 75px;
@@ -302,11 +310,7 @@
         .navbar-collapse.collapsing {
             padding: 0;
         }
-        .navbar-collapse.collapse.in {
-            display: block !important;
-            opacity: 1;
-            right: 20px;
-        }
+        
         ul.main-menu {
             padding: 10px 0;
         }

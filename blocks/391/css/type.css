@@ -1,41 +1,8 @@
 .type-38-6 .section {
   display: block;
 }
-.type-38-6 element.style {
-  background-color: #f4f5f8;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
 .type-38-6 section {
   padding: 80px 0;
-}
-.type-38-6 .container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-.type-38-6 .container {
-  max-width: 100% !important;
-  width: 1170px !important;
-}
-.type-38-6 .row {
-  margin-right: -15px;
-  margin-left: -15px;
-}
-.type-38-6 .col-md-6 {
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.type-38-6 .col-md-6 {
-  float: left;
-}
-@media (min-width: 992px) {
-  .type-38-6 .col-md-6 {
-    width: 50%;
-  }
 }
 .type-38-6 a {
   background-color: transparent;
@@ -50,20 +17,10 @@
 .type-38-6 img {
   max-width: 100%;
 }
-.type-38-6 img {
-  vertical-align: middle;
-}
-.type-38-6 img {
-  border: 0;
-}
 .type-38-6 a img[class*="wp-image-"] {
   object-fit: cover;
   transition: 0.5s ease all;
   backface-visibility: hidden;
-}
-.type-38-6 element.style {
-  padding-top: 45px;
-  padding-bottom: 25px;
 }
 .type-38-6 .label {
   text-align: center;
@@ -83,15 +40,6 @@
 }
 .type-38-6 .label-default {
   background-color: #ffda44;
-}
-.type-38-6 element.style {
-  font-size: 27px;
-  font-weight: bold;
-  font-family: Roboto;
-  line-height: 38px;
-  color: #093eb6;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 .type-38-6 p {
   margin: 0 0 10px;
@@ -121,4 +69,10 @@
   -ms-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
+}
+@media (min-width: 992px) {
+  .type-38-6 .col-md-6 {
+    width: 50%;
+    float: left;
+  }
 }

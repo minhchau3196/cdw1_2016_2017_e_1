@@ -15,10 +15,10 @@
         $less->compileFile('less/type.less', 'css/type.css');
         ?>
         <link href="css/type.css" rel="stylesheet" type="text/css"/>
-        
+
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
-        
+
     </head>
 
     <body>
@@ -46,5 +46,4 @@
                 </div>
             </section> 
     </body>
-
 </html>

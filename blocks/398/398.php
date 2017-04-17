@@ -22,7 +22,6 @@
 
     <body>
         <div class="type-398"> 
-
             <!--MENU-->
             <div class="header">
                 <!-- Top Contact Info -->
@@ -81,47 +80,46 @@
                             </button>
                         </div>
                         <div class="container">
-                        <div class="collapse navbar-collapse" id="navbar-collapse-1">
-                            <ul class="nav navbar-nav main-menu">
-                                <li class="active"><a title="Home" href="#">Home</a></li>
-                            <li class="dropdown">
-                                <a title="About" href="#" data-toggle="dropdown" class="dropdown-toggle">About <span class="caret"></span></a>
-                                <ul role="menu">
-                                    <li><a title="The Company" href="#">The Company</a></li>
-                                    <li><a title="Vision &amp; Mission" href="#">Vision &amp; Mission</a></li>
-                                    <li><a title="Our Approach" href="#">Our Approach</a></li>
-                                    <li><a title="Our Team" href="#">Our Team</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown"><a title="Services" href="#" data-toggle="dropdown" class="dropdown-toggle">Services <span class="caret"></span></a>
-                                <ul role="menu">
-                                    <li><a title="Services List" href="#">Services List</a></li>
-                                    <li><a title="Services Single" href="#">Services Single</a></li>
-                                    <li><a title="Services Single Full Width" href="#">Services Single Full Width</a></li>
-                                </ul>
-                            </li>
-                            <li><a title="Technology" href="#">Technology</a></li>
-                            <li><a title="News &amp; Media" href="#">News &amp; Media</a></li>
-                            <li><a title="Blog" href="#">Blog</a></li>
-                            <li class="dropdown"><a title="Pages" href="#" data-toggle="dropdown" class="dropdown-toggle">Pages <span class="caret"></span></a>
-                                <ul role="menu">
+                            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                                <ul class="nav navbar-nav main-menu">
+                                    <li class="active"><a title="Home" href="#">Home</a></li>
+                                    <li class="dropdown">
+                                        <a title="About" href="#" data-toggle="dropdown" class="dropdown-toggle">About <span class="caret"></span></a>
+                                        <ul role="menu">
+                                            <li><a title="The Company" href="#">The Company</a></li>
+                                            <li><a title="Vision &amp; Mission" href="#">Vision &amp; Mission</a></li>
+                                            <li><a title="Our Approach" href="#">Our Approach</a></li>
+                                            <li><a title="Our Team" href="#">Our Team</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown"><a title="Services" href="#" data-toggle="dropdown" class="dropdown-toggle">Services <span class="caret"></span></a>
+                                        <ul role="menu">
+                                            <li><a title="Services List" href="#">Services List</a></li>
+                                            <li><a title="Services Single" href="#">Services Single</a></li>
+                                            <li><a title="Services Single Full Width" href="#">Services Single Full Width</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a title="Technology" href="#">Technology</a></li>
+                                    <li><a title="News &amp; Media" href="#">News &amp; Media</a></li>
                                     <li><a title="Blog" href="#">Blog</a></li>
-                                    <li><a title="Blog Single" href="#">Blog Single</a></li>
-                                    <li><a title="Careers Single" href="#">Careers Single</a></li>
-                                    <li><a title="Shortcodes" href="#">Shortcodes</a></li>
-                                    <li><a title="404 Page" href="#">404 Page</a></li>
-                                    <li><a title="Blank Page" href="#">Blank Page</a></li>
+                                    <li class="dropdown"><a title="Pages" href="#" data-toggle="dropdown" class="dropdown-toggle">Pages <span class="caret"></span></a>
+                                        <ul role="menu">
+                                            <li><a title="Blog" href="#">Blog</a></li>
+                                            <li><a title="Blog Single" href="#">Blog Single</a></li>
+                                            <li><a title="Careers Single" href="#">Careers Single</a></li>
+                                            <li><a title="Shortcodes" href="#">Shortcodes</a></li>
+                                            <li><a title="404 Page" href="#">404 Page</a></li>
+                                            <li><a title="Blank Page" href="#">Blank Page</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a title="Careers" href="#">Careers</a></li>
+                                    <li><a title="Contact" href="#">Contact</a></li>
                                 </ul>
-                            </li>
-                            <li><a title="Careers" href="#">Careers</a></li>
-                            <li><a title="Contact" href="#">Contact</a></li>
-                            </ul>
-                        </div>
+                            </div>
                         </div>
                         <!-- /.navbar-collapse -->
                     </nav>
                 </div>
-
             </div>
         </div>
 <!--        <script>
