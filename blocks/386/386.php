@@ -239,23 +239,10 @@
                             </div>
                         </div>
                     </div>
-                </header>
-                <div class="lms_page_title">
-                    <div class="lms_page_title_bg">
-                        <div class="lms_page_title_bg_overlay">
-                            <div class="container">
-                                <div class="lms_title">Archives: Courses</div>
-                                <div class="pull-right">
-                                    <ul class="breadcrumb">
-                                        <li><a href="#">Home</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </header>              
             </div>
         </div>
-
+        
+        
     </body>
 </html>
