@@ -1,6 +1,9 @@
 .type-1 {
+    @color-border:#e0e0e0;
+    @color-a:#00becc;
+    @color:#727272;
     header {
-        border-bottom: 1px solid #e0e0e0;
+        border-bottom: 1px solid @color-border;
         .brand {
             color: #34353e;
             line-height: 48px;
@@ -20,7 +23,7 @@
                 vertical-align: middle;
                 padding-left: 13px;
                 margin-left: 5px;
-                border-left: 1px solid #e0e0e0;
+                border-left: 1px solid @color-border;
                 line-height: 1;
                 font-size: 13px;
             }
@@ -45,7 +48,7 @@
     .darker-row {
         background-color: #f3f3f3;
         padding:5px 0;
-        border-bottom: 1px solid #e0e0e0;
+        border-bottom: 1px solid @color-border;
     }
     .topmost-line {
         text-align: right;
@@ -69,11 +72,11 @@
             }
         }
         .selected {
-            border: 1px solid #e0e0e0;
+            border: 1px solid @color-border;
             border-radius: 3px;
             display: block;
             padding: 3px 8px;
-            color: #727272;
+            color:  @color;
             text-decoration: none!important;
         }
         .dropdown-menu {
@@ -100,16 +103,17 @@
         display: inline-block;
         vertical-align: middle;
         a:hover{
-            color:#00becc;
+            color: @color-a;
         }
     }
     a {
-        color: #00becc;
+        color: @color-a;
         transition: color 0.2s ease;
-       
+        text-decoration: none;
+
     }
     .gray-link {
-        color: #727272;
+        color: @color;
     }
     .lang-currency {
         display: inline-block;
@@ -143,19 +147,37 @@
         font-weight: normal;
         -webkit-font-smoothing: antialiased;
     }
-    [class^="zocial-"] {
-        -webkit-font-smoothing: antialiased;
-        font-family: 'zocial',sans-serif;
-        display: inline-block;
-        margin: 0 2px;
-        font-size: 18px;
-        line-height: 18px;
-    }
-    [class*=" zocial-"]:before, [class^="zocial-"]:before {
-        -webkit-font-smoothing: antialiased;
-        font-family: 'zocial',sans-serif;
-    }
     /*------------Repaosive-----------------*/
+    @media (max-width: 480px){
+        header .brand .tagline{
+            margin-left: 0;
+            padding-left: 0;
+            border: none;
+            display: block;
+            margin-top: 10px;
+        }
+    }
+    @media (max-width: 767px){
+        header {
+            text-align: center;
+            .topmost-line {
+                text-align: center;
+            }
+            .top-right {
+                text-align: center;
+                padding-bottom: 20px;
+                margin-top: 0;
+            }
+
+        }
+        [class*="span"]{
+            float: none;
+            display: block;
+            width: 100%;
+            margin-left: 0;
+            box-sizing: border-box;
+        }
+    }
     @media (min-width: 1200px){
         .span7 {
             width: 670px;

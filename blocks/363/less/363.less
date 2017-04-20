@@ -1,20 +1,4 @@
 .type-363{
-    @media (min-width: 992px){
-        .col-md-3 {
-            width: 25%;
-            float: left;
-        }
-    }
-    @media (max-width: 991px){
-        .row > div {
-            margin-bottom: 30px;
-        }
-    }
-    @media (max-width: 991px){
-        .center-block-sm {
-            text-align: center;
-        }
-    }
     .counter-img {
         float: left;
         padding-right: 12px;
@@ -40,6 +24,36 @@
         color: #677078;
         line-height: 1.688;
         margin-bottom: 20px;
+    }
+    /*---------Reponsive----------*/
+    @media (max-width: 480px){
+        section {
+            padding: 45px 0;
+        }
+    }
+    @media (min-width: 992px){
+        .col-md-3 {
+            width: 25%;
+            float: left;
+        }
+    }
+    @media (max-width: 991px){
+        .center-block-sm {
+            text-align: center;
+        }
+        .row > div {
+            margin-bottom: 30px;
+        }
+        .counter-img {
+            float: none;
+        }
+    }
+    @media (max-width: 1099px){
+        .stats-info {
+            float: none;
+            display: block;
+            margin-top: 20px;
+        }
     }
 }
 

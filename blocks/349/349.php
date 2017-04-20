@@ -55,7 +55,7 @@
                                         <h5 class="no-margin">Horsefeathers 475</h5>
                                     </div>
                                     <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
-                                    <div class="row-fluid hidden-line">
+                                    <div class="hidden-line">
                                         <div class="col-md-6">
                                             <a href="#" class="btn btn-small"><i class="icon-heart"></i></a>
                                             <a href="#" class="btn btn-small"><i class="icon-exchange"></i></a>
@@ -89,7 +89,7 @@
                                         <h5 class="no-margin">Horsefeathers 120</h5>
                                     </div>
                                     <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
-                                    <div class="row-fluid hidden-line">
+                                    <div class="hidden-line">
                                         <div class="col-md-6">
                                             <a href="#" class="btn btn-small"><i class="icon-heart"></i></a>
                                             <a href="#" class="btn btn-small"><i class="icon-exchange"></i></a>
@@ -123,7 +123,7 @@
                                         <h5 class="no-margin">Horsefeathers 86</h5>
                                     </div>
                                     <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
-                                    <div class="row-fluid hidden-line">
+                                    <div class="hidden-line">
                                         <div class="col-md-6">
                                             <a href="#" class="btn btn-small"><i class="icon-heart"></i></a>
                                             <a href="#" class="btn btn-small"><i class="icon-exchange"></i></a>
@@ -157,7 +157,7 @@
                                         <h5 class="no-margin">Horsefeathers 66</h5>
                                     </div>
                                     <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
-                                    <div class="row-fluid hidden-line">
+                                    <div class="hidden-line">
                                         <div class="col-md-6">
                                             <a href="#" class="btn btn-small"><i class="icon-heart"></i></a>
                                             <a href="#" class="btn btn-small"><i class="icon-exchange"></i></a>
@@ -192,7 +192,7 @@
                                         <h5 class="no-margin">Horsefeathers 78</h5>
                                     </div>
                                     <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
-                                    <div class="row-fluid hidden-line">
+                                    <div class="hidden-line">
                                         <div class="col-md-6">
                                             <a href="#" class="btn btn-small"><i class="icon-heart"></i></a>
                                             <a href="#" class="btn btn-small"><i class="icon-exchange"></i></a>
@@ -226,7 +226,7 @@
                                         <h5 class="no-margin">Horsefeathers 223</h5>
                                     </div>
                                     <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
-                                    <div class="row-fluid hidden-line">
+                                    <div class="hidden-line">
                                         <div class="col-md-6">
                                             <a href="#" class="btn btn-small"><i class="icon-heart"></i></a>
                                             <a href="#" class="btn btn-small"><i class="icon-exchange"></i></a>
@@ -260,7 +260,7 @@
                                         <h5 class="no-margin">Horsefeathers 309</h5>
                                     </div>
                                     <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
-                                    <div class="row-fluid hidden-line">
+                                    <div class="hidden-line">
                                         <div class="col-md-6">
                                             <a href="#" class="btn btn-small"><i class="icon-heart"></i></a>
                                             <a href="#" class="btn btn-small"><i class="icon-exchange"></i></a>
@@ -294,7 +294,7 @@
                                         <h5 class="no-margin">Horsefeathers 432</h5>
                                     </div>
                                     <p class="desc">59% Cotton Lorem Ipsum Dolor Sit Amet esed ultrices sapien nunc nam frignila</p>
-                                    <div class="row-fluid hidden-line">
+                                    <div class="hidden-line">
                                         <div class="col-md-6">
                                             <a href="#" class="btn btn-small"><i class="icon-heart"></i></a>
                                             <a href="#" class="btn btn-small"><i class="icon-exchange"></i></a>

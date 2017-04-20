@@ -105,6 +105,7 @@
 .type-1 a {
   color: #00becc;
   transition: color 0.2s ease;
+  text-decoration: none;
 }
 .type-1 .gray-link {
   color: #727272;
@@ -141,18 +142,34 @@
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
 }
-.type-1 [class^="zocial-"] {
-  -webkit-font-smoothing: antialiased;
-  font-family: 'zocial', sans-serif;
-  display: inline-block;
-  margin: 0 2px;
-  font-size: 18px;
-  line-height: 18px;
+@media (max-width: 480px) {
+  .type-1 header .brand .tagline {
+    margin-left: 0;
+    padding-left: 0;
+    border: none;
+    display: block;
+    margin-top: 10px;
+  }
 }
-.type-1 [class*=" zocial-"]:before,
-.type-1 [class^="zocial-"]:before {
-  -webkit-font-smoothing: antialiased;
-  font-family: 'zocial', sans-serif;
+@media (max-width: 767px) {
+  .type-1 header {
+    text-align: center;
+  }
+  .type-1 header .topmost-line {
+    text-align: center;
+  }
+  .type-1 header .top-right {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 0;
+  }
+  .type-1 [class*="span"] {
+    float: none;
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    box-sizing: border-box;
+  }
 }
 @media (min-width: 1200px) {
   .type-1 .span7 {

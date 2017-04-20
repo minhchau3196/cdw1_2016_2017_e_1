@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-           
+
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
@@ -16,8 +16,8 @@
         $less = new lessc;
         $less->compileFile('less/style.less', 'css/type-3.css');
         ?>
-         <link href="css/type-3.css" rel="stylesheet" type="text/css" />
-        
+        <link href="css/type-3.css" rel="stylesheet" type="text/css" />
+
         <script src="js/jquery/jquery.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script> <!--menu-->
@@ -42,10 +42,10 @@
                             <div class="collapse navbar-collapse js-navbar-collapse">
                                 <ul class="nav navbar-nav">
                                     <!----HOME---->
-                                    <li class="dropdown ">
+                                    <li class="dropdown">
                                         <a href="#" class="dropdown-toggle"> Home <b class="caret"></b> </a>
                                         <ul class="dropdown-menu">
-                                            <li class="dropdown ">
+                                            <li class="dropdown">
                                                 <a href="#"><i class="fa fa-caret-right pull-right visible-desktop"></i> Color Themes</a>
                                                 <ul class="dropdown-menu">
                                                     <li class="active"><a href="#">Default Theme</a></li>

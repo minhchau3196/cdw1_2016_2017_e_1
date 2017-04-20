@@ -1,14 +1,9 @@
 .type-362{
-    @media (min-width: 992px){
-        .col-md-2 {
-            width: 16.66666667%;
-            float: left;
-        }
-    }
+    @color:#093eb6;
     h4.subtitle {
         font-size: 20px;
         font-family: "Roboto", sans-serif;
-        color: #093eb6;
+        color: @color;
         font-weight: bold;
     }
     a.btn.btn-normal {
@@ -40,7 +35,27 @@
         width: 100%;
     }
     a.btn.btn-normal:hover {
-        background: #093eb6;
+        background:@color;
+    }
+    /*----------Reponsive-----------*/
+    @media (max-width: 480px){
+        section {
+            padding: 45px 0;
+        }
+    }
+    @media (min-width: 992px){
+        .col-md-2 {
+            width: 16.66666667%;
+            float: left;
+        }
+    }
+    @media (max-width: 991px){
+        .center-block-sm {
+            text-align: center;
+        }
+        .row > div {
+            margin-bottom: 30px;
+        }
     }
 }
 

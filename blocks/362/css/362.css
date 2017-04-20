@@ -1,9 +1,3 @@
-@media (min-width: 992px) {
-  .type-362 .col-md-2 {
-    width: 16.66666667%;
-    float: left;
-  }
-}
 .type-362 h4.subtitle {
   font-size: 20px;
   font-family: "Roboto", sans-serif;
@@ -40,4 +34,23 @@
 }
 .type-362 a.btn.btn-normal:hover {
   background: #093eb6;
+}
+@media (max-width: 480px) {
+  .type-362 section {
+    padding: 45px 0;
+  }
+}
+@media (min-width: 992px) {
+  .type-362 .col-md-2 {
+    width: 16.66666667%;
+    float: left;
+  }
+}
+@media (max-width: 991px) {
+  .type-362 .center-block-sm {
+    text-align: center;
+  }
+  .type-362 .row > div {
+    margin-bottom: 30px;
+  }
 }

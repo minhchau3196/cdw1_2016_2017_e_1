@@ -25,7 +25,7 @@
         <div class="type-362">
             <section class="" style="background-color:#f4f5f8;padding-top:30px;padding-bottom:30px;">
                 <div class="container">
-                    <div class="row" style="">
+                    <div class="row center-block-sm" style="">
                         <div class="col-md-2">
                             <h4 class="subtitle" style="margin: 0; line-height: 48px;">Quick Links</h4>
                         </div>
