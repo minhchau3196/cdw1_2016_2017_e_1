@@ -24,9 +24,8 @@
   color: #fff;
 }
 .type-390 .btn-primary:hover {
-  color: #fff;
-  background-color: #286090;
-  border-color: #204d74;
+  background-color: #062F8C;
+  background: #002D92;
 }
 .type-390 .btn {
   border-radius: 3px;
@@ -88,5 +87,25 @@
   .type-390 .col-md-6 {
     width: 50%;
     float: left;
+  }
+}
+@media (max-width: 991px) {
+  .type-390 .center-block-sm {
+    display: block;
+    text-align: center;
+  }
+  .type-390 .row > div {
+    margin-bottom: 30px;
+  }
+  .type-390 .row > div:last-child {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 767px) {
+  .type-390 h2.title-2 {
+    font-size: 30px;
+  }
+  .type-390 h4.subtitle-2 {
+    font-size: 16px;
   }
 }

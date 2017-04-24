@@ -26,7 +26,7 @@
             <footer>
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-3 footer_block footer_block__1">
+                        <div class="col-sm-3 footer_block">
                             <h3>Information</h3>
                             <ul class="footer_links">
                                 <li class="active"><a href="#" title="">Home</a></li>
@@ -39,7 +39,7 @@
                             </ul>
                         </div>
 
-                        <div class="col-md-3 col-sm-3 footer_block footer_block__2">
+                        <div class="col-md-3 col-sm-3 footer_block">
                             <h3>Why buy from us</h3>
                             <ul class="footer_links">
                                 <li><a href="#" title="">Shipping &amp; Returns</a></li>
@@ -50,7 +50,7 @@
                             </ul>
                         </div>
 
-                        <div class="col-md-3 col-sm-3 footer_block footer_block__3">
+                        <div class="col-md-3 col-sm-3 footer_block">
                             <h3>My account</h3>
                             <ul class="footer_links">
                                 <li><a href="/account" title="">My Account</a></li>
@@ -59,7 +59,7 @@
                             </ul>
                         </div>          
 
-                        <div class="col-md-3 col-sm-3 footer_block footer_block__4">
+                        <div class="col-md-3 col-sm-3 footer_block">
                             <h3>Contacts</h3>
                             <ul class="footer_contacts">
                                 <li class="contacts_company">My Company Glasgow D04 89GR</li>

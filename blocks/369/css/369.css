@@ -78,3 +78,9 @@
   background: #60ca64 !important;
   border-color: #60ca64 !important;
 }
+@media (max-width: 767px) {
+  .type-369 .list_products .product_img {
+    width: 100px;
+    float: left;
+  }
+}

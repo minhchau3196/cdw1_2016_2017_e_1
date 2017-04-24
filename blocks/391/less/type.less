@@ -1,10 +1,5 @@
 .type-38-6 {
-    .section {
-        display: block;
-    }
-    section {
-        padding: 80px 0;
-    }
+    @font-size:16px;
     a {
         background-color: transparent;
         text-decoration: none;
@@ -45,8 +40,6 @@
     }
     p {
         margin: 0 0 10px;
-    }
-    p {
         font-size: 16px;
         color: #677078;
         line-height: 1.688;
@@ -67,11 +60,28 @@
         -webkit-transition:all .4s linear;
         transition:all .4s linear;
     }
-
     .hovereffect:hover img {
         -ms-transform:scale(1.2);
         -webkit-transform:scale(1.2);
         transform:scale(1.2);
+    }/*---------reponsive-------*/
+    @media (max-width: 991px){
+        .center-block-sm {
+            display: block;
+            text-align: center;
+        }
+        .row > div {
+            margin-bottom: 30px;
+        }
+        .row > div:last-child {
+            margin-bottom: 0;
+        }
+        section {
+            padding: 60px 0;
+        }
+        span{
+            margin-top: 15px;
+        }
     }
     @media (min-width: 992px){
         .col-md-6 {

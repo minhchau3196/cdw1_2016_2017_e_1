@@ -1,6 +1,9 @@
 .type-365{
     @color:#60ca64;
     @color1:#4a9fd5;
+    @font-size:14px;
+    @color-white:#fff;
+    @line-height:30px;
     @media (min-width: 768px){
         .col-col-3 {
             width: 25%;
@@ -17,12 +20,12 @@
                 margin-bottom: -3px;
                 text-decoration: none;
                 li {
-                    font-size: 14px;
-                    line-height: 30px;
+                    font-size: @font-size;
+                    line-height: @line-height;
                 }
                 .contacts_phone div {
                     display: inline-block;
-                    line-height: 30px;
+                    line-height: @line-height;
 
                 }
                 .contacts_company {
@@ -52,17 +55,10 @@
             }
 
         }
-
-        .h3 {
-            font-weight: 300;
-            font-size: 24px;
-            line-height: 30px;
-            text-transform: none;
-        }
         .footer_links li a {
             color: @color1;
-            font-size: 14px;
-            line-height: 30px;
+            font-size: @font-size;
+            line-height:@line-height;
             text-decoration: none;
         }
         .footer_links li a:hover {
@@ -75,11 +71,11 @@
             }
         }
         .copyright p {
-            color: #fff;
-            font-size: 14px;
+            color:@color-white;
+            font-size:@font-size;
         }
         .copyright a {
-            color: #fff;
+            color: @color-white;
         }
         .footer_links c a:hover {
             color: @color;
@@ -99,14 +95,27 @@
         font-size: inherit;
         text-rendering: auto;
         -webkit-font-smoothing: antialiased;
-        padding-right: 25px;
+        padding-right: 20px;
         margin-top: 5px;
     }
     p {
         margin: 15px 0;
         padding: 0;
     }
-
+    /*----------Reponsive----------*/
+    @media (max-width: 767px){
+        footer{
+            .footer_block {
+                padding-bottom: 30px;
+            }
+        }
+    }
+    @media (min-width: 768px){
+        .col-sm-3 {
+            width: 25%;
+            float: left;
+        }
+    }
 }
 
 

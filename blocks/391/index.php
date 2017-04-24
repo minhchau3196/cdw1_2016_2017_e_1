@@ -16,7 +16,6 @@
         ?>
         <link href="css/type.css" rel="stylesheet" type="text/css"/>
 
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
 
     </head>
@@ -28,7 +27,7 @@
                     <div class="row center-block-sm" style="">
                         <div class="col-md-6">
                             <div class="hovereffect">
-                                <a href="image//ceo.png"><img class="size-full wp-image-1424 aligncenter" src="image/ceo.png" alt="ceo" width="474" height="474" ></a>
+                                <a href="#"><img class="size-full wp-image-1424 aligncenter" src="image/ceo.png" alt="ceo" width="474" height="474" ></a>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -45,5 +44,6 @@
                     </div>
                 </div>
             </section> 
+        </div>
     </body>
 </html>
