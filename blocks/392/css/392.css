@@ -45,10 +45,6 @@
 }
 .type-392 .banner.colored {
   background-color: #8cb049;
-  background-image: -moz-linear-gradient(top,#9cc256,#749636);
-  background-image: -webkit-gradient(linear,0 0,0 100%,from(#9cc256),to(#749636));
-  background-image: -webkit-linear-gradient(top,#9cc256,#749636);
-  background-image: -o-linear-gradient(top,#9cc256,#749636);
   background-image: linear-gradient(to bottom,#9cc256,#749636);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF9CC256',endColorstr='#FF749636',GradientType=0);
@@ -75,10 +71,6 @@
   color: white;
   text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
   background-color: #e54b5d;
-  background-image: -moz-linear-gradient(top,#e54b5d,#e54b5d);
-  background-image: -webkit-gradient(linear,0 0,0 100%,from(#e54b5d),to(#e54b5d));
-  background-image: -webkit-linear-gradient(top,#e54b5d,#e54b5d);
-  background-image: -o-linear-gradient(top,#e54b5d,#e54b5d);
   background-image: linear-gradient(to bottom,#e54b5d,#e54b5d);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFE54B5D',endColorstr='#FFE54B5D',GradientType=0);
@@ -91,10 +83,6 @@
   color: white;
   text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
   background-color: #00becc;
-  background-image: -moz-linear-gradient(top,#00becc,#00becc);
-  background-image: -webkit-gradient(linear,0 0,0 100%,from(#00becc),to(#00becc));
-  background-image: -webkit-linear-gradient(top,#00becc,#00becc);
-  background-image: -o-linear-gradient(top,#00becc,#00becc);
   background-image: linear-gradient(to bottom,#00becc,#00becc);
   background-repeat: repeat-x;
   filter: progid DXImageTransform.Microsoft.gradient(startColorstr='#FF00BECC',endColorstr='#FF00BECC',GradientType=0);
@@ -151,5 +139,15 @@
     float: left;
     min-height: 1px;
     margin-left: 30px;
+  }
+}
+@media (max-width: 979px) and (min-width: 768px) {
+  .type-392 .span4 {
+    width: 228px;
+  }
+  .type-392 [class*="span"] {
+    float: left;
+    min-height: 1px;
+    margin-left: 20px;
   }
 }
