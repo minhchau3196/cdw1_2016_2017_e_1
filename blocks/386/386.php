@@ -48,7 +48,7 @@
                                                     <i class="fa fa-angle-down"></i></a></li>
                                             <li><a href="#/" title="Card">
                                                     <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                                    <span id="cart_items">0</span>
+                                                    <span id="#">0</span>
                                                 </a></li>
                                         </ul>
                                     </div>
@@ -169,7 +169,7 @@
                                                                                 </h5>
                                                                                 <div class="blog_content">Adding a little color to a journal is easy with watercolor dots,
                                                                                     a brush and some water. </div>
-                                                                                <a class="btn blog_btn" href="#">Read more</a>                                                                            
+                                                                                <a class="btn" href="#">Read more</a>                                                                            
                                                                         </ul>
                                                                     </li>
                                                                 </ul>
@@ -186,7 +186,7 @@
                                                                                 </h5>
                                                                                 <div class="blog_content">Adding a little color to a journal is easy with watercolor dots,
                                                                                     a brush and some water. </div>
-                                                                                <a class="btn blog_btn" href="#">Read more</a>
+                                                                                <a class="btn" href="#">Read more</a>
                                                                             
                                                                         </ul>
                                                                     </li>
@@ -204,7 +204,7 @@
                                                                                 </h5>
                                                                                 <div class="blog_content">Adding a little color to a journal is easy with watercolor dots,
                                                                                     a brush and some water. </div>
-                                                                                <a class="btn blog_btn" href="#">Read more</a>                                                                           
+                                                                                <a class="btn" href="#">Read more</a>                                                                           
                                                                         </ul>
                                                                     </li>
                                                                 </ul>

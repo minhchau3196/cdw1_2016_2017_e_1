@@ -2,8 +2,7 @@
 <html style="background-color: #f3f3f4;">
    <head>
       <meta charset="UTF-8" />
-      
-      <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+     
       <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
       <?php
          if (!class_exists('lessc')) {

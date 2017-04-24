@@ -29,7 +29,7 @@
             <div class="homepage_blog">
                 <div class="container">
                     <h2 class="page_heading">BLOG</h2>
-                    <div id="owl-demo" class="owl-carousel owl-theme">
+                    <div id="owl-demo" class="owl-carousel">
                         <div class="item">
                             <div class="row">
                                 <div class="article_img col-md-6 col-sm-6">
