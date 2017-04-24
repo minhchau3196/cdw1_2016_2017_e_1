@@ -276,7 +276,7 @@
                 </div>
             </div>
         </div>
-        <<script>
+        <script>
             jQuery(document).ready(function ($) {
                 $('#list').click(function (event) {
                     event.preventDefault();

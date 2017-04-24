@@ -111,6 +111,7 @@
             $(document).ready(function () {
                 $('#owl-demo').owlCarousel({
                     loop: true,
+                    margin: 20,
                     autoPlay: 3000,
                     nav: true,
                     navText: ['<', '>'],

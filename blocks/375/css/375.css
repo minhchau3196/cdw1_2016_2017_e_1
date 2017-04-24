@@ -62,10 +62,9 @@
 .type-375 .product_price .compare-at-price {
   font-weight: 500;
 }
-@media (min-width: 960px) {
-  .type-375 .show2 {
-    border-right: 1px solid #454545;
-    border-left: 1px solid #454545;
+@media (min-width: 768px) {
+  .type-375 .col-md-4 {
+    border-right: 1px solid #454545 !important;
   }
 }
 @media (max-width: 768px) {
