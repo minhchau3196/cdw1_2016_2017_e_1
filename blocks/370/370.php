@@ -35,7 +35,7 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-4">
                             <div class="posts-img-box">
                                 <div class="blog-date">
                                     <span class="month">JUN</span>
@@ -50,7 +50,7 @@
                                 <p>By <a href="">Taylor White</a> in Transportation</p>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-4">
                             <div class="posts-img-box">
                                 <div class="blog-date">
                                     <span class="month">JUN</span>
@@ -65,7 +65,7 @@
                                 <p>By <a href="">Taylor White</a> in Transportation</p>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-4">
                             <div class="posts-img-box">
                                 <div class="blog-date">
                                     <span class="month">JUN</span>

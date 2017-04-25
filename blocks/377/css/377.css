@@ -252,4 +252,18 @@
     font-size: 18px;
     line-height: 60px;
   }
+  .type-377 .product_info,
+  .type-377 .product_img {
+    width: 50%;
+    padding-bottom: 15px;
+  }
+  .type-377 .product_img {
+    float: left;
+  }
+  .type-377 .product_info {
+    float: right;
+  }
+  .type-377 .owl-nav {
+    display: none;
+  }
 }

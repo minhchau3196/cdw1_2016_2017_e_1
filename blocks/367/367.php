@@ -32,10 +32,10 @@
                     <div id="owl-demo" class="owl-carousel">
                         <div class="item">
                             <div class="row">
-                                <div class="article_img col-md-6 col-sm-6">
+                                <div class="article_img col-md-6 col-sm-6 col-xs-12">
                                     <img src="images/Home_14_03_1024x1024.jpg">
                                 </div>
-                                <div class="blog_wrapper col-md-6 col-sm-6">
+                                <div class="blog_wrapper col-md-6 col-sm-6 col-xs-12">
                                     <span class="blog_date">July 18, 2016</span>
                                     <h3 class="blog_title">
                                         <a href="#">Easy-Peasy Way To Add Color  To A&nbsp;Journal</a>
@@ -47,10 +47,10 @@
                         </div>
                         <div class="item">
                             <div class="row">
-                                <div class="article_img col-md-6 col-sm-6">
+                                <div class="article_img col-md-6 col-sm-6 col-xs-12">
                                     <img src="images/blog3_1024x1024.jpg" alt="In this case, our services are what you need.">
                                 </div>
-                                <div class="blog_wrapper col-md-6 col-sm-6">
+                                <div class="blog_wrapper col-md-6 col-sm-6 col-xs-12">
                                     <span class="blog_date">July 22, 2016</span>
                                     <h3 class="blog_title">
                                         <a href="#">In this case, our services are what you need.</a>
@@ -62,9 +62,9 @@
                         </div>
                         <div class="item">
                             <div class="row">
-                                <div class="article_img col-md-6 col-sm-6">
+                                <div class="article_img col-md-6 col-sm-6 col-xs-12">
                                     <img src="images/blog2_1024x1024.jpg" alt="If you are eager to explore and experiment, contact us and we'll make this procedure easier for you."></div>
-                                <div class="blog_wrapper col-md-6 col-sm-6">
+                                <div class="blog_wrapper col-md-6 col-sm-6 col-xs-12">
                                     <span class="blog_date">July 22, 2016</span>
                                     <h3 class="blog_title">
                                         <a href="#">If you are eager to explore and experiment...</a></h3>
@@ -75,9 +75,9 @@
                         </div>
                         <div class="item">
                             <div class="row">
-                                <div class="article_img col-md-6 col-sm-6">
+                                <div class="article_img col-md-6 col-sm-6 col-xs-12">
                                     <img src="images/Home_14_03_1024x1024.jpg" alt="Easy-Peasy Way To Add Color  To A&nbsp;Journal"></div>
-                                <div class="blog_wrapper col-md-6 col-sm-6">
+                                <div class="blog_wrapper col-md-6 col-sm-6 col-xs-12">
                                     <span class="blog_date">July 18, 2016</span>
                                     <h3 class="blog_title">
                                         <a href="#">Easy-Peasy Way To Add Color  To A&nbsp;Journal</a>
@@ -89,10 +89,10 @@
                         </div>
                         <div class="item">
                             <div class="row">
-                                <div class="article_img col-md-6 col-sm-6">
+                                <div class="article_img col-md-6 col-sm-6 col-xs-12">
                                     <img src="images/blog3_1024x1024.jpg" alt="In this case, our services are what you need.">
                                 </div>
-                                <div class="blog_wrapper col-md-6 col-sm-6">
+                                <div class="blog_wrapper col-md-6 col-sm-6 col-xs-12">
                                     <span class="blog_date">July 22, 2016</span>
                                     <h3 class="blog_title">
                                         <a href="#">In this case, our services are what you need.</a>
