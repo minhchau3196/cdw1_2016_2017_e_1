@@ -3,20 +3,7 @@
     @color-font:#4a9fd5;
     @border-radius:30px;
     @height:50px;
-    @media (max-width: 640px){
-        .homepage_newsletter {
-            .footer_newsletter{
-                .contact-form{ 
-                    button {
-                        margin-top: 20px;
-                    }
-                    input{
-                        width: 100%;
-                    }
-                }
-            }
-        }
-    }
+
     .newsletter {
         margin-bottom: -30px;
         padding: 40px 0px 60px;
@@ -76,7 +63,21 @@
         background: @color !important;
         border-color:@color!important;
     }
-
+    /*------------reponsive-----------*/
+    @media (max-width: 640px){
+        .homepage_newsletter {
+            .footer_newsletter{
+                .contact-form{ 
+                    button {
+                        margin-top: 20px;
+                    }
+                    input{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
 }
 
 
