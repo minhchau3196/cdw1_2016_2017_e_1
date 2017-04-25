@@ -25,8 +25,8 @@
                     <div class="col-md-7"> </div>                  
                     <div class="col-md-5">
                         <div class="publication-downloads">
-                            <h2 class="publish">Publications</h2><div class="download-file">
-                                <a href="#" class="offshore-download"><i class="fa fa-file-pdf-o" style="margin-right:5px;" aria-hidden="true"></i>Download PDF<span>17.18 KB</span></a>
+                            <h2>Publications</h2><div class="download-file">
+                                <a href="#"><i class="fa fa-file-pdf-o" style="margin-right:5px;" aria-hidden="true"></i>Download PDF<span>17.18 KB</span></a>
                             </div>
                             <ul class="download-list list-unstyled">
                                 <li class="download-subtitle"><p>Other Downloads</p></li>

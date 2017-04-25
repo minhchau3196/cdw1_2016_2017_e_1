@@ -4,7 +4,7 @@
         margin-top: 100px;
     }
     .title {
-        font-size: 45px;
+        font-size: 30px;
         font-family: "Roboto", sans-serif;
         color: #093EB6;
         font-weight: bold;
@@ -32,20 +32,28 @@
             width: 1180px;
             margin: auto;
         }
-        .owl-theme .owl-controls {
+        .owl-theme {
             margin-top: 10px;
             text-align: center;
             display: none;
         }
-        .owl-theme .owl-controls .owl-page.active span,
-        .owl-theme .owl-controls.clickable .owl-page:hover span {
+        .owl-theme span,
+         :hover span {
             dislay: none;
         }
         .owl-controls .owl-page {
             display: none;
         }  
     }
-
+    /*--------reponsive------------------*/
+    @media (max-width: 991px){
+        section {
+            padding: 60px 0;
+        }
+        div:last-child {
+            margin-bottom: 0;
+        }
+    }
     @media screen and (max-width: 480px) {
         #owl-demo .item img {
             display: block;
@@ -76,6 +84,11 @@
             width: 50%;
             height: auto;
             margin-left: 100px;
+        }
+    }
+    @media (max-width: 767px){    
+        h2 {
+            font-size: 30px;
         }
     }
 }

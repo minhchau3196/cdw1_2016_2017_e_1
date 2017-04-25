@@ -31,7 +31,7 @@
                 <div class="clearfix" style="margin-top: 100px;"></div>
                 <div class="type_slider">
                     <div class="content">
-                        <div id="owl-demo" class="owl-carousel owl-theme">
+                        <div id="owl-demo" class="owl-theme">
 
                             <div class="item">
                                 <div class="partner-images">

@@ -134,3 +134,8 @@
     left: 0;
   }
 }
+@media (max-width: 991px) {
+  .type-394 .row > div:last-child {
+    margin-bottom: 0;
+  }
+}

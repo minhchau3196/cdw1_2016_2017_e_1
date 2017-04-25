@@ -1,9 +1,10 @@
 .type-392 {
     @color:#585858;
     @color-bg:#00becc;
+    @bg-white:white;
     .push-up{
         margin-top: -46px;
-        background: white;
+        background: @bg-white;
         border-radius: 5px;
         margin: -46px -25px 0;
         padding: 60px 25px 0;
@@ -31,7 +32,7 @@
         .title {
             display: block;
             font-size: 18px;
-            color: white;
+            color: @bg-white;
             text-shadow: 0 1px 0 rgba(0,0,0,0.25);
             letter-spacing: -0.05em;
             .colored {
@@ -42,7 +43,7 @@
     .banner .title {
         display: block;
         font-size: 18px;
-        color: white;
+        color: @bg-white;
         text-shadow: 0 1px 0 rgba(0,0,0,0.25);
         letter-spacing: -0.05em;
     }
@@ -50,7 +51,6 @@
         background-color: #8cb049;
         background-image: linear-gradient(to bottom,#9cc256,#749636);
         background-repeat: repeat-x;
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF9CC256',endColorstr='#FF749636',GradientType=0);
         color: #3c5924;
     }   
     .btn-block {
@@ -68,38 +68,13 @@
         cursor: pointer;
         border-radius: 3px;
         filter: none;
-        .btn-danger {
-            box-shadow: 0 2px 0 #be1b2e;
-            color: white;
-            text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
-            background-color: #e54b5d;
-            background-image: linear-gradient(to bottom,#e54b5d,#e54b5d);
-            background-repeat: repeat-x;
-            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFE54B5D',endColorstr='#FFE54B5D',GradientType=0);
-            border-color: #e54b5d #e54b5d #c71d31;
-            border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
-            filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-        }
-        .btn-primary {
-            box-shadow: 0 2px 0 #006d75;
-            color: white;
-            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-            background-color: @color-bg;
-            background-image: linear-gradient(to bottom, #00becc, #00becc);
-            background-repeat: repeat-x;
-            filter: progid DXImageTransform.Microsoft.gradient(startColorstr='#FF00BECC', endColorstr='#FF00BECC', GradientType=0);
-            border-color: @color-bg @color-bg #007780;
-            border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-            background-color: @color-bg;
-            filter: progid DXImageTransform.Microsoft.gradient(enabled=false);
-        }
         .btn-primary:hover{
-            color: white;
+            color: @bg-white;
             background-color: @color-bg;
-            *background-color: #00a6b3;
+            background-color: #00a6b3;
         }
         .btn-primary:active,
-            .btn.btn-primary.active {
+            .btn.btn-primary{
             background-color: #008e99 \9;
         }
         .btn-primary:hover {
@@ -126,7 +101,7 @@
     /*-----------Reponsive-----------------*/
     @media (min-width: 1200px){
         .span12 {
-            width: 1170px;
+            width: 1120px;
         } 
     }
     @media (min-width: 1200px){
@@ -137,11 +112,6 @@
         }
     }
     @media (min-width: 1200px){
-        .span4 {
-            width: 370px;
-        }
-    }
-    @media (min-width: 1200px){
         [class*="span"] {
             float: left;
             min-height: 1px;
@@ -149,13 +119,32 @@
         }
     }
     @media (max-width: 979px) and (min-width: 768px){
-        .span4 {
-            width: 228px;
-        }
         [class*="span"] {
             float: left;
             min-height: 1px;
             margin-left: 20px;
+        }
+    }
+    @media (max-width: 767px){
+        .push-up {
+            margin: 0;
+            padding-left: 0;
+           
+        }
+        .row {
+            margin-left: 0;
+        }
+        [class*="span"]{
+            float: none;
+            display: block;
+            width: 100%;
+            margin-left: 0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        .banner {
+            margin-bottom: 20px;
         }
     }
 }

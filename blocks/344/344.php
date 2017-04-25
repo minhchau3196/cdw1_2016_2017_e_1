@@ -42,12 +42,13 @@
                 </div>                
             </div>
         </div>
-
         <script>
             $(document).ready(function () {
                 $('#owl-demo').owlCarousel({
                     loop: true,
-                    autoPlay: 3000,                   
+                    autoPlay: 3000,
+                    nav: true,
+                    navText: ['<', '>'],
                     responsive: {
                         0: {
                             items: 1

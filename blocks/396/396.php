@@ -31,7 +31,6 @@
         <div class="clearfix" style="margin-top: 150px;"></div>
         <div class="type_footer">
             <footer>
-
                 <div class="footer">
                     <div class="container">
                         <!-- Prefooter Section -->
@@ -89,29 +88,23 @@
                             <div class="widget widget-count-4 col-md-3 col-sm-6">
                                 <h2 class="widget-title">Quick Links</h2>
                                 <ul>
-                                    <li class="cat-item cat-item-2"><a href="#">Careers</a>
-                                    </li>
-                                    <li class="cat-item cat-item-3"><a href="#">Environment</a>
-                                    </li>
-                                    <li class="cat-item cat-item-4"><a href="#">Marketing &amp; Sales</a>
-                                    </li>
-                                    <li class="cat-item cat-item-6"><a href="#">Technology</a>
-                                    </li>
-                                    <li class="cat-item cat-item-7"><a href="#">The Company</a>
-                                    </li>
-                                    <li class="cat-item cat-item-8"><a href="#">Transportation</a>
-                                    </li>
+                                    <li><a href="#">Careers</a></li>                                   
+                                    <li><a href="#">Environment</a></li>                                  
+                                    <li><a href="#">Marketing &amp; Sales</a></li>                                 
+                                    <li><a href="#">Technology</a></li>                                  
+                                    <li><a href="#">The Company</a></li>                                  
+                                    <li><a href="#">Transportation</a></li>                              
                                 </ul>
                             </div>
                             <div class="widget widget-count-4 col-md-3 col-sm-6">
                                 <h2 class="widget-title">Our Services</h2>
                                 <div class="textwidget">
                                     <ul>
-                                        <li> <a href="#"> Chemicals &amp; Commercial Fuels </a> </li>
-                                        <li> <a href="#"> Aviation Fuels &amp; Marine Fuels </a> </li>
-                                        <li> <a href="#"> Lubricants Services </a> </li>
-                                        <li> <a href="#"> Liquified Petrolium Gas </a> </li>
-                                        <li> <a href="#"> Shell Sulphur, Trading &amp; Supply </a> </li>
+                                        <li><a href="#"> Chemicals &amp; Commercial Fuels </a></li>
+                                        <li><a href="#"> Aviation Fuels &amp; Marine Fuels </a></li>
+                                        <li><a href="#"> Lubricants Services </a></li>
+                                        <li><a href="#"> Liquified Petrolium Gas </a></li>
+                                        <li><a href="#"> Shell Sulphur, Trading &amp; Supply </a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -148,9 +141,9 @@
                             <div class="col-md-6 text-right">
                                 <div class="widget footer-widgets footer-bottom-widgets">
                                     <div class="menu-footer-bottom-container">
-                                        <ul id="menu-footer-bottom" class="menu">
-                                            <li id="menu-item-156" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-156"><a href="#">Terms of use</a></li>
-                                            <li id="menu-item-157" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-157"><a href="#">Privacy Policy</a></li>
+                                        <ul class="menu">
+                                            <li><a href="#">Terms of use</a></li>
+                                            <li><a href="#">Privacy Policy</a></li>
                                         </ul>
                                     </div>
                                 </div>

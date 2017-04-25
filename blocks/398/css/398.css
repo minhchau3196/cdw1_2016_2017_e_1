@@ -348,4 +348,15 @@
   .type-398 .navbar-toggle {
     display: none;
   }
+  .type-398 .navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+  .type-398 .navbar-collapse {
+    width: auto;
+    border-top: 0;
+    box-shadow: none;
+  }
 }

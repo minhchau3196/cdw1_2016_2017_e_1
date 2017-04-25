@@ -1,14 +1,19 @@
 .type-394 {
+    @color-white:#ffffff;
+    @color:#fff;
+    @color-bg:#093EB6;
+    @color-font:#677078;
+    @font-size:20px;
     .publication-downloads {
         border: 1px solid rgba(244, 244, 244, 0.8);
-        background: #ffffff;
+        background:  @color-white;
         box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
         h2 {
             border: 1px solid #f4f4f4;
-            background: #093EB6;
-            font-size: 20px;
+            background:  @color-bg;
+            font-size:  @font-size;
             font-family: "Roboto", sans-serif;
-            color: #FFFFFF;
+            color:  @color-white;
             font-weight: bold;
             padding: 22px;
             margin: 0;
@@ -19,7 +24,7 @@
     }
     ul.download-list li {
         font-size: 17px;
-        color: #093eb6;
+        color:  @color-bg;
         line-height: 1;
         padding: 15px 5px;
         border-bottom: 1px solid #f4f5f8;
@@ -35,17 +40,17 @@
     }
     .download-file {
         border: 1px solid rgba(244, 244, 244, 0.8);
-        background: #ffffff;
+        background:  @color-white;
         box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
         padding: 0 20px;
         margin: 20px 30px;
         transition: 0.5s ease all;
         a {
-            font-size: 20px;
+            font-size:  @font-size;
             font-weight: bold;
             padding-left: 15px;
             line-height: 50px;
-            color: #093eb6;
+            color:  @color-bg;
             display: block;
             text-decoration: none;
         }
@@ -57,7 +62,7 @@
         span {
             float: right;
             font-size: 14px;
-            color: #677078;
+            color:  @color-font;
             line-height: 50px;
             display: inline-block;
         }
@@ -66,13 +71,13 @@
     .download-file:hover {
         background: #4C4F54;
         a{
-            color: #fff;
+            color:  @color;
         }
         i{
-            color: #fff;
+            color:  @color;
         }
         span {
-            color: #fff;
+            color:  @color;
         }
     }
     a{
@@ -102,9 +107,9 @@
         font-weight: 600;
     }
     p {
-        color: #677078;
+        color:  @color-font;
         font-size: 16px;
-        color: #677078;
+        color:  @color-font;
         line-height: 1.688;
         margin-bottom: 20px;
         margin: 0 0 10px;
@@ -138,6 +143,11 @@
             display: block;
             margin-top: 10px;
             left: 0;
+        }
+    }
+    @media (max-width: 991px){
+        .row > div:last-child {
+            margin-bottom: 0;
         }
     }
 }
