@@ -102,6 +102,7 @@
 }
 .type-5 .light {
   font-weight: normal;
+  margin-left: 15px;
 }
 .type-5 .underlined {
   border-bottom: 1px solid #e0e0e0;
